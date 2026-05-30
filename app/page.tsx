@@ -6,6 +6,12 @@ export default function Home() {
 
   return (
     <div className="animate-fade-in">
+      <p className="sr-only">
+        Free AWS Certified Cloud Practitioner (CLF-C02) practice exams. Study with 23 full-length
+        mock tests covering AWS core services, cloud concepts, security, pricing models, and the
+        shared responsibility model. No sign-up required. Ideal for first-time AWS certification
+        candidates preparing for the CLF-C02 exam.
+      </p>
       <div className="text-center mb-10">
         <h1 className="text-4xl font-bold mb-3">
           AWS Cloud Practitioner

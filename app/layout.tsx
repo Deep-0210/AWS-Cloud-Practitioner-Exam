@@ -7,8 +7,24 @@ import NavBar from "./components/NavBar";
 const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "AWS Cloud Practitioner Practice Tests",
-  description: "Practice MCQ tests for AWS Certified Cloud Practitioner",
+  title: "AWS Cloud Practitioner Practice Tests – Free MCQ Exams 2026",
+  description:
+    "Free AWS Certified Cloud Practitioner (CLF-C02) practice exams with 23 full-length tests and 1,000+ MCQ questions. Study AWS core services, pricing, security, and cloud concepts to pass on your first attempt.",
+  keywords: [
+    "AWS Cloud Practitioner practice test",
+    "CLF-C02 practice exam",
+    "AWS Certified Cloud Practitioner questions",
+    "AWS practice MCQ",
+    "AWS cloud practitioner free exam",
+    "AWS CLF-C02 mock test",
+    "AWS certification practice",
+  ],
+  openGraph: {
+    title: "AWS Cloud Practitioner Practice Tests – Free MCQ Exams 2026",
+    description:
+      "23 full-length AWS CLF-C02 practice exams with 1,000+ questions. Free, no sign-up required.",
+    type: "website",
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
