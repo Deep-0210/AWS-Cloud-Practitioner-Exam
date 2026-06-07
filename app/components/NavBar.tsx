@@ -12,6 +12,9 @@ export default function NavBar() {
         <Link href="/" className="text-lg font-bold text-[#ff9900] flex items-center gap-2">
           <span className="text-2xl">☁️</span> AWS Practice Tests
         </Link>
+        <Link href="/topic" className="hover:text-[#ff9900] transition-colors text-sm">
+          📚 Topics
+        </Link>
         <Link href="/results" className="hover:text-[#ff9900] transition-colors text-sm">
           📊 Results
         </Link>
