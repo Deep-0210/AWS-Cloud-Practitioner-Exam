@@ -424,21 +424,7 @@
       Correct answer: D
     </details>
 
-43. Which service enables risk auditing by continuously monitoring and logging account activity, including user actions in the AWS Management Console and AWS SDKs?
-    - A. Amazon CloudWatch
-    - B. AWS CloudTrail
-    - C. AWS Config
-    - D. AWS Health
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: B
-
-    Explanation: <https://aws.amazon.com/cloudtrail/>
-
-    </details>
-
-44. Which services can be used across hybrid AWS Cloud architectures? (Select TWO.)
+43. Which services can be used across hybrid AWS Cloud architectures? (Select TWO.)
     - A. Amazon Route 53
     - B. Virtual Private Gateway
     - C. Classic Load Balancer
@@ -455,166 +441,7 @@
 
     </details>
 
-45. Where are AWS compliance documents, such as an SOC 1 report, located?
-    - A. Amazon Inspector
-    - B. AWS CloudTrail
-    - C. AWS Artifact
-    - D. AWS Certificate Manager
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: C
-
-    Explanation: <https://aws.amazon.com/compliance/soc-faqs/>
-
-    </details>
-
-46. Where should a company go to search software listings from independent software vendors to find, test, buy and deploy software that runs on AWS?
-    - A. AWS Marketplace
-    - B. Amazon Lumberyard
-    - C. AWS Artifact
-    - D. Amazon CloudSearch
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: A
-
-    Explanation:
-    - AWS Marketplace is a digital catalog with thousands of software listings from independent software vendors that make it easy to find, test, buy, and deploy software that runs on AWS.
-
-    Reference: <https://aws.amazon.com>
-
-    </details>
-
-47. If a customer needs to audit the change management of AWS resources, which of the following AWS services should the customer use?
-    - A. AWS Config
-    - B. AWS Trusted Advisor
-    - C. Amazon CloudWatch
-    - D. Amazon Inspector
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: A
-
-    Explanation:
-    - AWS Config is a service that enables you to assess, audit, and evaluate the configurations of your AWS resources.
-    - Config continuously monitors and records your AWS resource configurations and allows you to automate the evaluation of recorded configurations against desired configurations.
-    - With Config, you can review changes in configurations and relationships between AWS resources, dive into detailed resource configuration histories, and determine your overall compliance against the configurations specified in your internal guidelines.
-    - This enables you to simplify compliance auditing, security analysis, change management, and operational troubleshooting.
-
-    Reference: <https://aws.amazon.com/config/>
-
-    </details>
-
-48. What is Amazon CloudWatch?
-    - A. A code repository with customizable build and team commit features.
-    - B. A metrics repository with customizable notification thresholds and channels.
-    - C. A security configuration repository with threat analytics.
-    - D. A rule repository of a web application firewall with automated vulnerability prevention features.
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: B
-
-    Explanation:
-    - Amazon CloudWatch is basically a metrics repository.
-    - An AWS service -- such as Amazon EC2 -- puts metrics into the repository, and you retrieve statistics based on those metrics.
-    - If you put your own custom metrics into the repository, you can retrieve statistics on these metrics as well.
-
-    Reference: <https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/> cloudwatch_architecture.html
-
-    </details>
-
-49. Where can AWS compliance and certification reports be downloaded?
-    - A. AWS Artifact
-    - B. AWS Concierge
-    - C. AWS Certificate Manager
-    - D. AWS Trusted Advisor
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: A
-
-    Explanation:
-    - AWS Artifact is your go-to, central resource for compliance-related information that matters to you.
-    - It provides on-demand access to AWS's security and compliance reports and select online agreements.
-    - The AWS SOC 2 report is particularly helpful for completing questionnaires because it provides a comprehensive description of the implementation and operating effectiveness of AWS security controls.
-    - Another useful document is the Executive Briefing within the AWS FedRAMP Partner Package.
-
-    Reference: <https://aws.amazon.com/compliance/faq/>
-
-    </details>
-
-50. Which AWS service provides a customized view of the health of specific AWS services that power a customer's workloads running on AWS?
-    - A. AWS Service Health Dashboard
-    - B. AWS X-Ray
-    - C. AWS Personal Health Dashboard
-    - D. Amazon CloudWatch
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: C
-
-    </details>
-
-51. Which of the following steps should be taken by a customer when conducting penetration testing on AWS?
-    - A. Conduct penetration testing using Amazon Inspector, and then notify AWS support.
-    - B. Request and wait for approval from the customer's internal security team, and then conduct testing.
-    - C. Notify AWS support, and then conduct testing immediately.
-    - D. Request and wait for approval from AWS support, and then conduct testing.
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: D
-
-    Explanation:
-    - AWS customers are welcome to carry out security assessments or penetration tests against their AWS infrastructure without prior approval for 8 services.
-
-    Reference: <https://aws.amazon.com/security/penetration-testing/>
-
-    </details>
-
-52. Which AWS services can be used to gather information about AWS account activity? (Select TWO.)
-    - A. Amazon CloudFront
-    - B. AWS Cloud9
-    - C. AWS CloudTrail
-    - D. AWS CloudHSM
-    - E. Amazon CloudWatch
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-      Correct Answer: CE
-
-      Explanation:
-      - AWS offers a solution that uses AWS CloudTrail to log account activity, Amazon Kinesis to compute and stream metrics in real-time, and Amazon DynamoDB to durably store the computed data.
-      - Metrics are calculated for create, modify, and delete API calls for more than 60 supported AWS services.
-      - The solution also features a dashboard that visualizes your account activity in real-time.
-
-      Reference: <https://aws.amazon.com/solutions/real-time-insights-account-activity/>
-
-    </details>
-
-53. Which AWS service would you use to obtain compliance reports and certificates?
-    - A. AWS Artifact
-    - B. AWS Lambda
-    - C. Amazon Inspector
-    - D. AWS Certificate Manager
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: A
-
-    Explanation:
-    - AWS Artifact is your go-to, central resource for compliance-related information that matters to you.
-    - It provides on-demand access to AWS' security and compliance reports and select online agreements.
-    - Reports available in AWS Artifact include our Service Organization Control (SOC) reports, Payment Card Industry (PCI) reports, and certifications from accreditation bodies across geographies and compliance verticals that validate the implementation and operating effectiveness of AWS security controls.
-    - Agreements available in AWS Artifact include the Business Associate Addendum (BAA) and the Nondisclosure Agreement (NDA).
-
-    Reference: <https://aws.amazon.com/artifact/>
-
-    </details>
-
-54. Which of the following services provides on-demand access to AWS compliance reports?
+44. Which of the following services provides on-demand access to AWS compliance reports?
     - A. AWS IAM
     - B. AWS Artifact
     - C. Amazon GuardDuty
@@ -635,24 +462,7 @@
 
     </details>
 
-55. What can users access from AWS Artifact?
-    - A. AWS security and compliance documents
-    - B. A download of configuration management details for all AWS resources
-    - C. Training materials for AWS services
-    - D. A security assessment of the applications deployed in the AWS Cloud
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: A
-
-    Explanation:
-    - You can use AWS Artifact Reports to download AWS security and compliance documents, such as AWS ISO certifications, Payment Card Industry (PCI), and System and Organization Control (SOC) reports.
-
-    Reference: <https://aws.amazon.com/artifact/faq/>
-
-    </details>
-
-56. Which AWS service provides a self-service portal for on-demand access to AWS compliance reports?
+45. Which AWS service provides a self-service portal for on-demand access to AWS compliance reports?
     - A. AWS Config
     - B. AWS Certificate Manager
     - C. Amazon Inspector
@@ -672,7 +482,7 @@
 
     </details>
 
-57. Which of the following services have Distributed Denial of Service (DDoS) mitigation features? (Choose two.)
+46. Which of the following services have Distributed Denial of Service (DDoS) mitigation features? (Choose two.)
     - A. AWS WAF
     - B. Amazon DynamoDB
     - C. Amazon EC2
@@ -687,7 +497,7 @@
 
     </details>
 
-58. Which AWS service can be used to generate alerts based on an estimated monthly bill?
+47. Which AWS service can be used to generate alerts based on an estimated monthly bill?
     - A. AWS Config
     - B. Amazon CloudWatch
     - C. AWS X-Ray
@@ -707,26 +517,7 @@
 
     </details>
 
-59. Which AWS security service protects applications from distributed denial of service attacks with always-on detection and automatic inline mitigations?
-    - A. Amazon Inspector
-    - B. AWS Web Application Firewall (AWS WAF)
-    - C. Elastic Load Balancing (ELB)
-    - D. AWS Shield
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: D
-
-    Explanation:
-    - AWS Shield is a managed Distributed Denial of Service (DDoS) protection service that safeguards applications running on AWS.
-    - AWS Shield provides always-on detection and automatic inline mitigation's that minimize application downtime and latency, so there is no need to engage AWS Support to benefit from DDoS protection.
-    - There are two tiers of AWS Shield - Standard and Advanced.
-
-    Reference: <https://aws.amazon.com/shield/>
-
-    </details>
-
-60. A company wants to monitor the CPU usage of its Amazon EC2 resources. <br/> Which AWS service should the company use?
+48. A company wants to monitor the CPU usage of its Amazon EC2 resources. <br/> Which AWS service should the company use?
     - A. AWS CloudTrail
     - B. Amazon CloudWatch
     - C. AWS Cost and Usage report
@@ -745,7 +536,7 @@
 
     </details>
 
-61. Which service enables customers to audit and monitor changes in AWS resources?
+49. Which service enables customers to audit and monitor changes in AWS resources?
     - A. AWS Trusted Advisor
     - B. Amazon GuardDuty
     - C. Amazon Inspector
@@ -765,19 +556,7 @@
 
     </details>
 
-62. Which AWS service identifies security groups that allow unrestricted access to a user's AWS resources?
-    - A. AWS CloudTrail
-    - B. AWS Trusted Advisor
-    - C. Amazon CloudWatch
-    - D. Amazon Inspector
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: B
-
-    </details>
-
-63. Which AWS service offers on-demand access to AWS security and compliance reports?
+50. Which AWS service offers on-demand access to AWS security and compliance reports?
     - A. AWS CloudTrail
     - B. AWS Artifact
     - C. AWS Health
@@ -797,7 +576,7 @@
 
     </details>
 
-64. A web application running on AWS has been spammed with malicious requests from a recurring set of IP addresses. <br/> Which AWS service can help secure the application and block the malicious traffic?
+51. A web application running on AWS has been spammed with malicious requests from a recurring set of IP addresses. <br/> Which AWS service can help secure the application and block the malicious traffic?
     - A. AWS IAM
     - B. Amazon GuardDuty
     - C. Amazon Simple Notification Service (Amazon SNS)
@@ -816,7 +595,7 @@
 
     </details>
 
-65. A user needs an automated security assessment report that will identify unintended network access to Amazon EC2 instances and vulnerabilities on those instances. <br/> Which AWS service will provide this assessment report?
+52. A user needs an automated security assessment report that will identify unintended network access to Amazon EC2 instances and vulnerabilities on those instances. <br/> Which AWS service will provide this assessment report?
     - A. EC2 security groups
     - B. AWS Config
     - C. Amazon Macie
@@ -836,26 +615,7 @@
 
     </details>
 
-66. Which security service automatically recognizes and classifies sensitive data or intellectual property on AWS?
-    - A. Amazon GuardDuty
-    - B. Amazon Macie
-    - C. Amazon Inspector
-    - D. AWS Shield
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: B
-
-    Explanation:
-    - Amazon Macie is a security service that uses machine learning to automatically discover, classify, and protect sensitive data in AWS.
-    - Macie recognizes sensitive data such as personally identifiable information (PII) or intellectual property.
-    - It provides you with dashboards and alerts that give visibility into how this data is being accessed or moved.
-
-    Reference: <https://docs.aws.amazon.com/macie/latest/userguide/what-is-macie.html>
-
-    </details>
-
-67. What does AWS Shield Standard provide?
+53. What does AWS Shield Standard provide?
     - A. WAF rules
     - B. DDoS protection
     - C. Identity and Access Management (IAM) permissions and access to resources
@@ -872,7 +632,7 @@
 
     </details>
 
-68. Where should users report that AWS resources are being used for malicious purposes?
+54. Where should users report that AWS resources are being used for malicious purposes?
     - A. AWS Abuse team
     - B. AWS Shield
     - C. AWS Support
@@ -886,7 +646,7 @@
 
     </details>
 
-69. Which AWS service needs to be enabled to track all user account changes within the AWS Management Console?
+55. Which AWS service needs to be enabled to track all user account changes within the AWS Management Console?
     - A. AWS CloudTrail
     - B. Amazon Simple Notification Service (Amazon SNS)
     - C. VPC Flow Logs
@@ -908,7 +668,7 @@
 
     </details>
 
-70. Which service would you use to send alerts based on Amazon CloudWatch alarms?
+56. Which service would you use to send alerts based on Amazon CloudWatch alarms?
     - A. Amazon Simple Notification Service (Amazon SNS)
     - B. AWS CloudTrail
     - C. AWS Trusted Advisor
@@ -922,7 +682,7 @@
 
     </details>
 
-71. Which AWS service will provide a way to generate encryption keys that can be used to encrypt data? (Choose two.)
+57. Which AWS service will provide a way to generate encryption keys that can be used to encrypt data? (Choose two.)
     - A. Amazon Macie
     - B. AWS Certificate Manager
     - C. AWS Key Management Service (AWS KMS)
@@ -939,7 +699,7 @@
 
     </details>
 
-72. Which AWS service helps users meet contractual and regulatory compliance requirements for data security by using dedicated hardware appliances within the AWS Cloud?
+58. Which AWS service helps users meet contractual and regulatory compliance requirements for data security by using dedicated hardware appliances within the AWS Cloud?
     - A. AWS Secrets Manager
     - B. AWS CloudHSM
     - C. AWS Key Management Service (AWS KMS)
@@ -959,7 +719,7 @@
 
     </details>
 
-73. Which AWS service helps identify malicious or unauthorized activities in AWS accounts and workloads?
+59. Which AWS service helps identify malicious or unauthorized activities in AWS accounts and workloads?
     - A. Amazon Rekognition
     - B. AWS Trusted Advisor
     - C. Amazon GuardDuty
@@ -973,7 +733,7 @@
 
     </details>
 
-74. Which AWS service should be used to create a billing alarm?
+60. Which AWS service should be used to create a billing alarm?
     - A. AWS Trusted Advisor
     - B. AWS CloudTrail
     - C. Amazon CloudWatch
@@ -987,7 +747,7 @@
 
     </details>
 
-75. According to the AWS Well-Architected Framework, what change management steps should be taken to achieve reliability in the AWS Cloud? (Choose two.)
+61. According to the AWS Well-Architected Framework, what change management steps should be taken to achieve reliability in the AWS Cloud? (Choose two.)
     - A. Use AWS Config to generate an inventory of AWS resources
     - B. Use service limits to prevent users from creating or making changes to AWS resources
     - C. Use AWS CloudTrail to record AWS API calls into an auditable log file
@@ -1000,7 +760,7 @@
 
     </details>
 
-76. Which AWS service will help users determine if an application running on an Amazon EC2 instance has sufficient CPU capacity?
+62. Which AWS service will help users determine if an application running on an Amazon EC2 instance has sufficient CPU capacity?
     - A. Amazon CloudWatch
     - B. AWS Config
     - C. AWS CloudTrail
@@ -1014,7 +774,7 @@
 
     </details>
 
-77. Which AWS service provides on-demand of AWS security and compliance documentation?
+63. Which AWS service provides on-demand of AWS security and compliance documentation?
     - A. AWS Directory Service
     - B. AWS Artifact
     - C. AWS Trusted Advisor
@@ -1028,7 +788,7 @@
 
     </details>
 
-78. Which AWS dashboard displays relevant and timely information to help users manage events in progress, and provides proactive notifications to help plan for scheduled activities?
+64. Which AWS dashboard displays relevant and timely information to help users manage events in progress, and provides proactive notifications to help plan for scheduled activities?
     - A. AWS Service Health Dashboard
     - B. AWS Personal Health Dashboard
     - C. AWS Trusted Advisor dashboard
@@ -1042,7 +802,7 @@
 
     </details>
 
-79. What is the best resource for a user to find compliance-related information and reports about AWS?
+65. What is the best resource for a user to find compliance-related information and reports about AWS?
     - A. AWS Artifact
     - B. AWS Marketplace
     - C. Amazon Inspector
@@ -1056,7 +816,7 @@
 
     </details>
 
-80. A user would like to encrypt data that is received, stored, and managed by AWS CloudTrail. <br/> Which AWS service will provide this capability?
+66. A user would like to encrypt data that is received, stored, and managed by AWS CloudTrail. <br/> Which AWS service will provide this capability?
     - A. AWS Secrets Manager
     - B. AWS Systems Manager
     - C. AWS Key Management Service (AWS KMS)
@@ -1070,7 +830,7 @@
 
     </details>
 
-81. Which AWS service provides the ability to detect inadvertent data leaks of personally identifiable information (PII) and user credential data?
+67. Which AWS service provides the ability to detect inadvertent data leaks of personally identifiable information (PII) and user credential data?
     - A. Amazon GuardDuty
     - B. Amazon Inspector
     - C. Amazon Macie
@@ -1084,7 +844,7 @@
 
     </details>
 
-82. A company needs protection from expanded distributed denial of service (DDoS) attacks on its website and assistance from AWS experts during such events. <br/> Which AWS managed service will meet these requirements?
+68. A company needs protection from expanded distributed denial of service (DDoS) attacks on its website and assistance from AWS experts during such events. <br/> Which AWS managed service will meet these requirements?
     - A. AWS Shield Advanced
     - B. AWS Firewall Manager
     - C. AWS WAF
@@ -1098,7 +858,7 @@
 
     </details>
 
-83. A company is launching an e-commerce site that will store and process credit card data. The company requires information about AWS compliance reports and AWS agreements. <br/> Which AWS service provides on-demand access to these items?
+69. A company is launching an e-commerce site that will store and process credit card data. The company requires information about AWS compliance reports and AWS agreements. <br/> Which AWS service provides on-demand access to these items?
     - A. AWS Certificate Manager
     - B. AWS Config
     - C. AWS Artifact
@@ -1110,7 +870,7 @@
 
     </details>
 
-84. Which AWS service can be used to track unauthorized API calls?
+70. Which AWS service can be used to track unauthorized API calls?
     - A. AWS Config
     - B. AWS CloudTrail
     - C. AWS Trusted Advisor
@@ -1122,7 +882,7 @@
 
     </details>
 
-85. A user needs to automatically discover, classify, and protect sensitive data stored in Amazon S3. <br/> Which AWS service can meet these requirements?
+71. A user needs to automatically discover, classify, and protect sensitive data stored in Amazon S3. <br/> Which AWS service can meet these requirements?
     - A. Amazon Inspector
     - B. Amazon Macie
     - C. Amazon GuardDuty
@@ -1134,7 +894,7 @@
 
     </details>
 
-86. What is the MOST effective resource for staying up to date on AWS security announcements?
+72. What is the MOST effective resource for staying up to date on AWS security announcements?
     - A. AWS Personal Health Dashboard
     - B. AWS Secrets Manager
     - C. AWS Security Bulletins
@@ -1146,7 +906,7 @@
 
     </details>
 
-87. Which AWS service allows users to download security and compliance reports about the AWS infrastructure on demand?
+73. Which AWS service allows users to download security and compliance reports about the AWS infrastructure on demand?
     - A. Amazon GuardDuty
     - B. AWS Security Hub
     - C. AWS Artifact
@@ -1158,7 +918,7 @@
 
     </details>
 
-88. Which AWS service can be used to track resource changes and establish compliance?
+74. Which AWS service can be used to track resource changes and establish compliance?
     - A. Amazon CloudWatch
     - B. AWS Config
     - C. AWS CloudTrail
@@ -1172,7 +932,7 @@
 
     </details>
 
-89. A web developer is concerned that a DDoS attack could target an application. <br/> Which AWS services or features can help protect against such an attack? (Choose two.)
+75. A web developer is concerned that a DDoS attack could target an application. <br/> Which AWS services or features can help protect against such an attack? (Choose two.)
     - A. AWS Shield
     - B. AWS CloudTrail
     - C. Amazon CloudFront
@@ -1187,7 +947,7 @@
 
     </details>
 
-90. Which AWS service gives users on-demand, self-service access to AWS compliance control reports?
+76. Which AWS service gives users on-demand, self-service access to AWS compliance control reports?
     - A. AWS Config
     - B. Amazon GuardDuty
     - C. AWS Trusted Advisor
@@ -1201,7 +961,7 @@
 
     </details>
 
-91. A company has a compliance requirement to record and evaluate configuration changes, as well as perform remediation actions on AWS resources. <br/> Which AWS service should the company use?
+77. A company has a compliance requirement to record and evaluate configuration changes, as well as perform remediation actions on AWS resources. <br/> Which AWS service should the company use?
     - A. AWS Config
     - B. AWS Secrets Manager
     - C. AWS CloudTrail
@@ -1215,7 +975,7 @@
 
     </details>
 
-92. A company wants to be notified when its AWS Cloud costs or usage exceed defined thresholds. <br/> Which AWS service will support these requirements?
+78. A company wants to be notified when its AWS Cloud costs or usage exceed defined thresholds. <br/> Which AWS service will support these requirements?
     - A. AWS Budgets
     - B. Cost Explorer
     - C. AWS CloudTrail
@@ -1229,7 +989,7 @@
 
     </details>
 
-93. Which AWS service should a cloud practitioner use to identify security vulnerabilities of an AWS account?
+79. Which AWS service should a cloud practitioner use to identify security vulnerabilities of an AWS account?
     - A. AWS Secrets Manager
     - B. Amazon Cognito
     - C. Amazon Macie
@@ -1243,7 +1003,7 @@
 
     </details>
 
-94. Which AWS service can be used to retrieve compliance reports on demand?
+80. Which AWS service can be used to retrieve compliance reports on demand?
     - A. AWS Secrets Manager
     - B. AWS Artifact
     - C. AWS Security Hub
@@ -1257,7 +1017,7 @@
 
     </details>
 
-95. A company has an AWS-hosted website located behind an Application Load Balancer. The company wants to safeguard the website from SQL injection or cross-site scripting. <br/> Which AWS service should the company use?
+81. A company has an AWS-hosted website located behind an Application Load Balancer. The company wants to safeguard the website from SQL injection or cross-site scripting. <br/> Which AWS service should the company use?
     - A. Amazon GuardDuty
     - B. AWS WAF
     - C. AWS Trusted Advisor
@@ -1271,7 +1031,7 @@
 
     </details>
 
-96. How can AWS enable a company to control expenses as an application's usage changes unpredictably?
+82. How can AWS enable a company to control expenses as an application's usage changes unpredictably?
     - A. AWS will refund the cost difference if a customer moves to larger servers.
     - B. The application can be built to scale up or down automatically as resources are needed
     - C. Spot instances will automatically be used if the price is lower than on-demand instances.
@@ -1283,7 +1043,7 @@
 
     </details>
 
-97. Which AWS service or feature can be used to prevent SQL injection attacks?
+83. Which AWS service or feature can be used to prevent SQL injection attacks?
     - A. Security groups
     - B. Network ACLs
     - C. AWS WAF

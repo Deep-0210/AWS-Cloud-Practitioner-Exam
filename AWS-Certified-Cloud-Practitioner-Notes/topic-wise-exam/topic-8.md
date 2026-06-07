@@ -205,43 +205,7 @@
       Correct answer: B, C
     </details>
 
-21. Which AWS service provides the ability to manage infrastructure as code?
-    - A. AWS CodePipeline
-    - B. AWS CodeDeploy
-    - C. AWS Direct Connect
-    - D. AWS CloudFormation
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: D
-
-    Explanation:
-    - AWS CloudFormation provides a common language for you to describe and provision all the infrastructure resources in your cloud environment.
-    - CloudFormation allows you to use a simple text file to model and provision, in an automated and secure manner, all the resources needed for your applications across all regions and accounts.
-    - This file serves as the single source of truth for your cloud environment.
-
-    Reference: <https://aws.amazon.com/cloudformation/>
-
-    </details>
-
-22. Which of the following services could be used to deploy an application to servers running on-premises? (Select TWO.)
-    - A. AWS Elastic Beanstalk
-    - B. AWS OpsWorks
-    - C. AWS CodeDeploy
-    - D. AWS Batch
-    - E. AWS X-Ray
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: BC
-
-    Explanation:
-    - <https://docs.aws.amazon.com/codedeploy/latest/userguide/instances-on-premises.html>
-    - <https://aws.amazon.com/blogs/aws/opsworks-on-prem-and-existing-instances/>
-
-    </details>
-
-23. An administrator needs to rapidly deploy a popular IT solution and start using it immediately. <br/> Where can the administrator find assistance?
+21. An administrator needs to rapidly deploy a popular IT solution and start using it immediately. <br/> Where can the administrator find assistance?
     - A. AWS Well-Architected Framework documentation
     - B. Amazon CloudFront
     - C. AWS CodeCommit
@@ -259,21 +223,7 @@
 
     </details>
 
-24. Which mechanism allows developers to access AWS services from application code?
-    - A. AWS Software Development Kit
-    - B. AWS Management Console
-    - C. AWS CodePipeline
-    - D. AWS Config
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: A
-
-    Explanation: <https://aws.amazon.com/tools/>
-
-    </details>
-
-25. Which service's PRIMARY purpose is software version control?
+22. Which service's PRIMARY purpose is software version control?
     - A. Amazon CodeStar
     - B. AWS Command Line Interface (AWS CLI)
     - C. Amazon Cognito
@@ -290,7 +240,7 @@
 
     </details>
 
-26. Which services manage and automate application deployments on AWS? (Choose two.)
+23. Which services manage and automate application deployments on AWS? (Choose two.)
     - A. AWS Elastic Beanstalk
     - B. AWS CodeCommit
     - C. AWS Data Pipeline
@@ -307,7 +257,7 @@
 
     </details>
 
-27. Which AWS service enables users to deploy infrastructure as code by automating the process of provisioning resources?
+24. Which AWS service enables users to deploy infrastructure as code by automating the process of provisioning resources?
     - A. Amazon GameLift
     - B. AWS CloudFormation
     - C. AWS Data Pipeline
@@ -326,7 +276,7 @@
 
     </details>
 
-28. Which AWS service handles the deployment details of capacity provisioning, load balancing, Auto Scaling, and application health monitoring?
+25. Which AWS service handles the deployment details of capacity provisioning, load balancing, Auto Scaling, and application health monitoring?
     - A. AWS Config
     - B. AWS Elastic Beanstalk
     - C. Amazon Route 53
@@ -344,7 +294,7 @@
 
     </details>
 
-29. AWS CloudFormation is designed to help the user:
+26. AWS CloudFormation is designed to help the user:
     - A. model and provision resources.
     - B. update application code.
     - C. set up data lakes.
@@ -363,7 +313,7 @@
 
     </details>
 
-30. Where can users find a catalog of AWS-recognized providers of third-party security solutions?
+27. Where can users find a catalog of AWS-recognized providers of third-party security solutions?
     - A. AWS Service Catalog
     - B. AWS Marketplace
     - C. AWS Quick Start
@@ -381,7 +331,7 @@
 
     </details>
 
-31. Which AWS offering enables customers to find, buy, and immediately start using software solutions in their AWS environment?
+28. Which AWS offering enables customers to find, buy, and immediately start using software solutions in their AWS environment?
     - A. AWS Config
     - B. AWS OpsWorks
     - C. AWS SDK
@@ -395,7 +345,7 @@
 
     </details>
 
-32. What can assist in evaluating an application for migration to the cloud? (Choose two.)
+29. What can assist in evaluating an application for migration to the cloud? (Choose two.)
     - A. AWS Trusted Advisor
     - B. AWS Professional Services
     - C. AWS Systems Manager
@@ -408,7 +358,7 @@
 
     </details>
 
-33. Which AWS service is suitable for an event-driven workload?
+30. Which AWS service is suitable for an event-driven workload?
     - A. Amazon EC2
     - B. AWS Elastic Beanstalk
     - C. AWS Lambda
@@ -428,7 +378,7 @@
 
     </details>
 
-34. Under the AWS shared responsibility model, the security and patching of the guest operating system is the responsibility of:
+31. Under the AWS shared responsibility model, the security and patching of the guest operating system is the responsibility of:
     - A. AWS Support
     - B. the customer
     - C. AWS Systems Manager
@@ -442,7 +392,7 @@
 
     </details>
 
-35. Which AWS service is used to automate configuration management using Chef and Puppet?
+32. Which AWS service is used to automate configuration management using Chef and Puppet?
     - A. AWS Config
     - B. AWS OpsWorks
     - C. AWS CloudFormation
@@ -456,7 +406,7 @@
 
     </details>
 
-36. Which AWS services can be used as infrastructure automation tools? (Choose two.)
+33. Which AWS services can be used as infrastructure automation tools? (Choose two.)
     - A. AWS CloudFormation
     - B. Amazon CloudFront
     - C. AWS Batch
@@ -471,7 +421,7 @@
 
     </details>
 
-37. Which AWS service enables users to create copies of resources across AWS Regions?
+34. Which AWS service enables users to create copies of resources across AWS Regions?
     - A. Amazon ElastiCache
     - B. AWS CloudFormation
     - C. AWS CloudTrail
@@ -485,7 +435,7 @@
 
     </details>
 
-38. A user needs to regularly audit and evaluate the setup of all AWS resources, identify non-compliant accounts, and be notified when a resource changes. <br/> Which AWS service can be used to meet these requirements?
+35. A user needs to regularly audit and evaluate the setup of all AWS resources, identify non-compliant accounts, and be notified when a resource changes. <br/> Which AWS service can be used to meet these requirements?
     - A. AWS Trusted Advisor
     - B. AWS Config
     - C. AWS Resource Access Manager
@@ -497,7 +447,7 @@
 
     </details>
 
-39. Which services can be used to deploy applications on AWS? (Choose two.)
+36. Which services can be used to deploy applications on AWS? (Choose two.)
     - A. AWS Elastic Beanstalk
     - B. AWS Config
     - C. AWS OpsWorks
@@ -512,7 +462,7 @@
 
     </details>
 
-40. A user has limited knowledge of AWS services, but wants to quickly deploy a scalable Node.js application in the AWS Cloud. <br/> Which service should be used to deploy the application?
+37. A user has limited knowledge of AWS services, but wants to quickly deploy a scalable Node.js application in the AWS Cloud. <br/> Which service should be used to deploy the application?
     - A. AWS CloudFormation
     - B. AWS Elastic Beanstalk
     - C. Amazon EC2
@@ -526,7 +476,7 @@
 
     </details>
 
-41. Which AWS service can be used to privately store and manage versions of source code?
+38. Which AWS service can be used to privately store and manage versions of source code?
     - A. AWS CodeBuild
     - B. AWS CodeCommit
     - C. AWS CodePipeline

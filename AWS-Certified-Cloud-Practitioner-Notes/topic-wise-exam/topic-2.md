@@ -635,17 +635,7 @@
       Correct answer: B
     </details>
 
-62. Which of the following can limit Amazon Simple Storage Service (Amazon S3) bucket access to specific users?
-    - A. A public and private key-pair.
-    - B. Amazon Inspector.
-    - C. AWS Identity and Access Management (IAM) policies.
-    - D. Security Groups.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: C
-    </details>
-
-63. Which of the following tasks is the responsibility of AWS?
+62. Which of the following tasks is the responsibility of AWS?
     - A. Encrypting client-side data.
     - B. Configuring AWS Identity and Access Management (IAM) roles.
     - C. Securing the Amazon EC2 hypervisor.
@@ -655,7 +645,7 @@
       Correct answer: C
     </details>
 
-64. Which of the following can limit Amazon Storage Service (Amazon S3) bucket access to specific users?
+63. Which of the following can limit Amazon Storage Service (Amazon S3) bucket access to specific users?
     - A. A public and private key-pair
     - B. Amazon Inspector
     - C. AWS Identity and Access Management (IAM) policies
@@ -669,109 +659,7 @@
 
     </details>
 
-65. AWS supports which of the following methods to add security to Identity and Access Management (IAM) users? (Select TWO.)
-    - A. Implementing Amazon Rekognition
-    - B. Using AWS Shield-protected resources
-    - C. Blocking access with Security Groups
-    - D. Using Multi-Factor Authentication (MFA)
-    - E. Enforcing password strength and expiration
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: DE
-
-    </details>
-
-66. Which AWS IAM feature allows developers to access AWS services through the AWS CLI?
-    - A. API keys
-    - B. Access keys
-    - C. User names/Passwords
-    - D. SSH keys
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: B
-
-    Explanation: <https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html>
-
-    </details>
-
-67. Which of the following Identity and Access Management (IAM) entities is associated with an access key ID and secret access key when using AWS Command Line Interface (AWS CLI)?
-    - A. IAM group
-    - B. IAM user
-    - C. IAM role
-    - D. IAM policy
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: B
-
-    Explanation:
-    - Access keys are long-term credentials for an IAM user or the AWS account root user.
-    - You can use access keys to sign programmatic requests to the AWS CLI or API (directly or using the AWS SDK).
-    - For more information, see Signing AWS API Requests in the Amazon Web Services General Reference.
-
-    </details>
-
-68. How would an AWS customer easily apply common access controls to a large set of users?
-    - A. Apply an IAM policy to an IAM group.
-    - B. Apply an IAM policy to an IAM role.
-    - C. Apply the same IAM policy to all IAM users with access to the same workload.
-    - D. Apply an IAM policy to an Amazon Cognito user pool.
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: A
-
-    Explanation:
-    - Instead of defining permissions for individual IAM users, it's usually more convenient to create groups that relate to job functions (administrators, developers, accounting, etc.).
-    - Next, define the relevant permissions for each group. Finally, assign IAM users to those groups. All the users in an IAM group inherit the permissions assigned to the group.
-    - That way, you can make changes for everyone in a group in just one place. As people move around in your company, you can
-    simply change what IAM group their IAM user belongs to.
-
-    Reference: <https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html>
-
-    </details>
-
-69. Which of the following security measures protect access to an AWS account? (Select TWO.)
-    - A. Enable AWS CloudTrail.
-    - B. Grant least privilege access to IAM users.
-    - C. Create one IAM user and share with many developers and users.
-    - D. Enable Amazon CloudFront.
-    - E. Activate multi-factor authentication (MFA) for privileged users.
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: BE
-
-    Explanation:
-    - If you decided to create service accounts (that is, accounts used for programmatic access by applications running outside of the AWS environment) and generate access keys for them, you should create a dedicated service account for each use case.
-    - This will allow you to restrict the associated policy to only the permissions needed for the particular use case, limiting the blast radius if the credentials are compromised.
-    - For example, if a monitoring tool and a release management tool both require access to your AWS environment, create two separate service accounts with two separate policies that define the minimum set of permissions for each tool.
-
-    Reference: <https://aws.amazon.com/blogs/security/guidelines-for-protecting-your-aws-account-while-using-programmatic-access/>
-
-    </details>
-
-70. Which of the following tasks is the responsibility of AWS?
-    - A. Encrypting client-side data
-    - B. Configuring AWS Identity and Access Management (IAM) roles
-    - C. Securing the Amazon EC2 hypervisor
-    - D. Setting user password policies
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: C
-
-    Explanation:
-    - In EC2, the AWS IaaS offering, everything from the hypervisor layer down is AWS's responsibility.
-    - A customer's poorly coded applications, misconfigured operating systems, or insecure firewall settings will not affect the hypervisor, it will only affect the customer's virtual machines running on that hypervisor.
-
-    Reference: <https://www.mindpointgroup.com/blog/the-aws-shared-responsibility-model-part-1-security-in>- the-cloud/
-
-    </details>
-
-71. Which of the following is entirely the responsibility of AWS, according to the AWS shared responsibility model?
+64. Which of the following is entirely the responsibility of AWS, according to the AWS shared responsibility model?
     - A. Patching of the guest operating system
     - B. Security awareness and training
     - C. Physical and environmental controls
@@ -783,7 +671,7 @@
 
     </details>
 
-72. Which AWS IAM feature is used to associate a set of permissions with multiple users?
+65. Which AWS IAM feature is used to associate a set of permissions with multiple users?
     - A. Multi-factor authentication
     - B. Groups
     - C. Password policies
@@ -802,7 +690,7 @@
 
     </details>
 
-73. Which of the following can a customer use to enable single sign-on (SSO) to the AWS Console?
+66. Which of the following can a customer use to enable single sign-on (SSO) to the AWS Console?
     - A. Amazon Connect
     - B. AWS Directory Service
     - C. Amazon Pinpoint
@@ -821,7 +709,7 @@
 
     </details>
 
-74. As part of the AWS shared responsibility model, which of the following operational controls do users fully inherit from AWS?
+67. As part of the AWS shared responsibility model, which of the following operational controls do users fully inherit from AWS?
     - A. Security management of data center
     - B. Patch management
     - C. Configuration management
@@ -835,7 +723,7 @@
 
     </details>
 
-75. Using AWS Identity and Access Management (IAM) to grant access only to the resources needed to perform a task is a concept known as:
+68. Using AWS Identity and Access Management (IAM) to grant access only to the resources needed to perform a task is a concept known as:
     - A. restricted access.
     - B. as-needed access.
     - C. least privilege access.
@@ -853,7 +741,7 @@
 
     </details>
 
-76. Under the AWS shared responsibility model, customers are responsible for which aspects of security in the cloud? (Choose two.)
+69. Under the AWS shared responsibility model, customers are responsible for which aspects of security in the cloud? (Choose two.)
     - A. Visualization management
     - B. Hardware management
     - C. Encryption management
@@ -872,7 +760,7 @@
 
     </details>
 
-77. What does it mean to grant least privilege to AWS IAM users?
+70. What does it mean to grant least privilege to AWS IAM users?
     - A. It is granting permissions to a single user only.
     - B. It is granting permissions using AWS IAM policies only.
     - C. It is granting AdministratorAccess policy permissions to trustworthy users.
@@ -890,7 +778,7 @@
 
     </details>
 
-78. How can a customer increase security to AWS account logons? (Choose two.)
+71. How can a customer increase security to AWS account logons? (Choose two.)
     - A. Configure AWS Certificate Manager
     - B. Enable Multi-Factor Authentication (MFA)
     - C. Use Amazon Cognito to manage access
@@ -912,7 +800,7 @@
 
     </details>
 
-79. Which of the following is the responsibility of AWS?
+72. Which of the following is the responsibility of AWS?
     - A. Setting up AWS Identity and Access Management (IAM) users and groups
     - B. Physically destroying storage media at end of life
     - C. Patching guest operating systems
@@ -931,7 +819,7 @@
 
     </details>
 
-80. What tasks should a customer perform when that customer suspects an AWS account has been compromised? (Choose two.)
+73. What tasks should a customer perform when that customer suspects an AWS account has been compromised? (Choose two.)
     - A. Rotate passwords and access keys.
     - B. Remove MFA tokens.
     - C. Move resources to a different AWS Region.
@@ -946,7 +834,7 @@
 
     </details>
 
-81. What is an AWS Identity and Access Management (IAM) role?
+74. What is an AWS Identity and Access Management (IAM) role?
     - A. A user associated with an AWS resource
     - B. A group associated with an AWS resource
     - C. An entity that defines a set of permissions for use with an AWS resource
@@ -964,7 +852,7 @@
 
     </details>
 
-82. Under the AWS shared responsibility model, AWS is responsible for which security-related task?
+75. Under the AWS shared responsibility model, AWS is responsible for which security-related task?
     - A. Lifecycle management of IAM credentials
     - B. Physical security of global infrastructure
     - C. Encryption of Amazon EBS volumes
@@ -978,7 +866,7 @@
 
     </details>
 
-83. How can a company isolate the costs of production and non-production workloads on AWS?
+76. How can a company isolate the costs of production and non-production workloads on AWS?
     - A. Create Identity and Access Management (IAM) roles for production and non-production workloads.
     - B. Use different accounts for production and non-production expenses.
     - C. Use Amazon EC2 for non-production workloads and other services for production workloads.
@@ -992,21 +880,7 @@
 
     </details>
 
-84. Which AWS service allows users to identify the changes made to a resource over time?
-    - A. Amazon Inspector
-    - B. AWS Config
-    - C. AWS Service Catalog
-    - D. AWS IAM
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: B
-
-    Explanation: <https://docs.aws.amazon.com/config/latest/developerguide/view-manage-resource.html>
-
-    </details>
-
-85. How would a system administrator add an additional layer of login security to a user's AWS Management Console?
+77. How would a system administrator add an additional layer of login security to a user's AWS Management Console?
     - A. Use AWS Cloud Directory
     - B. Audit AWS Identity and Access Management (IAM) roles
     - C. Enable Multi-Factor Authentication
@@ -1020,7 +894,7 @@
 
     </details>
 
-86. Which service can identify the user that made the API call when an Amazon Elastic Compute Cloud (Amazon EC2) instance is terminated?
+78. Which service can identify the user that made the API call when an Amazon Elastic Compute Cloud (Amazon EC2) instance is terminated?
     - A. Amazon CloudWatch
     - B. AWS CloudTrail
     - C. AWS X-Ray
@@ -1034,7 +908,7 @@
 
     </details>
 
-87. Where can a customer find information about prohibited actions on AWS infrastructure?
+79. Where can a customer find information about prohibited actions on AWS infrastructure?
     - A. AWS Trusted Advisor
     - B. AWS Identity and Access Management (IAM)
     - C. AWS Billing Console
@@ -1048,7 +922,7 @@
 
     </details>
 
-88. Which of the following are recommended practices for managing IAM users? (Choose two.)
+80. Which of the following are recommended practices for managing IAM users? (Choose two.)
     - A. Require IAM users to change their passwords after a specified period of time
     - B. Prevent IAM users from reusing previous passwords
     - C. Recommend that the same password be used on AWS and other sites
@@ -1063,7 +937,7 @@
 
     </details>
 
-89. Which of the following will enhance the security of access to the AWS Management Console? (Choose two.)
+81. Which of the following will enhance the security of access to the AWS Management Console? (Choose two.)
     - A. AWS Secrets Manager
     - B. AWS Certificate Manager
     - C. AWS Multi-Factor Authentication (AWS MFA)
@@ -1078,7 +952,7 @@
 
     </details>
 
-90. Which functions can users perform using AWS KMS?
+82. Which functions can users perform using AWS KMS?
     - A. Create and manage AWS access keys for the AWS account root user
     - B. Create and manage AWS access keys for an AWS account IAM user
     - C. Create and manage keys for encryption and decryption of data
@@ -1092,7 +966,7 @@
 
     </details>
 
-91. Which actions represent best practices for using AWS IAM? (Choose two.)
+83. Which actions represent best practices for using AWS IAM? (Choose two.)
     - A. Configure a strong password policy
     - B. Share the security credentials among users of AWS accounts who are in the same Region
     - C. Use access keys to log in to the AWS Management Console
@@ -1107,7 +981,7 @@
 
     </details>
 
-92. Which service can be used to monitor and receive alerts for AWS account root user AWS Management Console sign-in events?
+84. Which service can be used to monitor and receive alerts for AWS account root user AWS Management Console sign-in events?
     - A. Amazon CloudWatch
     - B. AWS Config
     - C. AWS Trusted Advisor
@@ -1121,7 +995,7 @@
 
     </details>
 
-93. Which tasks are the customer's responsibility in the AWS shared responsibility model? (Choose two.)
+85. Which tasks are the customer's responsibility in the AWS shared responsibility model? (Choose two.)
     - A. Infrastructure facilities access management
     - B. Cloud infrastructure hardware lifecycle management
     - C. Configuration management of user's applications
@@ -1136,7 +1010,7 @@
 
     </details>
 
-94. Which AWS service makes it easy to create and manage AWS users and groups, and provide them with secure access to AWS resources at no charge?
+86. Which AWS service makes it easy to create and manage AWS users and groups, and provide them with secure access to AWS resources at no charge?
     - A. AWS Direct Connect
     - B. Amazon Connect
     - C. AWS Identity and Access Management (IAM)
@@ -1152,7 +1026,7 @@
 
     </details>
 
-95. A user needs to generate a report that outlines the status of key security checks in an AWS account. The report must include:
+87. A user needs to generate a report that outlines the status of key security checks in an AWS account. The report must include:
     <br/> (The status of Amazon S3 bucket permissions, Whether multi-factor authentication is enabled for the AWS account root user, If any security groups are configured to allow unrestricted access.) <br/> Where can all this information be found in one location?
     - A. Amazon QuickSight dashboard
     - B. AWS CloudTrail trails
@@ -1168,7 +1042,7 @@
 
     </details>
 
-96. Which of the following describes a security best practice that can be implemented using AWS IAM?
+88. Which of the following describes a security best practice that can be implemented using AWS IAM?
     - A. Disable AWS Management Console access for all users
     - B. Generate secret keys for every IAM user
     - C. Grant permissions to users who are required to perform a given task only
@@ -1182,7 +1056,7 @@
 
     </details>
 
-97. Which of the following allows an application running on an Amazon EC2 instance to securely write data to an Amazon S3 bucket without using long term credentials?
+89. Which of the following allows an application running on an Amazon EC2 instance to securely write data to an Amazon S3 bucket without using long term credentials?
     - A. Amazon Cognito
     - B. AWS Shield
     - C. AWS IAM role
@@ -1194,7 +1068,7 @@
 
     </details>
 
-98. Which of the following tasks can only be performed after signing in with AWS account root user credentials? (Choose two.)
+90. Which of the following tasks can only be performed after signing in with AWS account root user credentials? (Choose two.)
     - A. Closing an AWS account
     - B. Creating a new IAM policy
     - C. Changing AWS Support plans
@@ -1207,7 +1081,7 @@
 
     </details>
 
-99. Under the AWS shared responsibility model, which of the following is a responsibility of AWS?
+91. Under the AWS shared responsibility model, which of the following is a responsibility of AWS?
     - A. Enabling server-side encryption for objects stored in S3
     - B. Applying AWS IAM security policies
     - C. Patching the operating system on an Amazon EC2 instance
@@ -1221,7 +1095,7 @@
 
     </details>
 
-100. A developer has been hired by a large company and needs AWS credentials. <br/> Which are security best practices that should be followed? (Choose two.)
+92. A developer has been hired by a large company and needs AWS credentials. <br/> Which are security best practices that should be followed? (Choose two.)
     - A. Grant the developer access to only the AWS resources needed to perform the job.
     - B. Share the AWS account root user credentials with the developer.
     - C. Add the developer to the administrator's group in AWS IAM.
@@ -1234,7 +1108,7 @@
 
     </details>
 
-101. A company wants to ensure that AWS Management Console users are meeting password complexity requirements. <br/> How can the company configure password complexity?
+93. A company wants to ensure that AWS Management Console users are meeting password complexity requirements. <br/> How can the company configure password complexity?
     - A. Using an AWS IAM user policy
     - B. Using an AWS Organizations service control policy (SCP)
     - C. Using an AWS IAM account password policy
@@ -1248,7 +1122,7 @@
 
     </details>
 
-102. A company wants to provide one of its employees with access to Amazon RDS. The company also wants to limit the interaction to only the AWS CLI and AWS software development kits (SDKs). <br/> Which combination of actions should the company take to meet these requirements while following the principles of least privilege? (Choose two.)
+94. A company wants to provide one of its employees with access to Amazon RDS. The company also wants to limit the interaction to only the AWS CLI and AWS software development kits (SDKs). <br/> Which combination of actions should the company take to meet these requirements while following the principles of least privilege? (Choose two.)
     - A. Create an IAM user and provide AWS Management Console access only.
     - B. Create an IAM user and provide programmatic access only.
     - C. Create an IAM role and provide AWS Management Console access only.
@@ -1261,7 +1135,7 @@
 
     </details>
 
-103. An external auditor has requested that a company provide a list of all its IAM users, including the status of users' credentials and access keys. <br/> What it the SIMPLEST way to provide this information?
+95. An external auditor has requested that a company provide a list of all its IAM users, including the status of users' credentials and access keys. <br/> What it the SIMPLEST way to provide this information?
     - A. Create an IAM user account for the auditor, granting the auditor administrator permissions.
     - B. Take a screenshot of each user's page in the AWS Management Console, then provide the screenshots to the auditor.
     - C. Download the IAM credential report, then provide the report to the auditor.
@@ -1275,7 +1149,7 @@
 
     </details>
 
-104. The AWS IAM best practice for granting least privilege is to:
+96. The AWS IAM best practice for granting least privilege is to:
     - A. apply an IAM policy to an IAM group and limit the size of the group.
     - B. require multi-factor authentication (MFA) for all IAM users.
     - C. require each IAM user who has different permissions to have multiple passwords.

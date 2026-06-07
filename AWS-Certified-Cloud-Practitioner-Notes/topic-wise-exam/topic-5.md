@@ -443,157 +443,7 @@
       Correct answer: D
     </details>
 
-44. Which service stores objects, provides real-time access to those objects, and offers versioning and lifecycle capabilities?
-    - A. Amazon Glacier
-    - B. AWS Storage Gateway
-    - C. Amazon S3
-    - D. Amazon EBS
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: C
-
-    Explanation: <https://aws.amazon.com/s3/faqs/>
-
-    </details>
-
-45. Which of the following are characteristics of Amazon S3? (Select TWO.)
-    - A. A global file system
-    - B. An object store
-    - C. A local file store
-    - D. A network file system
-    - E. A durable storage system
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: BE
-
-    </details>
-
-46. Which AWS services should be used for read/write of constantly changing data? (Select TWO.)
-    - A. Amazon Glacier
-    - B. Amazon RDS
-    - C. AWS Snowball
-    - D. Amazon Redshift
-    - E. Amazon EFS
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: BE
-
-    </details>
-
-47. For which auditing process does AWS have sole responsibility?
-    - A. AWS IAM policies
-    - B. Physical security
-    - C. Amazon S3 bucket policies
-    - D. AWS CloudTrail Logs
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: B
-
-    </details>
-
-48. Which storage service can be used as a low-cost option for hosting static websites?
-    - A. Amazon Glacier
-    - B. Amazon DynamoDB
-    - C. Amazon Elastic File System (Amazon EFS)
-    - D. Amazon Simple Storage Service (Amazon S3)
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: D
-
-    Explanation: <https://aws.amazon.com/getting-started/projects/host-static-website/>
-
-    </details>
-
-49. Which of the following AWS services can be used to serve large amounts of online video content with the lowest possible latency? (Select TWO.)
-    - A. AWS Storage Gateway
-    - B. Amazon S3
-    - C. Amazon Elastic File System (EFS)
-    - D. Amazon Glacier
-    - E. Amazon CloudFront
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: BE
-
-    Explanation:
-    - <https://aws.amazon.com/getting-started/tutorials/deliver-content-faster/>
-    - <https://aws.amazon.com/cloudfront/>
-
-    </details>
-
-50. Which of the following security-related services does AWS offer? (Select TWO.)
-    - A. Multi-factor authentication physical tokens
-    - B. AWS Trusted Advisor security checks
-    - C. Data encryption
-    - D. Automated penetration testing
-    - E. Amazon S3 copyrighted content detection
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: BC
-
-    Explanation:
-    - Penetration testing is not correct, because it can be done by customers on their own resources.
-
-    </details>
-
-51. Which AWS service should be used for long-term, low-cost storage of data backups?
-    - A. Amazon RDS
-    - B. Amazon Glacier
-    - C. AWS Snowball
-    - D. AWS EBS
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: B
-
-    Explanation:
-    - Amazon S3 Glacier is a secure, durable, and low-cost storage class of S3 for data archiving and long-term backup. Customers can store large or small amounts of data for as little as $0.004 per gigabyte per month.
-    - The S3 Glacier storage class is ideal for archives where data is regularly retrieved and some of the data may be needed in minutes.
-    - Amazon RDS is a relational database service that hosts databases. It helps you create and manage databases.
-    - Amazon Snowball is a petabyte-scale data transfer service that provides cost efficient data transfer to AWS from tamper proof physical devices. Similarly, Elastic block storage offers persistent block storage volumes for EC2 instances.
-
-    Reference: <https://aws.amazon.com/backup-restore/services/>
-
-    </details>
-
-52. Which of the following can an AWS customer use to launch a new Amazon Relational Database Service (Amazon RDS) cluster? (Select TWO.)
-    - A. AWS Concierge
-    - B. AWS CloudFormation
-    - C. Amazon Simple Storage Service (Amazon S3)
-    - D. Amazon EC2 Auto Scaling
-    - E. AWS Management Console
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: BE
-
-    </details>
-
-53. Which AWS service can serve a static website?
-    - A. Amazon S3
-    - B. Amazon Route 53
-    - C. Amazon QuickSight
-    - D. AWS X-Ray
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: A
-
-    Explanation:
-    - You can host a static website on Amazon Simple Storage Service (Amazon S3). On a static website, individual webpages include static content.
-    - They might also contain client-side scripts. By contrast, a dynamic website relies on server-side processing, including server-side scripts such as PHP, JSP, or ASP.NET. Amazon S3 does not support server-side scripting.
-
-    Reference: <https://docs.aws.amazon.com/AmazonS3/latest/dev/WebsiteHosting.html>
-
-    </details>
-
-54. Which of the following can limit Amazon Simple Storage Service (Amazon S3) bucket access to specific users?
+44. Which of the following can limit Amazon Simple Storage Service (Amazon S3) bucket access to specific users?
     - A. A public and private key-pair
     - B. Amazon Inspector
     - C. AWS Identity and Access Management (IAM) policies
@@ -611,7 +461,7 @@
 
     </details>
 
-55. How is asset management on AWS easier than asset management in a physical data center?
+45. How is asset management on AWS easier than asset management in a physical data center?
     - A. AWS provides a Configuration Management Database that users can maintain.
     - B. AWS performs infrastructure discovery scans on the customer's behalf.
     - C. Amazon EC2 automatically generates an asset report and places it in the customer's specified Amazon S3 bucket.
@@ -630,7 +480,7 @@
 
     </details>
 
-56. Which AWS hybrid storage service enables on-premises applications to seamlessly use AWS Cloud storage through standard file-storage protocols?
+46. Which AWS hybrid storage service enables on-premises applications to seamlessly use AWS Cloud storage through standard file-storage protocols?
     - A. AWS Direct Connect
     - B. AWS Snowball
     - C. AWS Storage Gateway
@@ -651,7 +501,7 @@
 
     </details>
 
-57. Which AWS service provides a secure, fast, and cost-effective way to migrate or transport exabyte-scale datasets into AWS?
+47. Which AWS service provides a secure, fast, and cost-effective way to migrate or transport exabyte-scale datasets into AWS?
     - A. AWS Batch
     - B. AWS Snowball
     - C. AWS Migration Hub
@@ -671,24 +521,7 @@
 
     </details>
 
-58. Which AWS service can be used to query stored datasets directly from Amazon S3 using standard SQL?
-    - A. AWS Glue
-    - B. AWS Data Pipeline
-    - C. Amazon CloudSearch
-    - D. Amazon Athena
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: D
-
-    Explanation:
-    - Amazon Athena is defined as "an interactive query service that makes it easy to analyze data directly in Amazon Simple Storage Service (Amazon S3) using standard SQL." So, it's another SQL query engine for large data sets stored in S3.
-    - This is very similar to other SQL query engines, such as Apache Drill.
-    - But unlike Apache Drill, Athena is limited to data only from Amazon's own S3 storage service. However, Athena is able to query a variety of file formats, including, but not limited to CSV, Parquet, JSON, etc.
-
-    </details>
-
-59. Which of the following is an AWS database service?
+48. Which of the following is an AWS database service?
     - A. Amazon Redshift
     - B. Amazon Elastic Block Store (Amazon EBS)
     - C. Amazon S3 Glacier
@@ -702,7 +535,7 @@
 
     </details>
 
-60. A Cloud Practitioner needs to store data for 7 years to meet regulatory requirements. <br/> Which AWS service will meet this requirement at the LOWEST cost?
+49. A Cloud Practitioner needs to store data for 7 years to meet regulatory requirements. <br/> Which AWS service will meet this requirement at the LOWEST cost?
     - A. Amazon S3
     - B. AWS Snowball
     - C. Amazon Redshift
@@ -721,7 +554,7 @@
 
     </details>
 
-61. Which situation should be reported to the AWS Abuse team?
+50. Which situation should be reported to the AWS Abuse team?
     - A. In Availability Zone has a service disruption
     - B. An intrusion attempt is made from an AWS IP address
     - C. A user has trouble accessing an Amazon S3 bucket from an AWS IP address
@@ -735,7 +568,7 @@
 
     </details>
 
-62. The AWS Trusted Advisor checks include recommendations regarding which of the following? (Choose two.)
+51. The AWS Trusted Advisor checks include recommendations regarding which of the following? (Choose two.)
     - A. Information on Amazon S3 bucket permissions
     - B. AWS service outages
     - C. Multi-factor authentication enabled on the AWS account root user
@@ -750,7 +583,7 @@
 
     </details>
 
-63. What is a characteristic of Amazon S3 cross-region replication?
+52. What is a characteristic of Amazon S3 cross-region replication?
     - A. Both source and destination S3 buckets must have versioning disabled
     - B. The source and destination S3 buckets cannot be in different AWS Regions
     - C. S3 buckets configured for cross-region replication can be owned by a single AWS account or by different accounts
@@ -764,7 +597,7 @@
 
     </details>
 
-64. Which AWS services can be used to move data from on-premises data centers to AWS? (Choose two.)
+53. Which AWS services can be used to move data from on-premises data centers to AWS? (Choose two.)
     - A. AWS Snowball
     - B. AWS Lambda
     - C. AWS ElastiCache
@@ -779,7 +612,7 @@
 
     </details>
 
-65. A company needs an Amazon S3 bucket that cannot have any public objects due to compliance requirements. <br/> How can this be accomplished?
+54. A company needs an Amazon S3 bucket that cannot have any public objects due to compliance requirements. <br/> How can this be accomplished?
     - A. Enable S3 Block Public Access from the AWS Management Console.
     - B. Hold a team meeting to discuss the importance if only uploading private S3 objects.
     - C. Require all S3 objects to be manually approved before uploading.
@@ -793,7 +626,7 @@
 
     </details>
 
-66. Under the AWS shared responsibility model, which of the following are customer responsibilities? (Choose two.)
+55. Under the AWS shared responsibility model, which of the following are customer responsibilities? (Choose two.)
     - A. Setting up server-side encryption on an Amazon S3 bucket
     - B. Amazon RDS instance patching
     - C. Network and firewall configurations
@@ -808,7 +641,7 @@
 
     </details>
 
-67. Which Amazon S3 storage class is optimized to provide access to data with lower resiliency requirements, but rapid access when needed such as duplicate backups?
+56. Which Amazon S3 storage class is optimized to provide access to data with lower resiliency requirements, but rapid access when needed such as duplicate backups?
     - A. Amazon S3 Standard
     - B. Amazon S3 Glacier Deep Archive
     - C. Amazon S3 One Zone-Infrequent Access
@@ -822,7 +655,7 @@
 
     </details>
 
-68. A company must store critical business data in Amazon S3 with a backup to another AWS Region. <br/> How can this be achieved?
+57. A company must store critical business data in Amazon S3 with a backup to another AWS Region. <br/> How can this be achieved?
     - A. Use an Amazon CloudFront Content Delivery Network (CDN) to cache data globally
     - B. Set up Amazon S3 cross-region replication to another AWS Region
     - C. Configure the AWS Backup service to back up to the data to another AWS Region
@@ -834,7 +667,7 @@
 
     </details>
 
-69. During a compliance review, one of the auditors requires a copy of the AWS SOC 2 report. <br/> Which service should be used to submit this request?
+58. During a compliance review, one of the auditors requires a copy of the AWS SOC 2 report. <br/> Which service should be used to submit this request?
     - A. AWS Personal Health Dashboard
     - B. AWS Trusted Advisor
     - C. AWS Artifact
@@ -846,7 +679,7 @@
 
     </details>
 
-70. A company has a 500 TB image repository that needs to be transported to AWS for processing. <br/> Which AWS service can import this data MOST cost-effectively?
+59. A company has a 500 TB image repository that needs to be transported to AWS for processing. <br/> Which AWS service can import this data MOST cost-effectively?
     - A. AWS Snowball
     - B. AWS Direct Connect
     - C. AWS VPN
@@ -860,7 +693,7 @@
 
     </details>
 
-71. A company wants to allow full access to an Amazon S3 bucket for a particular user. <br/> Which element in the S3 bucket policy holds the user details that describe who needs access to the S3 bucket?
+60. A company wants to allow full access to an Amazon S3 bucket for a particular user. <br/> Which element in the S3 bucket policy holds the user details that describe who needs access to the S3 bucket?
     - A. Principal
     - B. Action
     - C. Resource
@@ -874,7 +707,7 @@
 
     </details>
 
-72. What does the Amazon S3 Intelligent-Tiering storage class offer?
+61. What does the Amazon S3 Intelligent-Tiering storage class offer?
     - A. Payment flexibility by reserving storage capacity
     - B. Long-term retention of data by copying the data to an encrypted Amazon Elastic Block Store (Amazon EBS) volume
     - C. Automatic cost savings by moving objects between tiers based on access pattern changes
@@ -888,7 +721,7 @@
 
     </details>
 
-73. Which AWS storage service is designed to transfer petabytes of data in and out of the cloud?
+62. Which AWS storage service is designed to transfer petabytes of data in and out of the cloud?
     - A. AWS Storage Gateway
     - B. Amazon S3 Glacier Deep Archive
     - C. Amazon Lightsail
@@ -902,7 +735,7 @@
 
     </details>
 
-74. A company is building an application that needs to deliver images and videos globally with minimal latency. <br/> Which approach can the company use to accomplish this in a cost effective manner?
+63. A company is building an application that needs to deliver images and videos globally with minimal latency. <br/> Which approach can the company use to accomplish this in a cost effective manner?
     - A. Deliver the content through Amazon CloudFront.
     - B. Store the content on Amazon S3 and enable S3 cross-region replication.
     - C. Implement a VPN across multiple AWS Regions.

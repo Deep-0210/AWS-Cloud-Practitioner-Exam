@@ -103,29 +103,7 @@
       Correct answer: D
     </details>
 
-11. What technology enables compute capacity to adjust as loads change?
-    - A. Load balancing
-    - B. Automatic failover
-    - C. Round robin
-    - D. Auto Scaling
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: D
-
-    Explanation:
-    - AWS Auto Scaling monitors your applications and automatically adjusts capacity to maintain steady, predictable performance at the lowest possible cost.
-    - Using AWS Auto Scaling, it's easy to setup application scaling for multiple resources across multiple services in minutes. - The service provides a simple, powerful user interface that lets you build scaling plans for resources including Amazon EC2 instances and Spot Fleets, Amazon ECS tasks, Amazon DynamoDB tables and indexes, and Amazon Aurora Replicas.
-    - AWS Auto Scaling makes scaling simple with recommendations that allow you to optimize performance, costs, or balance
-    between them.
-    - If you're already using Amazon EC2 Auto Scaling to dynamically scale your Amazon EC2 instances, you can now combine it with AWS Auto Scaling to scale additional resources for other AWS services.
-    - With AWS Auto Scaling, your applications always have the right resources at the right time.
-
-    Reference: <https://aws.amazon.com/autoscaling/>
-
-    </details>
-
-12. Which load balancer types are available with Elastic Load Balancing (ELB)? (Choose two.)
+11. Which load balancer types are available with Elastic Load Balancing (ELB)? (Choose two.)
     - A. Public load balancers with AWS Application Auto Scaling capabilities
     - B. F5 Big-IP and Citrix NetScaler load balancers
     - C. Classic Load Balancers
@@ -146,7 +124,7 @@
 
     </details>
 
-13. What is one of the core principles to follow when designing a highly available application in the AWS Cloud?
+12. What is one of the core principles to follow when designing a highly available application in the AWS Cloud?
     - A. Design using a serverless architecture
     - B. Assume that all components within an application can fail
     - C. Design AWS Auto Scaling into every application

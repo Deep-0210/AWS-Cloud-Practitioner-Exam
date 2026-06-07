@@ -166,19 +166,7 @@
       Correct answer: B, E
     </details>
 
-17. What is the AWS customer responsible for according to the AWS shared responsibility model?
-    - A. Physical access controls
-    - B. Data encryption
-    - C. Secure disposal of storage devices
-    - D. Environmental risk management
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: B
-
-    </details>
-
-18. Which of the following is a component of the shared responsibility model managed entirely by AWS?
+17. Which of the following is a component of the shared responsibility model managed entirely by AWS?
     - A. Patching operating system software
     - B. Encrypting data
     - C. Enforcing multi-factor authentication
@@ -193,66 +181,7 @@
 
     </details>
 
-19. Under the shared responsibility model, which of the following is a shared control between a customer and AWS?
-    - A. Physical controls
-    - B. Patch management
-    - C. Zone security
-    - D. Data center auditing
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: B
-
-    Explanation:
-
-    - Shared Controls Controls which apply to both the infrastructure layer and customer layers, but in completely separate contexts or perspectives.
-    - In a shared control, AWS provides the requirements for the infrastructure and the customer must provide their own control implementation within their use of AWS services.
-    - Examples include:
-    - Patch Management AWS is responsible for patching and fixing flaws within the infrastructure, but customers are responsible for patching their guest OS and applications.
-    - Configuration Management AWS maintains the configuration of its infrastructure devices, but a customer is responsible for configuring their own guest operating systems, databases, and applications.
-    - Awareness & Training AWS trains AWS employees, but a customer must train their own employees.
-    - Customer Specific Controls which are solely the responsibility of the customer based on the application they are deploying within AWS services.
-    - Service and Communications Protection or Zone Security which may require a customer to route or zone data within specific security environments.
-
-    Reference: <https://aws.amazon.com/compliance/shared-responsibility-model/>
-
-    </details>
-
-20. Under the shared responsibility model, which of the following tasks are the responsibility of the AWS customer? (Select TWO.)
-    - A. Ensuring that application data is encrypted at rest
-    - B. Ensuring that AWS NTP servers are set to the correct time
-    - C. Ensuring that users have received security training in the use of AWS services
-    - D. Ensuring that access to data centers is restricted
-    - E. Ensuring that hardware is disposed of properly
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: AC
-
-    Explanation: <https://aws.amazon.com/compliance/shared-responsibility-model/>
-
-    </details>
-
-21. According to the AWS shared responsibility model, what is the sole responsibility of AWS?
-    - A. Application security
-    - B. Edge location management
-    - C. Patch management
-    - D. Client-side data
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: B
-
-    Explanation:
-
-    - Client-side data, application security is the sole responsibility of the customer.
-    - Patch management is a shared responsibility. That leaves us with edge location management and since this out of the control of the customer, AWS is the one responsible for it.
-
-    Reference: <https://aws.amazon.com/compliance/shared-responsibility-model/>
-
-    </details>
-
-22. Under the AWS shared responsibility model, customer responsibilities include which one of the following?
+18. Under the AWS shared responsibility model, customer responsibilities include which one of the following?
     - A. Securing the hardware, software, facilities, and networks that run all products and services.
     - B. Providing certificates, reports, and other documentation directly to AWS customers under NDA.
     - C. Configuring the operating system, network, and firewall.
@@ -266,7 +195,7 @@
 
     </details>
 
-23. Which of the following is an AWS Well-Architected Framework design principle related to reliability?
+19. Which of the following is an AWS Well-Architected Framework design principle related to reliability?
     - A. Deployment to a single Availability Zone
     - B. Ability to recover from failure
     - C. Design for cost optimization
@@ -280,7 +209,7 @@
 
     </details>
 
-24. Which of the following is an important architectural principle when designing cloud applications?
+20. Which of the following is an important architectural principle when designing cloud applications?
     - A. Store data and backups in the same region.
     - B. Design tightly coupled system components.
     - C. Avoid multi-threading.
@@ -303,7 +232,7 @@
 
     </details>
 
-25. Which principles are used to architect applications for reliability on the AWS Cloud? (Choose two.)
+21. Which principles are used to architect applications for reliability on the AWS Cloud? (Choose two.)
     - A. Design for automated failure recovery
     - B. Use multiple Availability Zones
     - C. Manage changes via documented processes
@@ -318,7 +247,7 @@
 
     </details>
 
-26. Under the shared responsibility model; which of the following areas are the customer's responsibility? (Choose two.)
+22. Under the shared responsibility model; which of the following areas are the customer's responsibility? (Choose two.)
     - A. Firmware upgrades of network infrastructure
     - B. Patching of operating systems
     - C. Patching of the underlying hypervisor
@@ -333,24 +262,7 @@
 
     </details>
 
-27. According to the AWS shared responsibility model, who is responsible for configuration management?
-    - A. It is solely the responsibility of the customer.
-    - B. It is solely the responsibility of AWS.
-    - C. It is shared between AWS and the customer.
-    - D. It is not part of the AWS shared responsibility model.
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: C
-
-    Explanation:
-    - AWS maintains the configuration of its infrastructure devices, but a customer is responsible for configuring their own guest operating systems, databases, and applications.
-
-    Reference: <https://aws.amazon.com/compliance/shared-responsibility-model/>
-
-    </details>
-
-28. Under the AWS shared responsibility model, which of the following is an example of security in the AWS Cloud?
+23. Under the AWS shared responsibility model, which of the following is an example of security in the AWS Cloud?
     - A. Managing edge locations
     - B. Physical security
     - C. Firewall configuration
@@ -364,7 +276,7 @@
 
     </details>
 
-29. Which of the following are pillars of the AWS Well-Architected Framework? (Choose two.)
+24. Which of the following are pillars of the AWS Well-Architected Framework? (Choose two.)
     - A. Multiple Availability Zones
     - B. Performance efficiency
     - C. Security
@@ -379,7 +291,7 @@
 
     </details>
 
-30. Within the AWS shared responsibility model, who is responsible for security and compliance?
+25. Within the AWS shared responsibility model, who is responsible for security and compliance?
     - A. The customer is responsible.
     - B. AWS is responsible.
     - C. AWS and the customer share responsibility.
@@ -397,7 +309,7 @@
 
     </details>
 
-31. What is one of the customer's responsibilities according to the AWS shared responsibility model?
+26. What is one of the customer's responsibilities according to the AWS shared responsibility model?
     - A. Virtualization infrastructure
     - B. Network infrastructure
     - C. Application security
@@ -411,7 +323,7 @@
 
     </details>
 
-32. Which of the following is AWS's responsibility under the AWS shared responsibility model?
+27. Which of the following is AWS's responsibility under the AWS shared responsibility model?
     - A. Configuring third-party applications
     - B. Maintaining physical hardware
     - C. Securing application access and data
@@ -425,7 +337,7 @@
 
     </details>
 
-33. A user deploys an Amazon RDS DB instance in multiple Availability Zones. <br/> This strategy involves which pillar of the AWS Well-Architected Framework?
+28. A user deploys an Amazon RDS DB instance in multiple Availability Zones. <br/> This strategy involves which pillar of the AWS Well-Architected Framework?
     - A. Performance efficiency
     - B. Reliability
     - C. Cost optimization
@@ -440,7 +352,7 @@
 
     </details>
 
-34. Using AWS Config to record, audit, and evaluate changes to AWS resources to enable traceability is an example of which AWS Well-Architected Framework pillar?
+29. Using AWS Config to record, audit, and evaluate changes to AWS resources to enable traceability is an example of which AWS Well-Architected Framework pillar?
     - A. Security
     - B. Operational excellence
     - C. Performance efficiency
@@ -454,7 +366,7 @@
 
     </details>
 
-35. What can be used to automate and manage secure, well-architected, multi-account AWS environments?
+30. What can be used to automate and manage secure, well-architected, multi-account AWS environments?
     - A. AWS shared responsibility model
     - B. AWS Control Tower
     - C. AWS Security Hub
@@ -472,7 +384,7 @@
 
     </details>
 
-36. Under the AWS shared responsibility model, what are the customer's responsibilities? (Choose two.)
+31. Under the AWS shared responsibility model, what are the customer's responsibilities? (Choose two.)
     - A. Physical and environmental security
     - B. Physical network devices including firewalls
     - C. Storage device decommissioning
@@ -485,7 +397,7 @@
 
     </details>
 
-37. Performing operations as code is a design principle that supports which pillar of the AWS Well-Architected Framework?
+32. Performing operations as code is a design principle that supports which pillar of the AWS Well-Architected Framework?
     - A. Performance efficiency
     - B. Operational excellence
     - C. Reliability
@@ -499,7 +411,7 @@
 
     </details>
 
-38. Which design principle is achieved by following the reliability pillar of the AWS Well-Architected Framework?
+33. Which design principle is achieved by following the reliability pillar of the AWS Well-Architected Framework?
     - A. Vertical scaling
     - B. Manual failure recovery
     - C. Testing recovery procedures
@@ -513,7 +425,7 @@
 
     </details>
 
-39. Under the AWS shared responsibility model, which of the following is the customer's responsibility?
+34. Under the AWS shared responsibility model, which of the following is the customer's responsibility?
     - A. Patching guest OS and applications
     - B. Patching and fixing flaws in the infrastructure
     - C. Physical and environmental controls
@@ -525,7 +437,7 @@
 
     </details>
 
-40. Which AWS Cloud design principles can help increase reliability? (Choose two.)
+35. Which AWS Cloud design principles can help increase reliability? (Choose two.)
     - A. Using monolithic architecture
     - B. Measuring overall efficiency
     - C. Testing recovery procedures

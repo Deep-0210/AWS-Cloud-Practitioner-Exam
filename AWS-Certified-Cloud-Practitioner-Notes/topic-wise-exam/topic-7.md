@@ -177,27 +177,7 @@
       Correct answer: B
     </details>
 
-18. Which of the following services is in the category of AWS serverless platform?
-    - A. Amazon EMR
-    - B. Elastic Load Balancing
-    - C. AWS Lambda
-    - D. AWS Mobile Hub
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: C
-
-    Explanation:
-    - AWS provides a set of fully managed services that you can use to build and run serverless applications.
-    - Serverless applications don't require provisioning, maintaining, and administering servers for backend components such as compute, databases, storage, stream processing, message queueing, and more.
-    - You also no longer need to worry about ensuring application fault tolerance and availability.
-    - Instead, AWS handles all of these capabilities for you. Serverless platform includes: AWS lambda, Amazon S3, DynamoDB, API gateway, Amazon SNS, AWS step functions, Amazon kinesis and developing tools and services.
-
-    Reference: <https://aws.amazon.com/serverless/>
-
-    </details>
-
-19. Which services are parts of the AWS serverless platform?
+18. Which services are parts of the AWS serverless platform?
     - A. Amazon EC2, Amazon S3, Amazon Athena
     - B. Amazon Kinesis, Amazon SQS, Amazon EMR
     - C. AWS Step Functions, Amazon DynamoDB, Amazon SNS
@@ -217,7 +197,7 @@
 
     </details>
 
-20. A company wants to reduce the physical compute footprint that developers use to run code. <br/> Which service would meet that need by enabling serverless architectures?
+19. A company wants to reduce the physical compute footprint that developers use to run code. <br/> Which service would meet that need by enabling serverless architectures?
     - A. Amazon Elastic Compute Cloud (Amazon EC2)
     - B. AWS Lambda
     - C. Amazon DynamoDB
@@ -233,7 +213,7 @@
 
     </details>
 
-21. How does AWS charge for AWS Lambda?
+20. How does AWS charge for AWS Lambda?
     - A. Users bid on the maximum price they are willing to pay per hour.
     - B. Users choose a 1-, 3- or 5-year upfront payment term.
     - C. Users pay for the required permanent storage on a file system or in a database.
@@ -255,7 +235,7 @@
 
     </details>
 
-22. Which of the following AWS services provide compute resources? (Choose two.)
+21. Which of the following AWS services provide compute resources? (Choose two.)
     - A. AWS Lambda
     - B. Amazon Elastic Container Service (Amazon ECS)
     - C. AWS CodeDeploy
@@ -270,7 +250,7 @@
 
     </details>
 
-23. How does AWS charge for AWS Lambda usage once the free tier has been exceeded? (Choose two.)
+22. How does AWS charge for AWS Lambda usage once the free tier has been exceeded? (Choose two.)
     - A. By the time it takes for the Lambda function to execute.
     - B. By the number of versions of a specific Lambda function.
     - C. By the number of requests made for a given Lambda function.
@@ -285,7 +265,7 @@
 
     </details>
 
-24. Which AWS service provides a quick and automated way to create and manage AWS accounts?
+23. Which AWS service provides a quick and automated way to create and manage AWS accounts?
     - A. AWS QuickSight
     - B. Amazon Lightsail
     - C. AWS Organizations
@@ -299,7 +279,7 @@
 
     </details>
 
-25. Which AWS service or resource is serverless?
+24. Which AWS service or resource is serverless?
     - A. AWS Lambda
     - B. Amazon EC2 instances
     - C. Amazon Lightsail
@@ -313,7 +293,7 @@
 
     </details>
 
-26. A company is hosting a web application in a Docker container on Amazon EC2. <br/> AWS is responsible for which of the following tasks?
+25. A company is hosting a web application in a Docker container on Amazon EC2. <br/> AWS is responsible for which of the following tasks?
     - A. Scaling the web application and services developed with Docker
     - B. Provisioning or scheduling containers to run on clusters and maintain their availability
     - C. Performing hardware maintenance in the AWS facilities that run the AWS Cloud
@@ -327,21 +307,7 @@
 
     </details>
 
-27. Which of the following is a component of the AWS Global Infrastructure?
-    - A. Amazon Alexa
-    - B. AWS Regions
-    - C. Amazon Lightsail
-    - D. AWS Organizations
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: B
-
-    Explanation: <https://aws.amazon.com/about-aws/global-infrastructure/>
-
-    </details>
-
-28. Which of the following are AWS compute services? (Select two.)
+26. Which of the following are AWS compute services? (Select two.)
     - A. Amazon Lightsail
     - B. AWS Systems Manager
     - C. AWS CloudFormation
@@ -356,7 +322,7 @@
 
     </details>
 
-29. Which AWS container service will help a user install, operate, and scale the cluster management infrastructure?
+27. Which AWS container service will help a user install, operate, and scale the cluster management infrastructure?
     - A. Amazon Elastic Container Registry (Amazon ECR)
     - B. AWS Elastic Beanstalk
     - C. Amazon Elastic Container Service (Amazon ECS)
@@ -368,7 +334,7 @@
 
     </details>
 
-30. Which AWS service can be used in the application deployment process?
+28. Which AWS service can be used in the application deployment process?
     - A. AWS AppSync
     - B. AWS Batch
     - C. AWS CodePipeline
@@ -380,7 +346,7 @@
 
     </details>
 
-31. What is the customer's responsibility when using AWS Lambda?
+29. What is the customer's responsibility when using AWS Lambda?
     - A. Operating system configuration
     - B. Application management
     - C. Platform management

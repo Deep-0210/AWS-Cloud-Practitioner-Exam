@@ -1124,113 +1124,7 @@
 
     </details>
 
-110. Distributing workloads across multiple Availability Zones supports which cloud architecture design principle?
-    - A. Implement automation.
-    - B. Design for agility.
-    - C. Design for failure.
-    - D. Implement elasticity.
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: C
-
-    </details>
-
-111. Which of the following is a correct relationship between regions, Availability Zones, and edge locations?
-    - A. Data centers contain regions.
-    - B. Regions contain Availability Zones.
-    - C. Availability Zones contain edge locations.
-    - D. Edge locations contain regions.
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: B
-
-    Explanation: <https://aws.amazon.com/about-aws/global-infrastructure/regions_az/#Region_Maps_and_Edge_Networks>
-
-    </details>
-
-112. Compared with costs in traditional and virtualized data centers, AWS has:
-    - A. greater variable costs and greater upfront costs.
-    - B. fixed usage costs and lower upfront costs.
-    - C. lower variable costs and greater upfront costs.
-    - D. lower variable costs and lower upfront costs.
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: D
-
-    Explanation: <https://d1.awsstatic.com/whitepapers/introduction-to-aws-cloud-economics-final.pdf> (10)
-
-    </details>
-
-113. According to best practices, how should an application be designed to run in the AWS Cloud?
-    - A. Use tightly coupled components.
-    - B. Use loosely coupled components.
-    - C. Use infrequently coupled components.
-    - D. Use frequently coupled components.
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: B
-
-    Explanation: <https://d1.awsstatic.com/whitepapers/AWS_Cloud_Best_Practices.pdf>
-
-    </details>
-
-114. Which of the following components of the AWS Global Infrastructure consists of one or more discrete data centers interconnected through low latency links?
-    - A. Availability Zone
-    - B. Edge location
-    - C. Region
-    - D. Private networking
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: A
-
-    Explanation: <https://docs.aws.amazon.com/whitepapers/latest/aws-overview/global-infrastructure.html>
-
-    </details>
-
-115. How many Availability Zones should compute resources be provisioned across to achieve high availability?
-    - A. A minimum of one
-    - B. A minimum of two
-    - C. A minimum of three
-    - D. A minimum of four or more
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: B
-
-    </details>
-
-116. One of the advantages to moving infrastructure from an on-premises data center to the AWS Cloud is:
-    - A. it allows the business to eliminate IT bills.
-    - B. it allows the business to put a server in each customer's data center.
-    - C. it allows the business to focus on business activities.
-    - D. it allows the business to leave servers unpatched.
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: C
-
-    </details>
-
-117. What approach to transcoding a large number of individual video files adheres to AWS architecture principles?
-    - A. Using many instances in parallel
-    - B. Using a single large instance during off-peak hours
-    - C. Using dedicated hardware
-    - D. Using a large GPU instance type
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: A
-
-    Explanation: <https://aws.amazon.com/solutions/case-studies/encoding/>
-
-    </details>
-
-118. A customer is deploying a new application and needs to choose an AWS Region. <br/>Which of the following factors could influence the customer's decision? (Select TWO.)
+110. A customer is deploying a new application and needs to choose an AWS Region. <br/>Which of the following factors could influence the customer's decision? (Select TWO.)
     - A. Reduced latency to users
     - B. The application's presentation in the local language
     - C. Data sovereignty compliance
@@ -1243,113 +1137,7 @@
 
     </details>
 
-119. Which of the following are valid ways for a customer to interact with AWS services? (Select TWO.)
-    - A. Command line interface
-    - B. On-premises
-    - C. Software Development Kits
-    - D. Software-as-a-service
-    - E. Hybrid
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: AC
-
-    </details>
-
-120. The AWS Cloud's multiple Regions are an example of:
-    - A. agility.
-    - B. global infrastructure.
-    - C. elasticity.
-    - D. pay-as-you-go pricing.
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: B
-
-    </details>
-
-121. When architecting cloud applications, which of the following are a key design principle?
-    - A. Use the largest instance possible
-    - B. Provision capacity for peak load
-    - C. Use the Scrum development process
-    - D. Implement elasticity
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: D
-
-    Explanation:
-    - "Provisioning for peaks" is a characteristic of a traditional computing environment, per the AWS Best Practices: "you provision capacity based on an estimate of a theoretical maximum peak."
-    - <https://d1.awsstatic.com/whitepapers/AWS_Cloud_Best_Practices.pdf>
-
-    </details>
-
-122. Which of the following is a benefit of using the AWS Cloud?
-    - A. Permissive security removes the administrative burden.
-    - B. Ability to focus on revenue-generating activities.
-    - C. Control over cloud network hardware.
-    - D. Choice of specific cloud hardware vendors.
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: B
-
-    Explanation:
-    - Developer and IT staff productivity accounted for nearly 30% of overall financial benefits.
-    - The remaining benefits were driven by the flexibility and agility of Amazon cloud infrastructure services, which make it easier to trial new business models, support revenue-generating applications, and provide more reliable services to end users.
-
-    Reference: <https://media.amazonwebservices.com/IDC_Business_Value_of_AWS_Accelerates_Over_time.pdf>
-
-    </details>
-
-123. Which design principles for cloud architecture are recommended when re-architecting a large monolithic application? (Select TWO.)
-    - A. Use manual monitoring.
-    - B. Use fixed servers.
-    - C. Implement loose coupling.
-    - D. Rely on individual components.
-    - E. Design for scalability.
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: CE
-
-    </details>
-
-124. Which is the MINIMUM AWS Support plan that allows for one-hour target response time for support cases?
-    - A. Enterprise
-    - B. Business
-    - C. Developer
-    - D. Basic
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: B
-
-    Explanation: <https://aws.amazon.com/premiumsupport/plans/>
-
-    </details>
-
-125. Which of the following is an AWS Cloud architecture design principle?
-    - A. Implement single points of failure.
-    - B. Implement loose coupling.
-    - C. Implement monolithic design.
-    - D. Implement vertical scaling.
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: B
-
-    Explanation:
-    - Loose coupling between services can also be done through asynchronous integration. It involves one component that generates events and another that consumes them.
-    - The two components do not integrate through direct point-to-point interaction, but usually through an intermediate durable storage layer.
-    - This approach decouples the two components and introduces additional resiliency.
-    - So, for example, if a process that is reading messages from the queue fails, messages can still be added to the queue to be processed when the system recovers.
-
-    Reference: <https://www.botmetric.com/blog/aws-cloud-architecture-design-principles/>
-
-    </details>
-
-126. Which service provides a hybrid storage service that enables on-premises applications to seamlessly use cloud storage?
+111. Which service provides a hybrid storage service that enables on-premises applications to seamlessly use cloud storage?
     - A. Amazon Glacier
     - B. AWS Snowball
     - C. AWS Storage Gateway
@@ -1368,108 +1156,7 @@
 
     </details>
 
-127. Which of the following is an important architectural design principle when designing cloud applications?
-    - A. Use multiple Availability Zones.
-    - B. Use tightly coupled components.
-    - C. Use open source software.
-    - D. Provision extra capacity.
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: A
-
-    Explanation:
-    - Data Center resilience is practiced through Availability Zones across data centers that reduce the impact of failures.
-    - Fault isolation improvement can be made to traditional horizontal scaling by sharding (a method of grouping instances into groups called shards, instead of sending the traffic from all users to every node like in the traditional IT structure.)
-
-    Reference: <https://www.botmetric.com/blog/aws-cloud-architecture-design-principles/>
-
-    </details>
-
-128. Which AWS support plan includes a dedicated Technical Account Manager?
-    - A. Developer
-    - B. Enterprise
-    - C. Business
-    - D. Basic
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: B
-
-    Explanation:
-    - The enterprise support plans supports technical account manager. Developer and business support plans are devoid of this facility.
-
-    Reference: <https://aws.amazon.com/premiumsupport/plans/>
-
-    </details>
-
-129. Which of the following common IT tasks can AWS cover to free up company IT resources? (Select TWO.)
-    - A. Patching databases software
-    - B. Testing application releases
-    - C. Backing up databases
-    - D. Creating database schema
-    - E. Running penetration tests
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: AC
-
-    </details>
-
-130. Which is the minimum AWS Support plan that includes Infrastructure Event Management without additional costs?
-    - A. Enterprise
-    - B. Business
-    - C. Developer
-    - D. Basic
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: A
-
-    Explanation: <https://aws.amazon.com/premiumsupport/plans/>
-
-    </details>
-
-131. How does AWS shorten the time to provision IT resources?
-    - A. It supplies an online IT ticketing platform for resource requests.
-    - B. It supports automatic code validation services.
-    - C. It provides the ability to programmatically provision existing resources.
-    - D. It automates the resource request process from a company's IT vendor list.
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: C
-
-    </details>
-
-132. A solution that is able to support growth in users, traffic, or data size with no drop in performance aligns with which cloud architecture principle?
-    - A. Think parallel
-    - B. Implement elasticity
-    - C. Decouple your components
-    - D. Design for failure
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: B
-
-    Explanation: <https://d1.awsstatic.com/whitepapers/AWS_Cloud_Best_Practices.pdf>
-
-    </details>
-
-133. The financial benefits of using AWS are: (Select TWO.)
-    - A. reduced Total Cost of Ownership (TCO).
-    - B. increased capital expenditure (capex).
-    - C. reduced operational expenditure (opex).
-    - D. deferred payment plans for startups.
-    - E. business credit lines for stratups.
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: AC
-
-    </details>
-
-134. A company will be moving from an on-premises data center to the AWS Cloud. <br/> What would be one financial difference after the move?
+112. A company will be moving from an on-premises data center to the AWS Cloud. <br/> What would be one financial difference after the move?
     - A. Moving from variable operational expense (opex) to upfront capital expense (capex).
     - B. Moving from upfront capital expense (capex) to variable capital expense (capex).
     - C. Moving from upfront capital expense (capex) to variable operational expense (opex).
@@ -1481,23 +1168,7 @@
 
     </details>
 
-135. Which is the MINIMUM AWS Support plan that provides technical support through phone calls?
-    - A. Enterprise
-    - B. Business
-    - C. Developer
-    - D. Basic
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: B
-
-    Explanation:
-
-    <https://aws.amazon.com/premiumsupport/plans/>
-
-    </details>
-
-136. Which of the following are benefits of the AWS Cloud? (Choose two.)
+113. Which of the following are benefits of the AWS Cloud? (Choose two.)
     - A. Unlimited uptime
     - B. Elasticity
     - C. Agility
@@ -1519,7 +1190,7 @@
 
     </details>
 
-137. What are the multiple, isolated locations within an AWS Region that are connected by low-latency networks called?
+114. What are the multiple, isolated locations within an AWS Region that are connected by low-latency networks called?
     - A. AWS Direct Connects
     - B. Amazon VPCs
     - C. Edge locations
@@ -1540,7 +1211,7 @@
 
     </details>
 
-138. Which of the following benefits does the AWS Compliance program provide to AWS customers? (Choose two.)
+115. Which of the following benefits does the AWS Compliance program provide to AWS customers? (Choose two.)
     - A. It verifies that hosted workloads are automatically compliant with the controls of supported compliance frameworks.
     - B. AWS is responsible for the maintenance of common compliance framework documentation.
     - C. It assures customers that AWS is maintaining physical security and data protection.
@@ -1555,7 +1226,7 @@
 
     </details>
 
-139. Which scenarios represent the concept of elasticity on AWS? (Choose two.)
+116. Which scenarios represent the concept of elasticity on AWS? (Choose two.)
     - A. Scaling the number of Amazon EC2 instances based on traffic.
     - B. Resizing Amazon RDS instances as business needs change.
     - C. Automatically directing traffic to less-utilized Amazon EC2 instances.
@@ -1570,7 +1241,7 @@
 
     </details>
 
-140. Which of the following deployment models enables customers to fully trade their capital IT expenses for operational expenses?
+117. Which of the following deployment models enables customers to fully trade their capital IT expenses for operational expenses?
     - A. On-premises
     - B. Hybrid
     - C. Cloud
@@ -1588,7 +1259,7 @@
 
     </details>
 
-141. What is a benefit of loose coupling as a principle of cloud architecture design?
+118. What is a benefit of loose coupling as a principle of cloud architecture design?
     - A. It facilitates low-latency request handling.
     - B. It allows applications to have dependent workflows.
     - C. It prevents cascading failures between different components.
@@ -1608,7 +1279,7 @@
 
     </details>
 
-142. Which is the MINIMUM AWS Support plan that provides designated Technical Account Managers?
+119. Which is the MINIMUM AWS Support plan that provides designated Technical Account Managers?
     - A. Enterprise
     - B. Business
     - C. Developer
@@ -1622,7 +1293,7 @@
 
     </details>
 
-143. What is an advantage of using the AWS Cloud over a traditional on-premises solution?
+120. What is an advantage of using the AWS Cloud over a traditional on-premises solution?
     - A. Users do not have to guess about future capacity needs.
     - B. Users can utilize existing hardware contracts for purchases.
     - C. Users can fix costs no matter what their traffic is.
@@ -1636,7 +1307,7 @@
 
     </details>
 
-144. What exclusive benefit is provided to users with Enterprise Support?
+121. What exclusive benefit is provided to users with Enterprise Support?
     - A. Access to a Technical Project Manager
     - B. Access to a Technical Account Manager
     - C. Access to a Cloud Support Engineer
@@ -1650,24 +1321,7 @@
 
     </details>
 
-145. How can a user protect against AWS service disruptions if a natural disaster affects an entire geographic area?
-    - A. Deploy applications across multiple Availability Zones within an AWS Region.
-    - B. Use a hybrid cloud computing deployment model within the geographic area.
-    - C. Deploy applications across multiple AWS Regions.
-    - D. Store application artifacts using AWS Artifact and replicate them across multiple AWS Regions.
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: C
-
-    Explanation:
-    - An AWS Region is a geographic location where AWS provides multiple, physically separated and isolated Availability Zones which are connected with low latency, high throughput, and highly redundant networking.
-
-    Reference: <https://aws.amazon.com/s3/faqs/>
-
-    </details>
-
-146. A startup is working on a new application that needs to go to market quickly. The application requirements may need to be adjusted in the near future. <br/> Which of the following is a characteristic of the AWS Cloud that would meet this specific need?
+122. A startup is working on a new application that needs to go to market quickly. The application requirements may need to be adjusted in the near future. <br/> Which of the following is a characteristic of the AWS Cloud that would meet this specific need?
     - A. Elasticity
     - B. Reliability
     - C. Performance
@@ -1684,7 +1338,7 @@
 
     </details>
 
-147. Which of the following is an advantage of using AWS?
+123. Which of the following is an advantage of using AWS?
     - A. AWS audits user data.
     - B. Data is automatically secure.
     - C. There is no guessing on capacity needs.
@@ -1701,7 +1355,7 @@
 
     </details>
 
-148. What is an example of high availability in the AWS Cloud?
+124. What is an example of high availability in the AWS Cloud?
     - A. Consulting AWS technical support at any time day or night
     - B. Ensuring an application remains accessible, even if a resource fails
     - C. Making any AWS service available for use by paying on demand
@@ -1715,22 +1369,7 @@
 
     </details>
 
-149. Which of the following is a cloud architectural design principle?
-    - A. Scale up, not out.
-    - B. Loosely couple components.
-    - C. Build monolithic systems.
-    - D. Use commercial database software.
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: B
-
-    Explanation:
-    - Loosely coupled architectures reduce interdependencies, so that a change or failure in a component does not cascade to other components.
-
-    </details>
-
-150. Which benefit of the AWS Cloud supports matching the supply of resources with changing workload demands?
+125. Which benefit of the AWS Cloud supports matching the supply of resources with changing workload demands?
     - A. Security
     - B. Reliability
     - C. Elasticity
@@ -1744,7 +1383,7 @@
 
     </details>
 
-151. A user is running an application on AWS and notices that one or more AWS-owned IP addresses is involved in a distributed denial-of-service (DDoS) attack. <br/> Who should the user contact FIRST about this situation?
+126. A user is running an application on AWS and notices that one or more AWS-owned IP addresses is involved in a distributed denial-of-service (DDoS) attack. <br/> Who should the user contact FIRST about this situation?
     - A. AWS Premium Support
     - B. AWS Technical Account Manager
     - C. AWS Solutions Architect
@@ -1758,7 +1397,7 @@
 
     </details>
 
-152. Which of the following are benefits of hosting infrastructure in the AWS Cloud? (Choose two.)
+127. Which of the following are benefits of hosting infrastructure in the AWS Cloud? (Choose two.)
     - A. There are no upfront commitments.
     - B. AWS manages all security in the cloud.
     - C. Users have the ability to provision resources on demand.
@@ -1771,7 +1410,7 @@
 
     </details>
 
-153. When a company provisions web servers in multiple AWS Regions, what is being increased?
+128. When a company provisions web servers in multiple AWS Regions, what is being increased?
     - A. Coupling
     - B. Availability
     - C. Security
@@ -1785,7 +1424,7 @@
 
     </details>
 
-154. The pay-as-you-go pricing model for AWS services:
+129. The pay-as-you-go pricing model for AWS services:
     - A. reduces capital expenditures.
     - B. requires payment up front for AWS services.
     - C. is relevant only for Amazon EC2, Amazon S3, and Amazon RDS.
@@ -1799,21 +1438,7 @@
 
     </details>
 
-155. What is an advantage of deploying an application across multiple Availability Zones?
-    - A. There is a lower risk of service failure if a natural disaster causes a service disruption in a given AWS Region.
-    - B. The application will have higher availability because it can withstand a service disruption in one Availability Zone.
-    - C. There will be better coverage as Availability Zones are geographically distant and can serve a wider area.
-    - D. There will be decreased application latency that will improve the user experience.
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: B
-
-    Explanation: <https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html>
-
-    </details>
-
-156. Treating infrastructure as code in the AWS Cloud allows users to:
+130. Treating infrastructure as code in the AWS Cloud allows users to:
     - A. automate migration of on-premises hardware to AWS data centers.
     - B. let a third party automate an audit of the AWS infrastructure.
     - C. turn over application code to AWS so it can run on the AWS infrastructure.
@@ -1827,7 +1452,7 @@
 
     </details>
 
-157. What are the benefits of developing and running a new application in the AWS Cloud compared to on-premises? (Choose two.)
+131. What are the benefits of developing and running a new application in the AWS Cloud compared to on-premises? (Choose two.)
     - A. AWS automatically distributes the data globally for higher durability.
     - B. AWS will take care of operating the application.
     - C. AWS makes it easy to architect for high availability.
@@ -1840,7 +1465,7 @@
 
     </details>
 
-158. What are the immediate benefits of using the AWS Cloud? (Choose two.)
+132. What are the immediate benefits of using the AWS Cloud? (Choose two.)
     - A. Increased IT staff.
     - B. Capital expenses are replaced with variable expenses.
     - C. User control of infrastructure.
@@ -1853,7 +1478,7 @@
 
     </details>
 
-159. A system in the AWS Cloud is designed to withstand the failure of one or more components. <br/> What is this an example of?
+133. A system in the AWS Cloud is designed to withstand the failure of one or more components. <br/> What is this an example of?
     - A. Elasticity
     - B. High Availability
     - C. Scalability
@@ -1867,7 +1492,7 @@
 
     </details>
 
-160. To use the AWS CLI, users are required to generate:
+134. To use the AWS CLI, users are required to generate:
     - A. a password policy.
     - B. an access/secret key.
     - C. a managed policy.
@@ -1879,7 +1504,7 @@
 
     </details>
 
-161. Which of the following describes the relationships among AWS Regions, Availability Zones, and edge locations? (Choose two.)
+135. Which of the following describes the relationships among AWS Regions, Availability Zones, and edge locations? (Choose two.)
     - A. There are more AWS Regions than Availability Zones.
     - B. There are more edge locations than AWS Regions.
     - C. An edge location is an Availability Zone.
@@ -1892,7 +1517,7 @@
 
     </details>
 
-162. What does it mean if a user deploys a hybrid cloud architecture on AWS?
+136. What does it mean if a user deploys a hybrid cloud architecture on AWS?
     - A. All resources run using on-premises infrastructure.
     - B. Some resources run on-premises and some run in a colocation center.
     - C. All resources run in the AWS Cloud.
@@ -1906,7 +1531,7 @@
 
     </details>
 
-163. What helps a company provide a lower latency experience to its users globally?
+137. What helps a company provide a lower latency experience to its users globally?
     - A. Using an AWS Region that is central to all users
     - B. Using a second Availability Zone in the AWS Region that is using used
     - C. Enabling caching in the AWS Region that is being used
@@ -1920,21 +1545,7 @@
 
     </details>
 
-164. How can the AWS Cloud increase user workforce productivity after migration from an on-premises data center?
-    - A. Users do not have to wait for infrastructure provisioning.
-    - B. The AWS Cloud infrastructure is much faster than an on-premises data center infrastructure.
-    - C. AWS takes over application configuration management on behalf of users.
-    - D. Users do not need to address security and compliance issues.
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: A
-
-    Explanation: <https://d1.awsstatic.com/whitepapers/Migration/aws-migration-whitepaper.pdf>
-
-    </details>
-
-165. What is an AWS Cloud design best practice?
+138. What is an AWS Cloud design best practice?
     - A. Tight coupling of components
     - B. Single point of failure
     - C. High availability
@@ -1948,7 +1559,7 @@
 
     </details>
 
-166. Which cloud design principle aligns with AWS Cloud best practices?
+139. Which cloud design principle aligns with AWS Cloud best practices?
     - A. Create fixed dependencies among application components
     - B. Aggregate services on a single instance
     - C. Deploy applications in a single Availability Zone
@@ -1966,7 +1577,7 @@
 
     </details>
 
-167. A company is migrating from on-premises data centers to the AWS Cloud and is looking for hands-on help with the project. <br/> How can the company get this support? (Choose two.)
+140. A company is migrating from on-premises data centers to the AWS Cloud and is looking for hands-on help with the project. <br/> How can the company get this support? (Choose two.)
     - A. Ask for a quote from the AWS Marketplace team to perform a migration into the company's AWS account.
     - B. Contact AWS Support and open a case for assistance
     - C. Use AWS Professional Services to provide guidance and to set up an AWS Landing Zone in the company's AWS account
@@ -1981,7 +1592,7 @@
 
     </details>
 
-168. An application designed to span multiple Availability Zones is described as:
+141. An application designed to span multiple Availability Zones is described as:
     - A. being highly available
     - B. having global reach
     - C. using an economy of scale
@@ -1993,7 +1604,7 @@
 
     </details>
 
-169. AWS Budgets can be used to:
+142. AWS Budgets can be used to:
     - A. prevent a given user from creating a resource
     - B. send an alert when the utilization of Reserved Instances drops below a certain percentage
     - C. set resource limits in AWS accounts to prevent overspending
@@ -2007,21 +1618,7 @@
 
     </details>
 
-170. What is a value proposition of the AWS Cloud?
-    - A. AWS is responsible for security in the AWS Cloud
-    - B. No long-term contract is required
-    - C. Provision new servers in days
-    - D. AWS manages user applications in the AWS Cloud
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: B
-
-    Explanation: <https://d1.awsstatic.com/whitepapers/aws-whitepaper-business-value-of-aws.pdf>
-
-    </details>
-
-171. What is a user responsible for when running an application in the AWS Cloud?   - A. Managing physical hardware
+143. What is a user responsible for when running an application in the AWS Cloud?   - A. Managing physical hardware
     - B. Updating the underlying hypervisor
     - C. Providing a list of users approved for data center access
     - D. Managing application software updates
@@ -2034,7 +1631,7 @@
 
     </details>
 
-172. A company that does business online needs to quickly deliver new functionality in an iterative manner, minimizing the time to market. <br/> Which AWS Cloud feature can provide this?
+144. A company that does business online needs to quickly deliver new functionality in an iterative manner, minimizing the time to market. <br/> Which AWS Cloud feature can provide this?
     - A. Elasticity
     - B. High availability
     - C. Agility
@@ -2048,7 +1645,7 @@
 
     </details>
 
-173. A company wants to try a third-party ecommerce solution before deciding to use it long term. <br/> Which AWS service or tool will support this effort?
+145. A company wants to try a third-party ecommerce solution before deciding to use it long term. <br/> Which AWS service or tool will support this effort?
     - A. AWS Marketplace
     - B. AWS Partner Network (APN)
     - C. AWS Managed Services
@@ -2062,7 +1659,7 @@
 
     </details>
 
-174. Which design principle should be considered when architecting in the AWS Cloud?
+146. Which design principle should be considered when architecting in the AWS Cloud?
     - A. Think of servers as non-disposable resources
     - B. Use synchronous integration of services
     - C. Design loosely coupled components
@@ -2076,7 +1673,7 @@
 
     </details>
 
-175. The ability to horizontally scale Amazon EC2 instances based on demand is an example of which concept in the AWS Cloud value proposition?
+147. The ability to horizontally scale Amazon EC2 instances based on demand is an example of which concept in the AWS Cloud value proposition?
     - A. Economy of scale
     - B. Elasticity
     - C. High availability
@@ -2088,21 +1685,7 @@
 
     </details>
 
-176. Why is it beneficial to use Elastic Load Balancers with applications?
-    - A. They allow for the conversion from Application Load Balancers to Classic Load Balancers.
-    - B. They are capable of handling constant changes in network traffic patterns.
-    - C. They automatically adjust capacity.
-    - D. They are provided at no charge to users.
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: B
-
-    Explanation: <https://docs.aws.amazon.com/elasticloadbalancing/latest/userguide/what-is-load-balancing.html>
-
-    </details>
-
-177. IT systems should be designed to reduce interdependencies, so that a change or failure in one component does not cascade to other components. <br/> This is an example of which principle of cloud architecture design?
+148. IT systems should be designed to reduce interdependencies, so that a change or failure in one component does not cascade to other components. <br/> This is an example of which principle of cloud architecture design?
     - A. Scalability
     - B. Loose coupling
     - C. Automation
@@ -2116,7 +1699,7 @@
 
     </details>
 
-178. What is the benefit of elasticity in the AWS Cloud?
+149. What is the benefit of elasticity in the AWS Cloud?
     - A. Ensure web traffic is automatically spread across multiple AWS Regions.
     - B. Minimize storage costs by automatically archiving log data.
     - C. Enable AWS to automatically select the most cost-effective services.
@@ -2130,7 +1713,7 @@
 
     </details>
 
-179. Which AWS Cloud best practice uses the elasticity and agility of cloud computing?
+150. Which AWS Cloud best practice uses the elasticity and agility of cloud computing?
     - A. Provision capacity based on past usage and theoretical peaks
     - B. Dynamically and predictively scale to meet usage demands
     - C. Build the application and infrastructure in a data center that grants physical access
@@ -2147,7 +1730,7 @@
 
     </details>
 
-180. A Cloud Practitioner is developing a disaster recovery plan and intends to replicate data between multiple geographic areas.<br/> Which of the following meets these requirements?
+151. A Cloud Practitioner is developing a disaster recovery plan and intends to replicate data between multiple geographic areas.<br/> Which of the following meets these requirements?
     - A. AWS Accounts
     - B. AWS Regions
     - C. Availability Zones
@@ -2161,7 +1744,7 @@
 
     </details>
 
-181. What is the MINIMUM AWS Support plan level that will provide users with access to the AWS Support API?
+152. What is the MINIMUM AWS Support plan level that will provide users with access to the AWS Support API?
     - A. Developer
     - B. Enterprise
     - C. Business
@@ -2175,7 +1758,7 @@
 
     </details>
 
-182. Which AWS Support plan provides access to architectural and operational reviews, as well as 24/7 access to Senior Cloud Support Engineers through email, online chat, and phone?
+153. Which AWS Support plan provides access to architectural and operational reviews, as well as 24/7 access to Senior Cloud Support Engineers through email, online chat, and phone?
     - A. Basic
     - B. Business
     - C. Developer
@@ -2189,7 +1772,7 @@
 
     </details>
 
-183. What is an Availability Zone in AWS?
+154. What is an Availability Zone in AWS?
     - A. One or more physical data centers
     - B. A completely isolated geographic location
     - C. One or more edge locations based around the world
@@ -2203,19 +1786,7 @@
 
     </details>
 
-184. Which AWS Cloud benefit eliminates the need for users to try estimating future infrastructure usage?
-    - A. Easy and fast deployment of applications in multiple Regions around the world
-    - B. Security of the AWS Cloud
-    - C. Elasticity of the AWS Cloud
-    - D. Lower variable costs due to massive economies of scale
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: C
-
-    </details>
-
-185. What credential components are required to gain programmatic access to an AWS account? (Choose two.)
+155. What credential components are required to gain programmatic access to an AWS account? (Choose two.)
     - A. An access key ID
     - B. A primary key
     - C. A secret access key
@@ -2230,7 +1801,7 @@
 
     </details>
 
-186. A company has distributed its workload on both the AWS Cloud and some on-premises servers. <br/> What type of architecture is this?
+156. A company has distributed its workload on both the AWS Cloud and some on-premises servers. <br/> What type of architecture is this?
     - A. Virtual private network
     - B. Virtual private cloud
     - C. Hybrid cloud
@@ -2244,7 +1815,7 @@
 
     </details>
 
-187. Fault tolerance refers to:
+157. Fault tolerance refers to:
     - A. the ability of an application to accommodate growth without changing design
     - B. how well and how quickly an application's environment can have lost data restored
     - C. how secure your application is
@@ -2256,7 +1827,7 @@
 
     </details>
 
-188. What is the recommended method to request penetration testing on AWS resources?
+158. What is the recommended method to request penetration testing on AWS resources?
     - A. Open a support case
     - B. Fill out the Penetration Testing Request Form
     - C. Request a penetration test from your technical account manager
@@ -2268,7 +1839,7 @@
 
     </details>
 
-189. Which AWS cloud architecture principle states that systems should reduce interdependencies?
+159. Which AWS cloud architecture principle states that systems should reduce interdependencies?
     - A. Scalability
     - B. Services, not servers
     - C. Removing single points of failure
@@ -2280,7 +1851,7 @@
 
     </details>
 
-190. What AWS benefit refers to a customer's ability to deploy applications that scale up and down the meet variable demand?
+160. What AWS benefit refers to a customer's ability to deploy applications that scale up and down the meet variable demand?
     - A. Elasticity
     - B. Agility
     - C. Security
@@ -2292,7 +1863,7 @@
 
     </details>
 
-191. What is a characteristic of Convertible Reserved Instances (RIs)?
+161. What is a characteristic of Convertible Reserved Instances (RIs)?
     - A. Users can exchange Convertible RIs for other Convertible RIs from a different instance family with an equal or higher value than the Convertible Reserved Instances that you are exchanging.
     - B. Users can exchange Convertible RIs for other Convertible RIs in different AWS Regions.
     - C. Users can sell and buy Convertible RIs on the AWS Marketplace.
@@ -2306,19 +1877,7 @@
 
     </details>
 
-192. The user is fully responsible for which action when running workloads on AWS?
-    - A. Patching the infrastructure components
-    - B. Implementing controls to route application traffic
-    - C. Maintaining physical and environmental controls
-    - D. Maintaining the underlying infrastructure components
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: B
-
-    </details>
-
-193. A user has underutilized on-premises resources. <br/> Which AWS Cloud concept can BEST address this issue?
+162. A user has underutilized on-premises resources. <br/> Which AWS Cloud concept can BEST address this issue?
     - A. High availability
     - B. Elasticity
     - C. Security
@@ -2332,7 +1891,7 @@
 
     </details>
 
-194. A user is planning to migrate an application workload to the AWS Cloud. <br/> Which control becomes the responsibility of AWS once the migration is complete?
+163. A user is planning to migrate an application workload to the AWS Cloud. <br/> Which control becomes the responsibility of AWS once the migration is complete?
     - A. Patching the guest operating system
     - B. Maintaining physical and environmental controls
     - C. Protecting communications and maintaining zone security
@@ -2344,7 +1903,7 @@
 
     </details>
 
-195. Which of the following tasks is required to deploy a PCI-compliant workload on AWS?
+164. Which of the following tasks is required to deploy a PCI-compliant workload on AWS?
     - A. Use any AWS service and implement PCI controls at the application layer
     - B. Use an AWS service that is in-scope for PCI compliance and raise an AWS support ticket to enable PCI compliance at the application layer
     - C. Use any AWS service and raise an AWS support ticket to enable PCI compliance on that service
@@ -2358,7 +1917,7 @@
 
     </details>
 
-196. Which cloud computing benefit does AWS demonstrate with its ability to offer lower variable costs as a result of high purchase volumes?
+165. Which cloud computing benefit does AWS demonstrate with its ability to offer lower variable costs as a result of high purchase volumes?
     - A. Pay-as-you-go pricing
     - B. High availability
     - C. Global reach

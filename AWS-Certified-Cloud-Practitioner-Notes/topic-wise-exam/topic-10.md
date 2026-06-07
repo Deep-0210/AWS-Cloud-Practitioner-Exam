@@ -41,20 +41,7 @@
       Correct answer: D, E
     </details>
 
-5. Which of the following are features of Amazon CloudWatch Logs? (Select TWO.)
-    - A. Summaries by Amazon Simple Notification Service (Amazon SNS)
-    - B. Free Amazon Elasticsearch Service analytics
-    - C. Provided at no charge
-    - D. Real-time monitoring
-    - E. Adjustable retention
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: DE
-
-    </details>
-
-6. A company is building an application that requires the ability to send, store, and receive messages between application components. The company has another requirement to process messages in first-in, first-out (FIFO) order. <br/> Which AWS service should the company use?
+5. A company is building an application that requires the ability to send, store, and receive messages between application components. The company has another requirement to process messages in first-in, first-out (FIFO) order. <br/> Which AWS service should the company use?
     - A. AWS Step Functions
     - B. Amazon Simple Notification Service (Amazon SNS)
     - C. Amazon Kinesis Data Streams
@@ -68,7 +55,7 @@
 
     </details>
 
-7. Which AWS service or feature is used to send both text and email messages from distributed applications?
+6. Which AWS service or feature is used to send both text and email messages from distributed applications?
     - A. Amazon Simple Notification Service (Amazon SNS)
     - B. Amazon Simple Email Service (Amazon SES)
     - C. Amazon CloudWatch alerts

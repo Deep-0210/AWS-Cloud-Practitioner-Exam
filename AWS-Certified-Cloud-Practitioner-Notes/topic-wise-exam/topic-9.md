@@ -401,76 +401,7 @@
       Correct answer: D
     </details>
 
-40. Which AWS services provide a way to extend an on-premises architecture to the AWS Cloud? (Select TWO)
-    - A. Amazon EBS.
-    - B. AWS Direct Connect.
-    - C. Amazon CloudFront.
-    - D. AWS Storage Gateway.
-    - E. Amazon Connect.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: B, D
-    </details>
-
-41. Which of the following is an AWS managed Domain Name System (DNS) web service?
-    - A. Amazon Route 53
-    - B. Amazon Neptune
-    - C. Amazon SageMaker
-    - D. Amazon Lightsail
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: A
-
-    Explanation: <https://aws.amazon.com/getting-started/tutorials/get-a-domain/>
-
-    </details>
-
-42. Which of the following features can be configured through the Amazon Virtual Private Cloud (Amazon VPC) Dashboard? (Select TWO.)
-    - A. Amazon CloudFront distributions
-    - B. Amazon Route 53
-    - C. Security Groups
-    - D. Subnets
-    - E. Elastic Load Balancing
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: CD
-
-    Explanation:
-    - Amazon Virtual Private Cloud (Amazon VPC) lets you provision a logically isolated section of the AWS Cloud where you can launch AWS resources in a virtual network that you define.
-    - You have complete control over your virtual networking environment, including selection of your own IP address range, creation of subnets, and configuration of route tables and network gateways.
-    - You can use both IPv4 and IPv6 in your VPC for secure and easy access to resources and applications.
-    - You can easily customize the network configuration for your Amazon VPC.
-    - For example, you can create a public-facing subnet for your web servers that has access to the Internet, and place your backend systems such as databases or application servers in a private-facing subnet with no Internet access.
-    - You can leverage multiple layers of security, including security groups and network access control lists, to help control access to Amazon EC2 instances in each subnet.
-
-    Reference: <https://aws.amazon.com/vpc/>
-
-    </details>
-
-43. Which AWS feature should a customer leverage to achieve high availability of an application?
-    - A. AWS Direct Connect
-    - B. Availability Zones
-    - C. Data centers
-    - D. Amazon Virtual Private Cloud (Amazon VPC)
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: B
-
-    Explanation:
-    - This is to achieve High Availability for any web application (in this case SwiftCode) deployed in AWS.
-    - The following features will be present:
-    - High availability across multiple instances/multiple availability zones.
-    - Auto Scaling of instances (scale up and scale down) based on number of requests coming in
-    - Additional Security to the instances/database that are in production
-    - No impact to end users during newer version of code deployment
-    - No Impact during patching the instances
-
-    </details>
-
-44. What can AWS edge locations be used for? (Select TWO.)
+40. What can AWS edge locations be used for? (Select TWO.)
     - A. Hosting applications
     - B. Delivering content closer to users
     - C. Running NoSQL database caching services
@@ -489,65 +420,7 @@
 
     </details>
 
-45. What can AWS edge locations be used for? (Select TWO.)
-    - A. Hosting applications
-    - B. Delivering content closer to users
-    - C. Running NoSQL database caching services
-    - D. Reducing traffic on the server by caching responses
-    - E. Sending notification messages to end users
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: BD
-
-    Explanation:
-
-    - CloudFront delivers your content through a worldwide network of data centers called edge locations.
-    - When a user requests content that you're serving with CloudFront, the user is routed to the edge location that provides the lowest latency (time delay), so that content is delivered with the best possible performance.
-
-    Reference: <https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html>
-
-    </details>
-
-46. Which AWS services are defined as global instead of regional? (Select TWO.)
-    - A. Amazon Route 53
-    - B. Amazon EC2
-    - C. Amazon S3
-    - D. Amazon CloudFront
-    - E. Amazon DynamoDB
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: AD
-
-    Explanation: <http://jayendrapatil.com/aws-global-vs-regional-vs-az-resources/>
-
-    </details>
-
-47. Which AWS service allows companies to connect an Amazon VPC to an on-premises data center? (Select TWO)
-    - A. AWS VPN
-    - B. Amazon Redshift
-    - C. API Gateway
-    - D. Amazon Direct Connect
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: A, D
-
-    Explanation:
-
-    - AWS Direct Connect enables you to securely connect your AWS environment to your on-premises data center or office location over a standard 1 gigabit or 10 gigabit Ethernet fiber-optic connection.
-    - AWS Direct Connect offers dedicated high speed, low latency connection, which bypasses internet service providers in your
-    network path.
-    - An AWS Direct Connect location provides access to Amazon Web Services in the region it is associated with, as well as access to other US regions.
-    - AWS Direct Connect allows you to logically partition the fiber-optic connections into multiple logical connections called Virtual Local Area Networks (VLAN).
-    - You can take advantage of these logical connections to improve security, differentiate traffic, and achieve compliance requirements.
-
-    Reference: <https://aws.amazon.com/getting-started/projects/connect-data-center-to-aws/>
-
-    </details>
-
-48. Under the shared responsibility model, which of the following tasks are the responsibility of the customer? (Choose two.)
+41. Under the shared responsibility model, which of the following tasks are the responsibility of the customer? (Choose two.)
     - A. Maintaining the underlying Amazon EC2 hardware.
     - B. Managing the VPC network access control lists.
     - C. Encrypting data in transit and at rest.
@@ -568,7 +441,7 @@
 
     </details>
 
-49. A company is designing an application hosted in a single AWS Region serving end-users spread across the world. The company wants to provide the end-users low latency access to the application data. <br/> Which of the following services will help fulfill this requirement?
+42. A company is designing an application hosted in a single AWS Region serving end-users spread across the world. The company wants to provide the end-users low latency access to the application data. <br/> Which of the following services will help fulfill this requirement?
     - A. Amazon CloudFront
     - B. AWS Direct Connect
     - C. Amazon Route 53 global DNS
@@ -583,7 +456,7 @@
 
     </details>
 
-50. A director has been tasked with investigating hybrid cloud architecture. The company currently accesses AWS over the public internet.<br/>Which service will facilitate private hybrid connectivity?
+43. A director has been tasked with investigating hybrid cloud architecture. The company currently accesses AWS over the public internet.<br/>Which service will facilitate private hybrid connectivity?
     - A. Amazon Virtual Private Cloud (Amazon VPC) NAT Gateway
     - B. AWS Direct Connect
     - C. Amazon Simple Storage Service (Amazon S3) Transfer Acceleration
@@ -602,7 +475,7 @@
 
     </details>
 
-51. Which Amazon Virtual Private Cloud (Amazon VPC) feature enables users to connect two VPCs together?
+44. Which Amazon Virtual Private Cloud (Amazon VPC) feature enables users to connect two VPCs together?
     - A. Amazon VPC endpoints
     - B. Amazon Elastic Compute Cloud (Amazon EC2) ClassicLink
     - C. Amazon VPC peering
@@ -622,7 +495,7 @@
 
     </details>
 
-52. Which solution provides the FASTEST application response times to frequently accessed data to users in multiple AWS Regions?
+45. Which solution provides the FASTEST application response times to frequently accessed data to users in multiple AWS Regions?
     - A. AWS CloudTrail across multiple Availability Zones
     - B. Amazon CloudFront to edge locations
     - C. AWS CloudFormation in multiple regions
@@ -643,7 +516,7 @@
 
     </details>
 
-53. According to the AWS shared responsibility model, what is AWS responsible for?
+46. According to the AWS shared responsibility model, what is AWS responsible for?
     - A. Configuring Amazon VPC
     - B. Managing application code
     - C. Maintaining application traffic
@@ -657,7 +530,7 @@
 
     </details>
 
-54. Which AWS service would a customer use with a static website to achieve lower latency and high transfer speeds?
+47. Which AWS service would a customer use with a static website to achieve lower latency and high transfer speeds?
     - A. AWS Lambda
     - B. Amazon DynamoDB Accelerator
     - C. Amazon Route 53
@@ -675,7 +548,7 @@
 
     </details>
 
-55. Which AWS services provide a way to extend an on-premises architecture to the AWS Cloud? (Choose two.)
+48. Which AWS services provide a way to extend an on-premises architecture to the AWS Cloud? (Choose two.)
     - A. Amazon EBS
     - B. AWS Direct Connect
     - C. Amazon CloudFront
@@ -690,7 +563,7 @@
 
     </details>
 
-56. Which of the following allows users to provision a dedicated network connection from their internal network to AWS?
+49. Which of the following allows users to provision a dedicated network connection from their internal network to AWS?
     - A. AWS CloudHSM
     - B. AWS Direct Connect
     - C. AWS VPN
@@ -710,7 +583,7 @@
 
     </details>
 
-57. Which service would provide network connectivity in a hybrid architecture that includes the AWS Cloud?
+50. Which service would provide network connectivity in a hybrid architecture that includes the AWS Cloud?
     - A. Amazon VPC
     - B. AWS Direct Connect
     - C. AWS Directory Service
@@ -729,7 +602,7 @@
 
     </details>
 
-58. Which AWS service is a content delivery network that securely delivers data, video, and applications to users globally with low latency and high speeds?
+51. Which AWS service is a content delivery network that securely delivers data, video, and applications to users globally with low latency and high speeds?
     - A. AWS CloudFormation
     - B. AWS Direct Connect
     - C. Amazon CloudFront
@@ -747,7 +620,7 @@
 
     </details>
 
-59. What are the benefits of using the AWS Cloud for companies with customers in many countries around the world? (Choose two.)
+52. What are the benefits of using the AWS Cloud for companies with customers in many countries around the world? (Choose two.)
     - A. Companies can deploy applications in multiple AWS Regions to reduce latency.
     - B. Amazon Translate automatically translates third-party website interfaces into multiple languages.
     - C. Amazon CloudFront has multiple edge locations around the world to reduce latency.
@@ -763,7 +636,7 @@
 
     </details>
 
-60. Which AWS service provides inbound and outbound network ACLs to harden external connectivity to Amazon EC2?
+53. Which AWS service provides inbound and outbound network ACLs to harden external connectivity to Amazon EC2?
     - A. AWS IAM
     - B. Amazon Connect
     - C. Amazon VPC
@@ -777,7 +650,7 @@
 
     </details>
 
-61. A company wants to migrate its applications to a VPC on AWS. These applications will need to access on-premises resources. <br/> What combination of actions will enable the company to accomplish this goal? (Choose two.)
+54. A company wants to migrate its applications to a VPC on AWS. These applications will need to access on-premises resources. <br/> What combination of actions will enable the company to accomplish this goal? (Choose two.)
     - A. Use the AWS Service Catalog to identify a list of on-premises resources that can be migrated.
     - B. Build a VPN connection between an on-premises device and a virtual private gateway in the new VPC.
     - C. Use Amazon Athena to query data from the on-premises database servers.
@@ -792,7 +665,7 @@
 
     </details>
 
-62. A company requires a dedicated network connection between its on-premises servers and the AWS Cloud. <br/> Which AWS service should be used?
+55. A company requires a dedicated network connection between its on-premises servers and the AWS Cloud. <br/> Which AWS service should be used?
     - A. AWS VPN
     - B. AWS Direct Connect
     - C. Amazon API Gateway
@@ -810,7 +683,7 @@
 
     </details>
 
-63. What should users do if they want to install an application in geographically isolated locations?
+56. What should users do if they want to install an application in geographically isolated locations?
     - A. Install the application using multiple internet gateways.
     - B. Deploy the application to an Amazon VPC.
     - C. Deploy the application to multiple AWS Regions.
@@ -824,7 +697,7 @@
 
     </details>
 
-64. A Cloud Practitioner needs a consistent and dedicated connection between AWS resources and an on-premises system. <br/> Which AWS service can fulfill this requirement?
+57. A Cloud Practitioner needs a consistent and dedicated connection between AWS resources and an on-premises system. <br/> Which AWS service can fulfill this requirement?
     - A. AWS Direct Connect
     - B. AWS VPN
     - C. Amazon Connect
@@ -842,7 +715,7 @@
 
     </details>
 
-65. Which AWS networking service enables a company to create a virtual network within AWS?
+58. Which AWS networking service enables a company to create a virtual network within AWS?
     - A. AWS Config
     - B. Amazon Route 53
     - C. AWS Direct Connect
@@ -856,7 +729,7 @@
 
     </details>
 
-66. Which component of AWS global infrastructure does Amazon CloudFront use to ensure low-latency delivery?
+59. Which component of AWS global infrastructure does Amazon CloudFront use to ensure low-latency delivery?
     - A. AWS Regions
     - B. AWS edge locations
     - C. AWS Availability Zones
@@ -870,7 +743,7 @@
 
     </details>
 
-67. A company is planning to launch an ecommerce site in a single AWS Region to a worldwide user base. <br/> Which AWS services will allow the company to reach users and provide low latency and high transfer speeds? (Choose two.)
+60. A company is planning to launch an ecommerce site in a single AWS Region to a worldwide user base. <br/> Which AWS services will allow the company to reach users and provide low latency and high transfer speeds? (Choose two.)
     - A. Application Load Balancer
     - B. AWS Global Accelerator
     - C. AWS Direct Connect
@@ -885,7 +758,7 @@
 
     </details>
 
-68. Which of the following are components of Amazon VPC? (Choose two.)
+61. Which of the following are components of Amazon VPC? (Choose two.)
     - A. Objects
     - B. Subnets
     - C. Buckets
@@ -900,7 +773,7 @@
 
     </details>
 
-69. Which AWS services provide a user with connectivity between the AWS Cloud and on-premises resources? (Choose two.)
+62. Which AWS services provide a user with connectivity between the AWS Cloud and on-premises resources? (Choose two.)
     - A. AWS VPN
     - B. Amazon Connect
     - C. Amazon Cognito
@@ -917,22 +790,7 @@
 
     </details>
 
-70. Which element of the AWS global infrastructure consists of one or more discrete data centers, each with redundant power, networking, and connectivity, which are housed in separate facilities?
-    - A. AWS Regions
-    - B. Availability Zones
-    - C. Edge locations
-    - D. Amazon CloudFront
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: B
-
-    Explanation:
-    <https://docs.aws.amazon.com/whitepapers/latest/aws-overview/global-infrastructure.html>
-
-    </details>
-
-71. Which Amazon VPC feature enables users to capture information about the IP traffic that reaches Amazon EC2 instances?
+63. Which Amazon VPC feature enables users to capture information about the IP traffic that reaches Amazon EC2 instances?
     - A. Security groups
     - B. Elastic network interfaces
     - C. Network ACLs
@@ -950,7 +808,7 @@
 
     </details>
 
-72. Amazon Route 53 enables users to:
+64. Amazon Route 53 enables users to:
     - A. encrypt data in transit
     - B. register DNS domain names
     - C. generate and manage SSL certificates
@@ -964,7 +822,7 @@
 
     </details>
 
-73. Users are reporting latency when connecting to a website with a global customer base. <br/> Which AWS service will improve the customer experience by reducing latency?
+65. Users are reporting latency when connecting to a website with a global customer base. <br/> Which AWS service will improve the customer experience by reducing latency?
     - A. Amazon CloudFront
     - B. AWS Direct Connect
     - C. Amazon EC2 Auto Scaling
@@ -978,7 +836,7 @@
 
     </details>
 
-74. Which AWS feature or service can be used to capture information about incoming and outgoing traffic in an AWS VPC infrastructure?
+66. Which AWS feature or service can be used to capture information about incoming and outgoing traffic in an AWS VPC infrastructure?
     - A. AWS Config
     - B. VPC Flow Logs
     - C. AWS Trusted Advisor
@@ -993,7 +851,7 @@
 
     </details>
 
-75. A company wants to use an AWS service to monitor the health of application endpoints, with the ability to route traffic to healthy regional endpoints to improve application availability. <br/> Which service will support these requirements?
+67. A company wants to use an AWS service to monitor the health of application endpoints, with the ability to route traffic to healthy regional endpoints to improve application availability. <br/> Which service will support these requirements?
     - A. Amazon Inspector
     - B. Amazon CloudWatch
     - C. AWS Global Accelerator
@@ -1011,7 +869,7 @@
 
     </details>
 
-76. Which AWS service enables users to securely connect to AWS resources over the public internet?
+68. Which AWS service enables users to securely connect to AWS resources over the public internet?
     - A. Amazon VPC peering
     - B. AWS Direct Connect
     - C. AWS VPN
@@ -1025,7 +883,7 @@
 
     </details>
 
-77. A company is running an ecommerce application hosted in Europe. To decrease latency for users who access the website from other parts of the world, the company would like to cache frequently accessed static content closer to the users. <br/> Which AWS service will support these requirements?
+69. A company is running an ecommerce application hosted in Europe. To decrease latency for users who access the website from other parts of the world, the company would like to cache frequently accessed static content closer to the users. <br/> Which AWS service will support these requirements?
     - A. Amazon ElastiCache
     - B. Amazon CloudFront
     - C. Amazon Elastic File System (Amazon EFS)
@@ -1045,7 +903,7 @@
 
     </details>
 
-78. Which AWS service or feature can enhance network security by blocking requests from a particular network for a web application on AWS? (Choose two.)
+70. Which AWS service or feature can enhance network security by blocking requests from a particular network for a web application on AWS? (Choose two.)
     - A. AWS WAF
     - B. AWS Trusted Advisor
     - C. AWS Direct Connect
@@ -1062,7 +920,7 @@
 
     </details>
 
-79. Which of the following are benefits of AWS Global Accelerator? (Choose two.)
+71. Which of the following are benefits of AWS Global Accelerator? (Choose two.)
     - A. Reduced cost to run services on AWS
     - B. Improved availability of applications deployed on AWS
     - C. Higher durability of data stored on AWS
@@ -1077,7 +935,7 @@
 
     </details>
 
-80. Which AWS services can be used to provide network connectivity between an on-premises network and a VPC? (Choose two.)
+72. Which AWS services can be used to provide network connectivity between an on-premises network and a VPC? (Choose two.)
     - A. Amazon Route 53
     - B. AWS Direct Connect
     - C. AWS Data Pipeline
@@ -1092,7 +950,7 @@
 
     </details>
 
-81. A company has an application with users in both Australia and Brazil. All the company infrastructure is currently provisioned in the Asia Pacific (Sydney) Region in Australia, and Brazilian users are experiencing high latency. <br/> What should the company do to reduce latency?
+73. A company has an application with users in both Australia and Brazil. All the company infrastructure is currently provisioned in the Asia Pacific (Sydney) Region in Australia, and Brazilian users are experiencing high latency. <br/> What should the company do to reduce latency?
     - A. Implement AWS Direct Connect for users in Brazil
     - B. Provision resources in the South America (São Paulo) Region in Brazil.
     - C. Use AWS Transit Gateway to quickly route users from Brazil to the application
@@ -1106,7 +964,7 @@
 
     </details>
 
-82. Which AWS hybrid storage service enables a user's on-premises applications to seamlessly use AWS Cloud storage?
+74. Which AWS hybrid storage service enables a user's on-premises applications to seamlessly use AWS Cloud storage?
     - A. AWS Backup
     - B. Amazon Connect
     - C. AWS Direct Connect
@@ -1120,7 +978,7 @@
 
     </details>
 
-83. What is the most efficient way to establish network connectivity from on-premises to multiple VPCs in different AWS Regions?
+75. What is the most efficient way to establish network connectivity from on-premises to multiple VPCs in different AWS Regions?
     - A. Use AWS Direct Connect
     - B. Use AWS VPN
     - C. Use AWS Client VPN
@@ -1134,7 +992,7 @@
 
     </details>
 
-84. Which AWS service or feature allows a user to easily scale connectivity among thousands of VPCs?
+76. Which AWS service or feature allows a user to easily scale connectivity among thousands of VPCs?
     - A. VPC peering
     - B. AWS Transit Gateway
     - C. AWS Direct Connect
@@ -1148,7 +1006,7 @@
 
     </details>
 
-85. What is the purpose of having an internet gateway within a VPC?
+77. What is the purpose of having an internet gateway within a VPC?
     - A. To create a VPN connection to the VPC
     - B. To allow communication between the VPC and the Internet
     - C. To impose bandwidth constraints on internet traffic
@@ -1160,7 +1018,7 @@
 
     </details>
 
-86. A company must ensure that its endpoint for a database instance remains the same after a single Availability Zone service interruption. The application needs to resume database operations without the need for manual administrative intervention. <br/> How can these requirements be met?
+78. A company must ensure that its endpoint for a database instance remains the same after a single Availability Zone service interruption. The application needs to resume database operations without the need for manual administrative intervention. <br/> How can these requirements be met?
     - A. Use multiple Amazon Route 53 routes to the standby database instance endpoint hosted on AWS Storage Gateway.
     - B. Configure Amazon RDS Multi-Availability Zone deployments with automatic failover to the standby.
     - C. Add multiple Application Load Balancers and deploy the database instance with AWS Elastic Beanstalk.
@@ -1172,7 +1030,7 @@
 
     </details>
 
-87. Which AWS service or feature allows the user to manage cross-region application traffic?
+79. Which AWS service or feature allows the user to manage cross-region application traffic?
     - A. Amazon AppStream 2.0
     - B. Amazon VPC
     - C. Elastic Load Balancer
@@ -1184,7 +1042,7 @@
 
     </details>
 
-88. Which components are required to build a successful site-to-site VPN connection on AWS? (Choose two.)
+80. Which components are required to build a successful site-to-site VPN connection on AWS? (Choose two.)
     - A. Internet gateway
     - B. NAT gateway
     - C. Customer gateway
@@ -1197,7 +1055,7 @@
 
     </details>
 
-89. Which AWS managed services can be used to extend an on-premises data center to the AWS network? (Choose two.)
+81. Which AWS managed services can be used to extend an on-premises data center to the AWS network? (Choose two.)
     - A. AWS VPN
     - B. NAT gateway
     - C. AWS Direct Connect
@@ -1210,7 +1068,7 @@
 
     </details>
 
-90. Which AWS service can be used to provide an on-demand, cloud-based contact center?
+82. Which AWS service can be used to provide an on-demand, cloud-based contact center?
     - A. AWS Direct Connect
     - B. Amazon Connect
     - C. AWS Support Center
@@ -1224,7 +1082,7 @@
 
     </details>
 
-91. Which component must be attached to a VPC to enable inbound Internet access?
+83. Which component must be attached to a VPC to enable inbound Internet access?
     - A. NAT gateway
     - B. VPC endpoint
     - C. VPN connection
@@ -1238,7 +1096,7 @@
 
     </details>
 
-92. Which AWS service or feature requires an internet service provider (ISP) and a colocation facility to be implemented?
+84. Which AWS service or feature requires an internet service provider (ISP) and a colocation facility to be implemented?
     - A. AWS VPN
     - B. Amazon Connect
     - C. AWS Direct Connect
@@ -1252,7 +1110,7 @@
 
     </details>
 
-93. A company wants to ensure its infrastructure is designed for fault tolerance and business continuity in the event of an environmental disruption. <br/> Which AWS infrastructure component should the company replicate across?
+85. A company wants to ensure its infrastructure is designed for fault tolerance and business continuity in the event of an environmental disruption. <br/> Which AWS infrastructure component should the company replicate across?
     - A. Edge locations
     - B. Availability Zones
     - C. Regions
@@ -1266,22 +1124,7 @@
 
     </details>
 
-94. A company is planning to launch an ecommerce site in a single AWS Region to a worldwide user base. <br/> Which AWS services will allow the company to reach users and provide low latency and high transfer speeds? (Choose two.)
-    - A. Application Load Balancer
-    - B. AWS Global Accelerator
-    - C. AWS Direct Connect
-    - D. Amazon CloudFront
-    - E. AWS Lambda
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: BD
-
-    Explanation: <https://aws.amazon.com/cloudfront/faqs/>
-
-    </details>
-
-95. A company wants to connect to AWS over a private, low-latency connection from its remote office. <br/> What is the recommended method to meet these requirements?
+86. A company wants to connect to AWS over a private, low-latency connection from its remote office. <br/> What is the recommended method to meet these requirements?
     - A. Create a VPN tunnel
     - B. Connect across the public internet
     - C. Use VPC peering to create a connection.
@@ -1295,7 +1138,7 @@
 
     </details>
 
-96. A pharmaceutical company operates its infrastructure in a single AWS Region. The company has thousands of VPCs in a various AWS accounts that it wants to interconnect. <br/> Which AWS service or feature should the company use to help simplify management and reduce operational costs?
+87. A pharmaceutical company operates its infrastructure in a single AWS Region. The company has thousands of VPCs in a various AWS accounts that it wants to interconnect. <br/> Which AWS service or feature should the company use to help simplify management and reduce operational costs?
     - A. VPC endpoint
     - B. AWS Direct Connect
     - C. AWS Transit Gateway

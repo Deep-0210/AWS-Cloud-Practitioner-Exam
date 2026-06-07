@@ -30,26 +30,7 @@
       Correct answer: B
     </details>
 
-4. What time-savings advantage is offered with the use of Amazon Rekognition?
-    - A. Amazon Rekognition provides automatic watermarking of images.
-    - B. Amazon Rekognition provides automatic detection of objects appearing in pictures.
-    - C. Amazon Rekognition provides the ability to resize millions of images automatically.
-    - D. Amazon Rekognition uses Amazon Mechanical Turk to allow humans to bid on object detection jobs.
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: B
-
-    Explanation:
-    - Rekognition Image is an image recognition service that detects objects, scenes, and faces; extracts text; recognizes celebrities; and identifies inappropriate content in images.
-    - It also allows you to search and compare faces.
-    - Rekognition Image is based on the same proven, highly scalable, deep learning technology developed by Amazon's computer vision scientists to analyze billions of images daily for Prime Photos.
-
-    Reference: <https://aws.amazon.com/rekognition/faqs/>
-
-    </details>
-
-5. Which AWS service can be used to turn text into life-like speech?
+4. Which AWS service can be used to turn text into life-like speech?
     - A. Amazon Polly
     - B. Amazon Transcribe
     - C. Amazon Rekognition

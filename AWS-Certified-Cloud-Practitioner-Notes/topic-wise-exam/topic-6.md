@@ -485,53 +485,7 @@
       Correct answer: B
     </details>
 
-48. Which AWS services can host a Microsoft SQL Server database? (Select TWO)
-    - A. Amazon EC2
-    - B. Amazon Relational Database Service (Amazon RDS)
-    - C. Amazon Aurora
-    - D. Amazon Redshift
-    - E. Amazon S3
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: AB
-
-    Explanation: <https://aws.amazon.com/sql/>
-
-    </details>
-
-49. Under the AWS shared responsibility model, which of the following activities are the customer's responsibility? (Select TWO.)
-    - A. Patching operating system components for Amazon Relational Database Server (Amazon RDS)
-    - B. Encrypting data on the client-side
-    - C. Training the data center staff
-    - D. Configuring Network Access Control Lists (ACL)
-    - E. Maintaining environmental controls within a data center
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: BD
-
-    Explanation: <https://aws.amazon.com/compliance/shared-responsibility-model/>
-
-    </details>
-
-50. What is one of the advantages of the Amazon Relational Database Service (Amazon RDS)?
-    - A. It simplifies relational database administration tasks.
-    - B. It provides 99.99999999999% reliability and durability.
-    - C. It automatically scales databases for loads.
-    - D. It enabled users to dynamically adjust CPU and RAM resources.
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: A
-
-    Explanation:
-    - In the main RDS page though, Lower administrative burden is listed as part of the benefits.
-    - <https://aws.amazon.com/rds/>
-
-    </details>
-
-51. A customer needs to run a MySQL database that easily scales.<br/>Which AWS service should they use?
+48. A customer needs to run a MySQL database that easily scales.<br/>Which AWS service should they use?
     - A. Amazon Aurora
     - B. Amazon Redshift
     - C. Amazon DynamoDB
@@ -545,33 +499,7 @@
 
     </details>
 
-52. Which of the following is a fast and reliable NoSQL database service?
-    - A. Amazon Redshift
-    - B. Amazon RDS
-    - C. Amazon DynamoDB
-    - D. Amazon S3
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: C
-
-    Explanation: <https://aws.amazon.com/dynamodb/>
-
-    </details>
-
-53. Which of the following AWS Cloud services can be used to run a customer-managed relational database?
-    - A. Amazon EC2
-    - B. Amazon Route 53
-    - C. Amazon ElastiCache
-    - D. Amazon DynamoDB
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: A
-
-    </details>
-
-54. A company is looking for a scalable data warehouse solution. <br/> Which of the following AWS solutions would meet the company's needs?
+49. A company is looking for a scalable data warehouse solution. <br/> Which of the following AWS solutions would meet the company's needs?
     - A. Amazon Simple Storage Service (Amazon S3)
     - B. Amazon DynamoDB
     - C. Amazon Kinesis
@@ -585,53 +513,7 @@
 
     </details>
 
-55. What is the benefit of using AWS managed services, such as Amazon ElastiCache and Amazon Relational Database Service (Amazon RDS)?
-    - A. They require the customer to monitor and replace failing instances.
-    - B. They have better performance than customer-managed services.
-    - C. They simplify patching and updating underlying OSs.
-    - D. They do not require the customer to optimize instance type or size selections.
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: C
-
-    Explanation:
-    - AWS Managed Services takes care of all of your patching and backup activities to help keep your resources current and secure. When updates or patches are released by OS vendors, AWS Managed Services applies them in a timely and consistent manner to minimize the impact on your business
-    - Critical security patches are applied immediately, while others are applied based on the patch schedule you request. Backups of Stacks are automated using Amazon Elastic Block Store (EBS) and RDS snapshots, and can be restored in the event of a failure or outage, ensuring business continuity
-
-    </details>
-
-56. Which AWS managed service is used to host databases?
-    - A. AWS Batch
-    - B. AWS Artifact
-    - C. AWS Data Pipeline
-    - D. Amazon RDS
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: D
-
-    Explanation:
-    - Amazon Relational Database Service (Amazon RDS) makes it easy to set up, operate, and scale a relational database in the cloud.
-    - It provides cost-efficient and resizable capacity while automating time-consuming administration tasks such as hardware provisioning, database setup, patching and backups.
-    - It frees you to focus on your applications so you can give them the fast performance, high availability, security and compatibility they need.
-
-    Reference: <https://aws.amazon.com/rds/?c=db&sec=srv>
-
-    </details>
-
-57. Amazon Relational Database Service (Amazon RDS) offers which of the following benefits over traditional database management?
-    - A. AWS manages the data stored in Amazon RDS tables.
-    - B. AWS manages the maintenance of the operating system.
-    - C. AWS automatically scales up instance types on demand.
-    - D. AWS manages the database type.
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: B
-
-    </details>
-
-58. Which service is best for storing common database query results, which helps to alleviate database access load?
+50. Which service is best for storing common database query results, which helps to alleviate database access load?
     - A. Amazon Machine Learning
     - B. Amazon SQS
     - C. Amazon ElastiCache
@@ -650,7 +532,7 @@
 
     </details>
 
-59. What feature of Amazon RDS helps to create globally redundant databases?
+51. What feature of Amazon RDS helps to create globally redundant databases?
     - A. Snapshots
     - B. Automatic patching and updating
     - C. Cross-Region read replicas
@@ -664,7 +546,7 @@
 
     </details>
 
-60. Which architectural principle is used when deploying an Amazon Relational Database Service (Amazon RDS) instance in Multiple Availability Zone mode?
+52. Which architectural principle is used when deploying an Amazon Relational Database Service (Amazon RDS) instance in Multiple Availability Zone mode?
     - A. Implement loose coupling.
     - B. Design for failure.
     - C. Automate everything that can be automated.
@@ -685,7 +567,7 @@
 
     </details>
 
-61. Which of the following services is a MySQL-compatible database that automatically grows storage as needed?
+53. Which of the following services is a MySQL-compatible database that automatically grows storage as needed?
     - A. Amazon Elastic Compute Cloud (Amazon EC2)
     - B. Amazon Relational Database Service (Amazon RDS) for MySQL
     - C. Amazon Lightsail
@@ -705,7 +587,7 @@
 
     </details>
 
-62. Which services use AWS edge locations? (Choose two.)
+54. Which services use AWS edge locations? (Choose two.)
     - A. Amazon CloudFront
     - B. AWS Shield
     - C. Amazon EC2
@@ -720,7 +602,7 @@
 
     </details>
 
-63. Which Amazon RDS feature can be used to achieve high availability?
+55. Which Amazon RDS feature can be used to achieve high availability?
     - A. Multiple Availability Zones
     - B. Amazon Reserved Instances
     - C. Provisioned IOPS storage
@@ -740,21 +622,7 @@
 
     </details>
 
-64. Which AWS service can be used to automatically scale an application up and down without making capacity planning decisions?
-    - A. Amazon AutoScaling
-    - B. Amazon Redshift
-    - C. AWS CloudTrail
-    - D. AWS Lambda
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: A
-
-    Explanation: <https://aws.amazon.com/blogs/aws/category/auto-scaling/>
-
-    </details>
-
-65. A company wants to migrate a MySQL database to AWS but does not have the budget for Database Administrators to handle routine tasks including provisioning, patching, and performing backups. <br/> Which AWS service will support this use case?
+56. A company wants to migrate a MySQL database to AWS but does not have the budget for Database Administrators to handle routine tasks including provisioning, patching, and performing backups. <br/> Which AWS service will support this use case?
     - A. Amazon RDS
     - B. Amazon DynamoDB
     - C. Amazon DocumentDB
@@ -773,7 +641,7 @@
 
     </details>
 
-66. A company wants to expand from one AWS Region into a second AWS Region. <br/> What does the company need to do to start supporting the new Region?
+57. A company wants to expand from one AWS Region into a second AWS Region. <br/> What does the company need to do to start supporting the new Region?
     - A. Contact an AWS Account Manager to sign a new contract
     - B. Move an Availability Zone to the new Region
     - C. Begin deploying resources in the second Region
@@ -788,21 +656,7 @@
 
     </details>
 
-67. Which AWS service is a managed NoSQL database?
-    - A. Amazon Redshift
-    - B. Amazon DynamoDB
-    - C. Amazon Aurora
-    - D. Amazon RDS for MariaDB
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: B
-
-    Explanation: <https://aws.amazon.com/dynamodb/>
-
-    </details>
-
-68. Who is responsible for patching the guest operating system for Amazon RDS?
+58. Who is responsible for patching the guest operating system for Amazon RDS?
     - A. The AWS Product team
     - B. The customer Database Administrator
     - C. Managed partners
@@ -816,7 +670,7 @@
 
     </details>
 
-69. Which AWS services may be scaled using AWS Auto Scaling? (Choose two.)
+59. Which AWS services may be scaled using AWS Auto Scaling? (Choose two.)
     - A. Amazon EC2
     - B. Amazon DynamoDB
     - C. Amazon S3
@@ -831,7 +685,7 @@
 
     </details>
 
-70. Under the AWS shared responsibility model, which of the following is a customer responsibility?
+60. Under the AWS shared responsibility model, which of the following is a customer responsibility?
     - A. Installing security patches for the Xen and KVM hypervisors
     - B. Installing operating system patches for Amazon DynamoDB
     - C. Installing operating system security patches for Amazon EC2 database instances
@@ -845,7 +699,7 @@
 
     </details>
 
-71. A user needs to quickly deploy a non-relational database on AWS. The user does not want to manage the underlying hardware or the database software. <br/> Which AWS service can be used to accomplish this?
+61. A user needs to quickly deploy a non-relational database on AWS. The user does not want to manage the underlying hardware or the database software. <br/> Which AWS service can be used to accomplish this?
     - A. Amazon RDS
     - B. Amazon DynamoDB
     - C. Amazon Aurora
@@ -859,7 +713,7 @@
 
     </details>
 
-72. A company has deployed several relational databases on Amazon EC2 instances. Every month, the database software vendor releases new security patches that need to be applied to the databases. <br/> What is the MOST efficient way to apply the security patches?
+62. A company has deployed several relational databases on Amazon EC2 instances. Every month, the database software vendor releases new security patches that need to be applied to the databases. <br/> What is the MOST efficient way to apply the security patches?
     - A. Connect to each database instance on a monthly basis, and download and apply the necessary security patches from the vendor.
     - B. Enable automatic patching for the instances using the Amazon RDS console.
     - C. In AWS Config, configure a rule for the instances and the required patch level.
@@ -873,7 +727,7 @@
 
     </details>
 
-73. A company with a Developer-level AWS Support plan provisioned an Amazon RDS database and cannot connect to it. <br/> Who should the developer contact for this level of support?
+63. A company with a Developer-level AWS Support plan provisioned an Amazon RDS database and cannot connect to it. <br/> Who should the developer contact for this level of support?
     - A. AWS Support using a support case
     - B. AWS Professional Services
     - C. AWS technical account manager
@@ -885,7 +739,7 @@
 
     </details>
 
-74. Which of the following AWS services are serverless? (Choose two.)
+64. Which of the following AWS services are serverless? (Choose two.)
     - A. AWS Lambda
     - B. Amazon Elasticsearch Service
     - C. AWS Elastic Beanstalk
@@ -898,7 +752,7 @@
 
     </details>
 
-75. Which AWS service can run a managed PostgreSQL database that provides online transaction processing (OLTP)?
+65. Which AWS service can run a managed PostgreSQL database that provides online transaction processing (OLTP)?
     - A. Amazon DynamoDB
     - B. Amazon Athena
     - C. Amazon RDS
@@ -912,7 +766,7 @@
 
     </details>
 
-76. A company has multiple data sources across the organization and wants to consolidate data into one data warehouse. <br/> Which AWS service can be used to meet this requirement?
+66. A company has multiple data sources across the organization and wants to consolidate data into one data warehouse. <br/> Which AWS service can be used to meet this requirement?
     - A. Amazon DynamoDB
     - B. Amazon Redshift
     - C. Amazon Athena
@@ -926,7 +780,7 @@
 
     </details>
 
-77. Which service provides a user the ability to warehouse data in the AWS Cloud?
+67. Which service provides a user the ability to warehouse data in the AWS Cloud?
     - A. Amazon EFS
     - B. Amazon Redshift
     - C. Amazon RDS
@@ -940,7 +794,7 @@
 
     </details>
 
-78. Which of the following is the customer's responsibility when using Amazon RDS?
+68. Which of the following is the customer's responsibility when using Amazon RDS?
     - A. Patching the operating system of underlying hardware
     - B. Controlling traffic to and from the database through security groups
     - C. Running backups that enable point-in-time recovery of a DB instance
@@ -954,7 +808,7 @@
 
     </details>
 
-79. Which AWS service provides the ability to host a NoSQL database in the AWS Cloud?
+69. Which AWS service provides the ability to host a NoSQL database in the AWS Cloud?
     - A. Amazon Aurora
     - B. Amazon DynamoDB
     - C. Amazon RDS
