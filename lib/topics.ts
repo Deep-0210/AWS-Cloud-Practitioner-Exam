@@ -30,12 +30,12 @@ function parseTopicMarkdown(content: string, topicId: number): Exam {
       options.push({ label: optMatch[1], text: optMatch[2].trim() });
     }
 
-    const answerMatch = block.match(/Correct [Aa]nswer:\s*([A-Ea-e][,\s&andA-Ea-e]*)/i);
+    const answerMatch = block.match(/Correct [Aa]nswer:\s*([^\n<]+)/i);
     let correctAnswers: string[] = [];
     if (answerMatch) {
-      const raw = answerMatch[1].replace(/and/g, ",");
+      const raw = answerMatch[1].replace(/and/gi, ",").trim();
       const split = raw.split(/[,\s]+/).map((a) => a.trim().toUpperCase()).filter((a) => /^[A-E]$/.test(a));
-      if (split.length > 0) {
+      if (split.length > 1 || raw.includes(',') || raw.includes(' ')) {
         correctAnswers = split;
       } else {
         correctAnswers = raw.replace(/[^A-Ea-e]/g, "").toUpperCase().split("").filter((a) => /^[A-E]$/.test(a));
