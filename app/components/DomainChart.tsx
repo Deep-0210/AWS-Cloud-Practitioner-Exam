@@ -25,7 +25,7 @@ export default function DomainChart({ results }: { results: ExamResult[] }) {
     domain,
     correct,
     total,
-    pct: Math.round((correct / total) * 100),
+    pct: parseFloat(((correct / total) * 100).toFixed(2)),
   }));
 
   if (domains.length === 0) return null;

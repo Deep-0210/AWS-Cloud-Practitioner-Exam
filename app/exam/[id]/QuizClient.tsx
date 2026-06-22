@@ -83,31 +83,34 @@ export default function QuizClient({ exam }: { exam: Exam }) {
     for (const q of shuffledQuestions) {
       if (!map[q.domain]) map[q.domain] = { correct: 0, total: 0 };
       map[q.domain].total++;
-      const userAns = (answers[q.id] || []).sort().join(",");
-      if (userAns === [...q.correctAnswers].sort().join(",")) map[q.domain].correct++;
+      const isCorrect = isPractice
+        ? revealed.has(q.id) && (answers[q.id] || []).sort().join(",") === [...q.correctAnswers].sort().join(",")
+        : (answers[q.id] || []).sort().join(",") === [...q.correctAnswers].sort().join(",");
+      if (isCorrect) map[q.domain].correct++;
     }
     return Object.entries(map).map(([domain, { correct, total }]) => ({
       domain,
       correct,
       total,
-      percentage: Math.round((correct / total) * 100),
+      percentage: parseFloat(((correct / total) * 100).toFixed(2)),
     }));
-  }, [shuffledQuestions, answers]);
+  }, [shuffledQuestions, answers, isPractice, revealed]);
 
   const submit = useCallback(() => {
     if (submitted) return;
-    let score = 0;
-    for (const q of shuffledQuestions) {
-      const userAns = (answers[q.id] || []).sort().join(",");
-      if (userAns === [...q.correctAnswers].sort().join(",")) score++;
-    }
+    const finalScore = isPractice
+      ? shuffledQuestions.filter((q) => revealed.has(q.id) && (answers[q.id] || []).sort().join(",") === [...q.correctAnswers].sort().join(",")).length
+      : shuffledQuestions.filter((q) => {
+          const userAns = (answers[q.id] || []).sort().join(",");
+          return userAns === [...q.correctAnswers].sort().join(",");
+        }).length;
     const domainScores = computeDomainScores();
     const result: ExamResult = {
       examId: exam.id,
       examTitle: exam.title,
-      score,
+      score: finalScore,
       total: shuffledQuestions.length,
-      percentage: Math.round((score / shuffledQuestions.length) * 100),
+      percentage: parseFloat(((finalScore / shuffledQuestions.length) * 100).toFixed(2)),
       date: new Date().toISOString(),
       answers,
       domainScores,
@@ -116,7 +119,7 @@ export default function QuizClient({ exam }: { exam: Exam }) {
     existing.push(result);
     localStorage.setItem("examResults", JSON.stringify(existing));
     setSubmitted(true);
-  }, [submitted, answers, exam, shuffledQuestions, computeDomainScores]);
+  }, [submitted, answers, exam, shuffledQuestions, computeDomainScores, isPractice, revealed]);
 
   // Timer
   useEffect(() => {
@@ -124,7 +127,7 @@ export default function QuizClient({ exam }: { exam: Exam }) {
     if (timeLeft <= 0) { submit(); return; }
     const t = setTimeout(() => setTimeLeft((p) => p - 1), 1000);
     return () => clearTimeout(t);
-  }, [timeLeft, started, submitted, paused, submit]);
+  }, [timeLeft, started, submitted, paused, submit, isPractice]);
 
   // Keyboard navigation
   useEffect(() => {
@@ -160,6 +163,9 @@ export default function QuizClient({ exam }: { exam: Exam }) {
   const practiceWrong = isPractice
     ? shuffledQuestions.filter((q) => revealed.has(q.id) && (answers[q.id] || []).sort().join(",") !== [...q.correctAnswers].sort().join(",")).length
     : 0;
+  const practicePercentage = isPractice && shuffledQuestions.length > 0
+    ? parseFloat(((practiceCorrect / shuffledQuestions.length) * 100).toFixed(2))
+    : 0;
 
   function skipQuestion() {
     setSkipped((prev) => new Set(prev).add(q.id));
@@ -170,7 +176,11 @@ export default function QuizClient({ exam }: { exam: Exam }) {
   function toggleBookmark(qId: number) {
     setBookmarked((prev) => {
       const next = new Set(prev);
-      next.has(qId) ? next.delete(qId) : next.add(qId);
+      if (next.has(qId)) {
+        next.delete(qId);
+      } else {
+        next.add(qId);
+      }
       return next;
     });
   }
@@ -196,12 +206,14 @@ export default function QuizClient({ exam }: { exam: Exam }) {
   }
 
   const score = submitted
-    ? shuffledQuestions.filter((q) => {
-        const userAns = (answers[q.id] || []).sort().join(",");
-        return userAns === [...q.correctAnswers].sort().join(",");
-      }).length
+    ? isPractice
+      ? shuffledQuestions.filter((q) => revealed.has(q.id) && (answers[q.id] || []).sort().join(",") === [...q.correctAnswers].sort().join(",")).length
+      : shuffledQuestions.filter((q) => {
+          const userAns = (answers[q.id] || []).sort().join(",");
+          return userAns === [...q.correctAnswers].sort().join(",");
+        }).length
     : 0;
-  const pct = Math.round((score / shuffledQuestions.length) * 100);
+  const pct = parseFloat(((score / shuffledQuestions.length) * 100).toFixed(2));
   const passed = pct >= 70;
   const timerUrgent = timeLeft < 300 && timeLeft > 0;
   const timerCritical = timeLeft < 60;
@@ -373,9 +385,13 @@ export default function QuizClient({ exam }: { exam: Exam }) {
         </div>
         {isPractice ? (
           <div className="flex items-center gap-3 text-sm font-bold shrink-0">
-            <span className="text-emerald-500">✓ {practiceCorrect}</span>
-            <span className="text-red-500">✗ {practiceWrong}</span>
-            <span className="text-[color:var(--muted)]">{revealed.size}/{shuffledQuestions.length}</span>
+            <div className="flex items-center gap-2 bg-[color:var(--card)] border border-[color:var(--card-border)] px-3 py-1.5 rounded-lg shadow-sm">
+              <span className="text-emerald-500">✓ {practiceCorrect}</span>
+              <span className="text-red-500">✗ {practiceWrong}</span>
+              <span className="w-[1px] h-4 bg-[color:var(--card-border)] inline-block mx-1"></span>
+              <span className="text-[#ff9900] font-extrabold">{practicePercentage}% Score</span>
+            </div>
+            <span className="text-[color:var(--muted)] font-medium text-xs hidden sm:inline">{revealed.size}/{shuffledQuestions.length} Checked</span>
           </div>
         ) : (
           <div className="flex items-center gap-2">

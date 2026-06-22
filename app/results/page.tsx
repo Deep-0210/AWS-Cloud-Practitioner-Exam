@@ -19,7 +19,7 @@ export default function ResultsPage() {
   }
 
   const avgScore = results.length
-    ? Math.round(results.reduce((s, r) => s + r.percentage, 0) / results.length)
+    ? parseFloat((results.reduce((s, r) => s + r.percentage, 0) / results.length).toFixed(2))
     : 0;
   const passCount = results.filter((r) => r.percentage >= 70).length;
   const bestScore = results.length ? Math.max(...results.map((r) => r.percentage)) : 0;
