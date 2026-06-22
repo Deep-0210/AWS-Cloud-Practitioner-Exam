@@ -17,9 +17,9 @@
 	- Trade capital expenses for operational expense (OPEX)
 
 	### Types of cloud computing:
-	- **Infrastructure as a Service (IaaS)** - provide networking - computers - data storage space - EC2, Azure, Linode, GCP, Rackspace, Digital Ocean
-	- **Platform as a Service (PaaS)** - Focus on the deployment - management of application - Elastic Beanstalk, Heroku, Google App Engine, Windows Azure
-	- **Software as a Service (SaaS)** - complete product run and manage by service provider - Gmail, dropbox, Zoom, Rekognition for Machine Learning
+	- **Infrastructure as a Service (IaaS)** - provide networking - computers - data storage space - EC2, Azure, Linode, GCP, Rackspace, Digital Ocean - User will maintain OS | runtime | application | 	security patches
+	- **Platform as a Service (PaaS)** - Focus on the deployment - management of application - Elastic Beanstalk, Heroku, Google App Engine, Windows Azure - User will maintain application code | data
+	- **Software as a Service (SaaS)** - complete product run and manage by service provider - Gmail, dropbox, Zoom, Rekognition for Machine Learning - User maintain nothing
 
 - **Compliance** - with data governance and legal requirements - data never leave region without your explicit permission
 - **Proximity** - reduce latency
@@ -846,7 +846,7 @@
 	- **IPV6** Internet Protocol Version 6 (3.4 X 10<sup>38</sup>) address
 
 	### VPC & Subnet Primer
-	- ### VPC:
+	- ### VPC
 		- Private network to deploy your resources (regional resource)
 	
 	- ### Subnets
@@ -855,7 +855,7 @@
 		- **Private Subnet** subnet that is not accessible from internet
 		- To define the access on the internet and between subnet - use Route Tables
 	
-	- ### Internet Gateway & NAT Gateway
+	- ### Internet Gateway
 		- Help VPC instance connect with the internet
 		- Public subnet have a route to the internet gateway
 	
@@ -899,7 +899,7 @@
 
 	### Site to Site VPN & Direct Connect:
 	- ### Site to Site Connect
-		- cConnect on premises VPN to AWS
+		- Connect on premises VPN to AWS
 		- Connectio is encrypted
 		- Used public internet
 		- On premise: must use customer gateway
@@ -1068,7 +1068,7 @@
 - Manage multiple AWS accounts
 - Main account is master account
 - Rest are the child account
-- Consolidated bolling - across all account - singe payment
+- Consolidated billing - across all account - singe payment
 - Aggregate use - volume discount for EC2, S3
 - Pooling of reserved EC2
 - API to automate AWS account creation
@@ -1142,102 +1142,102 @@
 	- Machine Learning Saving Plan
 		- Sage Maker
 
-	##  AWS Compute Optimizer
+	###  AWS Compute Optimizer
 	- Reduce cost and improve performance by recommending optimal AWS resources
 	- Use machine learning to analyze resources configuration and their utilization CloudWatch metrics
 	- Recommendation exported to S3
 
-	## Billing and Costing Tools
-	- Estimating costs in cloud
-		- Pricing Calculator
-	- Tracking Cost in Cloud
-		- Billing Dashboard
-		- Cost allocation tags
-		- Costs and Usage Report
-		- Cost Explorer
-	- Monitoring against coast plan
-		- Billing Alarm
-		- Budget
-
-	## AWS Billing Dashboard
-	- Cost Allocation Tags
-		- Track AWS costs on a detailed level
-		- Aws generated tags - prefix AWS
-		- User generated tags - prefix user
-	- Tagging and Resource Groups
-		- Tags are used for organizing resources
-		- Tags can be used to create Resources Groups
-	- Cost and Usage Report
-		- most comprehensive set of AWS cost and usage data available
+### Billing and Costing Tools
+- Estimating costs in cloud
+	- Pricing Calculator
+- Tracking Cost in Cloud
+	- Billing Dashboard
+	- Cost allocation tags
+	- Costs and Usage Report
 	- Cost Explorer
-		- Forecast usage up to 12 months based on previous usage
+- Monitoring against coast plan
+	- Billing Alarm
+	- Budget
 
-	## Billing Alarm in CloudWatch
-	- Billing data metrics is stored in CloudWatch us-east-1
-	- for overall worldwide AWS coast
+### AWS Billing Dashboard
+- Cost Allocation Tags
+	- Track AWS costs on a detailed level
+	- Aws generated tags - prefix AWS
+	- User generated tags - prefix user
+- Tagging and Resource Groups
+	- Tags are used for organizing resources
+	- Tags can be used to create Resources Groups
+- Cost and Usage Report
+	- most comprehensive set of AWS cost and usage data available
+- Cost Explorer
+	- Forecast usage up to 12 months based on previous usage
 
-		### AWS Budget
-		- Send an alarm when cost exceeds budget
+### Billing Alarm in CloudWatch
+- Billing data metrics is stored in CloudWatch us-east-1
+- for overall worldwide AWS coast
 
-		### AWS Cost Anomaly Detection
-		- Continuously monitor yor cost and usage using ML to detect unusual spends
+	### AWS Budget
+	- Send an alarm when cost exceeds budget
 
-	## AWS Support Plan Pricing
-	- Basic Support - Free
-	- Developer
-	- Business
-	- Enterprise On-Ramp
-	- Enterprise
+	### AWS Cost Anomaly Detection
+	- Continuously monitor yor cost and usage using ML to detect unusual spends
 
-		## AWS Basic Support - Free
-		- Customer Service and Community
-		- AWS Trusted Advisor
-		- AWS Personal Health Dashboard
+### AWS Support Plan Pricing
+- Basic Support - Free
+- Developer
+- Business
+- Enterprise On-Ramp
+- Enterprise
 
-		## AWS Developer Support Plan
-		- All Basic support plan
-		- Business hours email access - cloud support Associate
-		- Unlimited cases / Unlimited contacts
-		- Case Severity / Response Time
-			- General Guidance - < 24 business hours
-			- System impaired - < 12 business hours
+	### AWS Basic Support - Free
+	- Customer Service and Community
+	- AWS Trusted Advisor
+	- AWS Personal Health Dashboard
+
+	### AWS Developer Support Plan
+	- All Basic support plan
+	- Business hours email access - cloud support Associate
+	- Unlimited cases / Unlimited contacts
+	- Case Severity / Response Time
+		- General Guidance - < 24 business hours
+		- System impaired - < 12 business hours
 	
-		## AWS Business Support Plan
-		- production workload
-		- Trusted Adviser - Full set of checks + API access
-		- 24X7 phone, email, and chat access to cloud support engineer
-		- Unlimited cases / Unlimited contacts
-		- Access to Infrastructure Event Management for additional fee
-		- Case Severity / Response Time
-			- General Guidance - < 24 business hours
-			- System impaired - < 12 business hours
-			- Production System impaired - < 4 hours
-			- Production System down - < 1 hours
+	### AWS Business Support Plan
+	- production workload
+	- Trusted Adviser - Full set of checks + API access
+	- 24X7 phone, email, and chat access to cloud support engineer
+	- Unlimited cases / Unlimited contacts
+	- Access to Infrastructure Event Management for additional fee
+	- Case Severity / Response Time
+		- General Guidance - < 24 business hours
+		- System impaired - < 12 business hours
+		- Production System impaired - < 4 hours
+		- Production System down - < 1 hours
 
-		## AWS Enterprise On-Ramp Support Plan (24/7)
-		- production or business critical workloads
-		- Access to pool of Technical Account Manager (TAM)
-		- Concierge Support Team - for billing and account best practice
-		- Infrastructure Event Management, Well-Architected & Operation Reviews
-		- Case Severity / Response Time
-			- General Guidance - < 24 business hours 
-			- System impaired - < 12 business hours
-			- Production System impaired - < 4 hours
-			- Production System down - < 1 hours
-			- Business critical system down - < 30 minutes 
+	### AWS Enterprise On-Ramp Support Plan (24/7)
+	- production or business critical workloads
+	- Access to pool of Technical Account Manager (TAM)
+	- Concierge Support Team - for billing and account best practice
+	- Infrastructure Event Management, Well-Architected & Operation Reviews
+	- Case Severity / Response Time
+		- General Guidance - < 24 business hours 
+		- System impaired - < 12 business hours
+		- Production System impaired - < 4 hours
+		- Production System down - < 1 hours
+		- Business critical system down - < 30 minutes 
 	
-		## AWS Enterprise Support Plan (24/7) 
-		- mission critical workloads
-		- Access to `Designated` Technical Account Manager (TAM)
-		- Concierge Support Team - for billing and account best practice
-		- Infrastructure Event Management, Well-Architected & Operation Reviews
-		- Access to `AWS Accident Detection and Response` - for an additional fee
-		- Case Severity / Response Time
-			- General Guidance - < 24 business hours 
-			- System impaired - < 12 business hours
-			- Production System impaired - < 4 hours
-			- Production System down - < 1 hours
-			- Business critical system down - < 15 minutes 
+	### AWS Enterprise Support Plan (24/7) 
+	- mission critical workloads
+	- Access to `Designated` Technical Account Manager (TAM)
+	- Concierge Support Team - for billing and account best practice
+	- Infrastructure Event Management, Well-Architected & Operation Reviews
+	- Access to `AWS Accident Detection and Response` - for an additional fee
+	- Case Severity / Response Time
+		- General Guidance - < 24 business hours 
+		- System impaired - < 12 business hours
+		- Production System impaired - < 4 hours
+		- Production System down - < 1 hours
+		- Business critical system down - < 15 minutes 
 		
 ### Advance Identity
 
