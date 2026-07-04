@@ -336,7 +336,7 @@
     - D. Controls that the customer and AWS collaborate together upon to secure the infrastructure.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: D
+      Correct answer: C
     </details>
 
 34. Why do many startup companies prefer AWS over traditional on-premises solutions? (Choose TWO)
@@ -1220,7 +1220,7 @@
 
     <details markdown=1><summary markdown="span">Answer</summary>
 
-    Correct Answer: AB
+    Correct Answer: BC
 
     Explanation: <https://d0.awsstatic.com/whitepapers/compliance/AWS_Risk_and_Compliance_Whitepaper.pdf>
 
@@ -1474,7 +1474,7 @@
 
     <details markdown=1><summary markdown="span">Answer</summary>
 
-    Correct Answer: CD
+    Correct Answer: BD
 
     </details>
 
@@ -1612,7 +1612,7 @@
 
     <details markdown=1><summary markdown="span">Answer</summary>
 
-    Correct Answer: C
+    Correct Answer: B
 
     Explanation: <https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/budgets-managing-costs.html>
 

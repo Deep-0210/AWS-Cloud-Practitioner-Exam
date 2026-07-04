@@ -312,7 +312,12 @@ layout: exam
 
     <details markdown=1><summary markdown="span">Answer</summary>
 
-    Correct Answer: CD
+    Correct Answer: BD
+
+    Explanation:
+    - "Trade capital expense for variable expense" and "Increased agility" are two of the six advantages of cloud computing per AWS.
+    - Capital expenses (buying servers) are replaced with variable expenses (pay only for what you use).
+    - The cloud increases agility by providing quick access to resources and faster time to market.
 
     </details>
 

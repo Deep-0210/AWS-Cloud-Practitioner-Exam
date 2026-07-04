@@ -591,14 +591,13 @@
 
     <details markdown=1><summary markdown="span">Answer</summary>
 
-    Correct Answer: A
+    Correct Answer: B
 
     Explanation:
-    - Amazon Virtual Private Cloud (Amazon VPC) is a logically isolated, private section of the AWS Cloud to launch resources in a virtual data center in the cloud.
-    - Amazon VPC allows you to leverage multiple Availability Zones (AZ) within a region so that you can build greater fault tolerance within your workloads.
-    - You have complete control.
+    - AWS Direct Connect provides a dedicated, private network connection from your on-premises environment or office to AWS, bypassing the public internet. This delivers consistent, low-latency network performance and secure connectivity, making it the ideal solution for hybrid cloud architectures.
+    - Amazon VPC is the virtual network environment within AWS where resources are launched, rather than the connectivity service that links on-premises environments to AWS.
 
-    Reference: <https://aws.amazon.com/blogs/publicsector/aws-networking-capabilities-gives-you-choices-for-hybrid-cloud-connectivity-but-which-service-works-best-for-your-use-case/>
+    Reference: <https://aws.amazon.com/directconnect/>
 
     </details>
 
@@ -960,7 +959,8 @@
 
     Correct Answer: B
 
-    Explanation: <https://aws.amazon.com/transit-gateway/>
+    Explanation:
+    - Provisioning resources in a region closer to your users (such as the South America (São Paulo) Region in Brazil) directly reduces latency and network hop counts, resulting in a much faster and better user experience.
 
     </details>
 

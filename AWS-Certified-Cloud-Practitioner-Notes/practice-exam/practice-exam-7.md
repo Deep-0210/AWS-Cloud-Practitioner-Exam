@@ -371,7 +371,7 @@ layout: exam
     - D. AWS Lambda can be called directly from any mobile app.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: D
+      Correct answer: B
     </details>
 
 37. How does AWS help customers achieve compliance in the cloud?

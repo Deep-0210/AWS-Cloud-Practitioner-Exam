@@ -280,7 +280,12 @@ layout: exam
 
     <details markdown=1><summary markdown="span">Answer</summary>
 
-    Correct Answer: D
+    Correct Answer: A
+
+    Explanation:
+    - Elasticity refers to the ability to automatically scale resources up AND down to meet variable demand.
+    - Scalability refers to the ability of a system to handle increased load, typically by scaling up (vertical) or out (horizontal).
+    - The key distinction is that elasticity includes scaling DOWN when demand decreases.
 
     </details>
 
@@ -304,11 +309,13 @@ layout: exam
 
     <details markdown=1><summary markdown="span">Answer</summary>
 
-    Correct Answer: BD
+    Correct Answer: B
 
-    Explanation: <https://aws.amazon.com/blogs/startups/large-scale-disaster-recovery-using-aws-regions/>
+    Explanation:
+    - Running on two Availability Zones in one AWS Region provides high availability, while using another AWS Region for the disaster recovery site protects against a regional service interruption.
+    - Option D (using three Regions) adds unnecessary complexity and cost.
 
-    Option D increased complexity and cost.
+    Reference: <https://aws.amazon.com/blogs/startups/large-scale-disaster-recovery-using-aws-regions/>
 
     </details>
 

@@ -102,12 +102,11 @@ layout: exam
 
     <details markdown=1><summary markdown="span">Answer</summary>
 
-    Correct Answer: B
+    Correct Answer: D
 
     Explanation:
-    - AWS assets are centrally managed through an inventory management system that stores and tracks owner, location, status, maintenance, and descriptive information for AWS-owned assets.
-    - Following procurement, assets are scanned and tracked, and assets undergoing maintenance are checked and monitored for
-    ownership, status, and resolution.
+    - On AWS, users can programmatically gather asset metadata reliably with a few API calls, making asset management much simpler than in a physical data center.
+    - AWS provides APIs and services like AWS Config, AWS Systems Manager, and Resource Groups that let you query and track resources easily.
 
     Reference: <https://aws.amazon.com/compliance/data-center/controls/>
 

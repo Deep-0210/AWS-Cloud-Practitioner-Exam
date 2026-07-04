@@ -432,7 +432,7 @@
     - D. AWS Lambda.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: A
+      Correct answer: D
     </details>
 
 43. Amazon Relational Database Service (Amazon RDS) offers which of the following benefits over traditional database management?
@@ -664,9 +664,9 @@
 
     <details markdown=1><summary markdown="span">Answer</summary>
 
-    Correct Answer: B
+    Correct Answer: A
 
-    Explanation: <https://aws.amazon.com/compliance/shared-responsibility-model/>
+    Explanation: Amazon RDS is a managed service, meaning AWS (the AWS Product team) is responsible for patching the underlying host and guest operating system. The customer does not have OS-level access. Reference: <https://aws.amazon.com/compliance/shared-responsibility-model/>
 
     </details>
 

@@ -189,11 +189,11 @@
     - D. 3 hours for the Linux instance and 4 hours, 23 minutes and 7 seconds for the CentOS instance.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: C
+      Correct answer: B
 
       Explanation:
       - Pricing is per instance-hour consumed for each instance, from the time an instance is launched until it is terminated or stopped.
-      - Each partial instance-hour consumed will be billed per-second for Linux, Windows, Windows with SQL Enterprise, Windows with SQL Standard, and Windows with SQL Web Instances, and as a full hour for all other instance types.
+      - Each partial instance-hour consumed will be billed per-second for Linux instances (including Amazon Linux, CentOS, Ubuntu, RHEL, SUSE Linux), and per-second or per-hour for other instance types.
     </details>
 
 20. What is the AWS Support feature that allows customers to manage support cases programmatically?
@@ -389,7 +389,7 @@
     - E. Provides software solutions that run on AWS or any other Cloud vendor.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: D, E
+      Correct answer: A, D
     </details>
 
 39. Which AWS Cost Management tool allows you to view the most granular data about your AWS bill?
@@ -1717,11 +1717,9 @@
 
     <details markdown=1><summary markdown="span">Answer</summary>
 
-    Correct Answer: BD
+    Correct Answer: B
 
     Explanation: <https://aws.amazon.com/blogs/startups/large-scale-disaster-recovery-using-aws-regions/>
-
-    Option D increased complexity and cost.
 
     </details>
 

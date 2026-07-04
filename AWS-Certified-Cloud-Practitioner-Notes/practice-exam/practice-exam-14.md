@@ -285,17 +285,14 @@ layout: exam
 
     <details markdown=1><summary markdown="span">Answer</summary>
 
-    Correct Answer: B
+    Correct Answer: C
 
     Explanation:
-    - AWS Compliance enables customers to establish and operate in an AWS security control environment The shared responsibility model is part of AWS Compliance
-    - The Security of the cloud is managed by Amazon AWS provider
-    - The Security in the cloud is responsibility of the customer
-    - The customer is responsible for their information and data, their secure transmission, integrity, and encryption Also, the customer is responsible for managing, support, patching and control of the guest operating system and AWS services provided like EC2
-    - AWS customers retain control and ownership of their data
-    - The AWS network provides significant protection against traditional network security issues and the customer can implement further protection
+    - AWS is responsible for "Security OF the Cloud" — this includes maintaining the host operating system, virtualization layer, and the physical infrastructure (including firmware updates on EC2 host hardware).
+    - The customer is responsible for "Security IN the Cloud" — this includes encrypting data in transit and at rest, managing access, and patching guest operating systems.
+    - Updating Amazon EC2 host firmware is part of AWS's responsibility for maintaining the underlying infrastructure.
 
-    Reference: <https://www.whizlabs.com/blog/aws-security-shared-responsibility/>
+    Reference: <https://aws.amazon.com/compliance/shared-responsibility-model/>
 
     </details>
 
@@ -549,10 +546,11 @@ layout: exam
 
     <details markdown=1><summary markdown="span">Answer</summary>
 
-    Correct Answer: D
+    Correct Answer: B
 
     Explanation:
-    - AWS customers are welcome to carry out security assessments or penetration tests against their AWS infrastructure without prior approval for 8 services.
+    - AWS customers are welcome to carry out security assessments or penetration tests against their AWS infrastructure without prior approval from AWS for 8 permitted services.
+    - Since AWS approval is no longer required, the customer should follow their own internal security team's approval process before conducting testing.
 
     Reference: <https://aws.amazon.com/security/penetration-testing/>
 

@@ -1627,7 +1627,7 @@
 
     <details markdown=1><summary markdown="span">Answer</summary>
 
-    Correct Answer: C
+    Correct Answer: D
 
     Explanation: <https://jayendrapatil.com/aws-high-availability-fault-tolerance-architecture-certification/>
 

@@ -139,7 +139,7 @@
     - D. AWS CloudTrail.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: B
+      Correct answer: A
     </details>
 
 15. Which of the following services gives you access to all AWS auditor-issued reports and certifications?
@@ -436,8 +436,9 @@
     Correct Answer: AB
 
     Explanation:
-    - <https://aws.amazon.com/cloudwatch/>
-    - You can also use CloudWatch in hybrid cloud architectures by using the CloudWatch Agent or API to monitor your on-premises resources
+    - **Amazon Route 53** can be used as a hybrid DNS service to resolve domain names between on-premises and AWS environments.
+    - **Virtual Private Gateway** acts as the VPN concentrator on the AWS side of an IPsec VPN connection, facilitating hybrid connectivity.
+    - CloudWatch default metrics do not monitor on-premises resources out of the box (requires the CloudWatch Agent or custom APIs).
 
     </details>
 
@@ -756,7 +757,7 @@
 
     <details markdown=1><summary markdown="span">Answer</summary>
 
-    Correct Answer: Ac
+    Correct Answer: AC
 
     </details>
 

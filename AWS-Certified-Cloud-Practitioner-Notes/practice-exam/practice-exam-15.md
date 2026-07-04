@@ -689,9 +689,13 @@ layout: exam
 
     <details markdown=1><summary markdown="span">Answer</summary>
 
-    Correct Answer: AB
+    Correct Answer: BC
 
-    Explanation: <https://d0.awsstatic.com/whitepapers/compliance/AWS_Risk_and_Compliance_Whitepaper.pdf>
+    Explanation:
+    - AWS does NOT automatically verify that hosted workloads are compliant; compliance of workloads is a customer responsibility.
+    - AWS is responsible for maintaining common compliance framework documentation (B) and assures customers of physical security and data protection (C).
+
+    Reference: <https://d0.awsstatic.com/whitepapers/compliance/AWS_Risk_and_Compliance_Whitepaper.pdf>
 
     </details>
 
@@ -724,9 +728,14 @@ layout: exam
 
     <details markdown=1><summary markdown="span">Answer</summary>
 
-    Correct Answer: D
+    Correct Answer: A
 
-    Explanation: <https://aws.amazon.com/compliance/shared-responsibility-model/>
+    Explanation:
+    - "Security management of data center" is fully inherited from AWS — customers do not manage physical data center security at all.
+    - Patch management and configuration management are shared controls, not fully inherited.
+    - User and access management is the customer's own responsibility, not inherited from AWS.
+
+    Reference: <https://aws.amazon.com/compliance/shared-responsibility-model/>
 
     </details>
 

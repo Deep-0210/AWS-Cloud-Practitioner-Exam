@@ -184,7 +184,7 @@
     - E. AWS Data Pipeline.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: A, B
+      Correct answer: B, D
     </details>
 
 19. Which AWS Service is used to manage user permissions?
@@ -717,7 +717,7 @@
 
     <details markdown=1><summary markdown="span">Answer</summary>
 
-    Correct Answer: D
+    Correct Answer: A
 
     Explanation: <https://aws.amazon.com/compliance/shared-responsibility-model/>
 

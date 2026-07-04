@@ -431,7 +431,7 @@
 
     Correct Answer: B
 
-    Explanation: <https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-concepts.html>
+    Explanation: AWS CloudFormation enables you to model and setup your Amazon Web Services resources so that you can spend less time managing those resources and more time focusing on your applications. You can use CloudFormation templates to easily copy and replicate infrastructure across multiple AWS Regions.
 
     </details>
 

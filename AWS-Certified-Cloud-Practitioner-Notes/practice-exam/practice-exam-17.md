@@ -59,11 +59,11 @@ layout: exam
 
     <details markdown=1><summary markdown="span">Answer</summary>
 
-    Correct Answer: C
+    Correct Answer: B
 
     Explanation:
-    - To forecast your costs, use the AWS Cost Explorer.
-    - Use cost allocation tags to divide your resources into groups, and then estimate the costs for each group.
+    - The AWS Simple Monthly Calculator (now AWS Pricing Calculator) is designed to estimate costs for new projects before any resources are deployed.
+    - AWS Cost Explorer requires existing usage data and is better for analyzing past/current spending, not estimating brand-new projects.
 
     Reference: <https://aws.amazon.com/premiumsupport/knowledge-center/estimating-aws-resource-costs/>
 
@@ -462,12 +462,11 @@ layout: exam
 
     <details markdown=1><summary markdown="span">Answer</summary>
 
-    Correct Answer: A
+    Correct Answer: B
 
     Explanation:
-    - Amazon Virtual Private Cloud (Amazon VPC) is a logically isolated, private section of the AWS Cloud to launch resources in a virtual data center in the cloud.
-    - Amazon VPC allows you to leverage multiple Availability Zones (AZ) within a region so that you can build greater fault tolerance within your workloads.
-    - You have complete control.
+    - AWS Direct Connect provides dedicated network connectivity between on-premises infrastructure and AWS, which is essential for hybrid architectures.
+    - While Amazon VPC provides the virtual network within AWS, AWS Direct Connect is the service that specifically establishes the network link between on-premises and the cloud.
 
     Reference: <https://aws.amazon.com/blogs/publicsector/aws-networking-capabilities-gives-you-choices-for-hybrid-cloud-connectivity-but-which-service-works-best-for-your-use-case/>
 

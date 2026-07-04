@@ -12,7 +12,7 @@ layout: exam
     - E. AWS Data Pipeline.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: A, B
+      Correct answer: B, D
     </details>
 
 2. Which of the following AWS services scale automatically without your intervention? (Choose TWO)
@@ -279,7 +279,7 @@ layout: exam
     - D. Controls that the customer and AWS collaborate together upon to secure the infrastructure.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: D
+      Correct answer: C
     </details>
 
 28. Which design principles relate to performance efficiency in AWS? (Choose TWO)

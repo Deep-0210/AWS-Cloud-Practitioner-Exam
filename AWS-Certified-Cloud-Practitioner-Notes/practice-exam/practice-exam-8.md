@@ -290,7 +290,7 @@ layout: exam
     - E. Provides software solutions that run on AWS or any other Cloud vendor.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: D, E
+      Correct answer: A, D
     </details>
 
 29. What is the benefit of Amazon EBS volumes being automatically replicated within the same availability zone?
@@ -445,7 +445,7 @@ layout: exam
     - D. Request and wait for approval from AWS support, and then conduct testing.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: D
+      Correct answer: B
     </details>
 
 44. Which AWS Cost Management tool allows you to view the most granular data about your AWS bill?

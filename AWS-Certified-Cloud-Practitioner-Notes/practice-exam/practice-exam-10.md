@@ -252,7 +252,7 @@ layout: exam
       Correct answer: A
     </details>
 
-25. Access keys in AWS Identity and Access Management (IM1) are used to:
+25. Access keys in AWS Identity and Access Management (IAM) are used to:
     - A. Log in to the AWS Management Console.
     - B. Make programmatic calls to AWS from AWS APIs.
     - C. Log in to Amazon EC2 instances.
@@ -452,7 +452,7 @@ layout: exam
     - D. AWS Lambda.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: A
+      Correct answer: D
     </details>
 
 45. Amazon Relational Database Service (Amazon RDS) offers which of the following benefits over traditional database management?
@@ -468,7 +468,7 @@ layout: exam
 46. A company’s web application currently has light dependencies on underlying components so when one component fails the entire web application fails. Applying which AWS Cloud design principle will address the current design issue?
     - A. Implementing elasticity enabling the application to scale up or scale down as demand changes.
     - B. Enabling several EC2 instances to run in parallel to achieve better performance.
-    - C. Focusing on decoupling components by isolating them and ensuring individual components can function when other components.
+    - C. Focusing on decoupling components by isolating them and ensuring individual components can function when other components fail.
     - D. Doubling EC2 computing resources to increase system fault tolerance.
 
     <details markdown=1><summary markdown='span'>Answer</summary>

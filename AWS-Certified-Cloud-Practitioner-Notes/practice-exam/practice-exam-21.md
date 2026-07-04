@@ -155,9 +155,13 @@ layout: exam
 
     <details markdown=1><summary markdown="span">Answer</summary>
 
-    Correct Answer: C
+    Correct Answer: D
 
-    Explanation: <https://jayendrapatil.com/aws-high-availability-fault-tolerance-architecture-certification/>
+    Explanation:
+    - For the highest redundancy and fault tolerance, especially for a global commercial application, deploying across multiple Availability Zones in multiple AWS Regions provides the greatest level of fault tolerance.
+    - Multi-Region deployment protects against regional failures, not just AZ-level failures.
+
+    Reference: <https://jayendrapatil.com/aws-high-availability-fault-tolerance-architecture-certification/>
 
     </details>
 
@@ -406,7 +410,11 @@ layout: exam
 
     <details markdown=1><summary markdown="span">Answer</summary>
 
-    Correct Answer: C
+    Correct Answer: A
+
+    Explanation:
+    - Adding department-specific tags to each resource and using AWS Cost Allocation Tags is the recommended way to separate and track costs by department.
+    - Tags provide granular cost tracking without the overhead of managing multiple AWS accounts.
 
     </details>
 

@@ -145,7 +145,7 @@ layout: exam
 
     <details markdown=1><summary markdown="span">Answer</summary>
 
-    Correct Answer: Ac
+    Correct Answer: AC
 
     </details>
 
@@ -483,9 +483,13 @@ layout: exam
 
     <details markdown=1><summary markdown="span">Answer</summary>
 
-    Correct Answer: B
+    Correct Answer: A
 
-    Explanation: <https://aws.amazon.com/compliance/shared-responsibility-model/>
+    Explanation:
+    - For Amazon RDS, AWS is responsible for patching the guest operating system, not the customer.
+    - RDS is a managed service where AWS handles OS maintenance, patching, and updates.
+
+    Reference: <https://aws.amazon.com/compliance/shared-responsibility-model/>
 
     </details>
 

@@ -333,9 +333,13 @@ layout: exam
 
     <details markdown=1><summary markdown="span">Answer</summary>
 
-    Correct Answer: C
+    Correct Answer: B
 
-    Explanation: <https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/budgets-managing-costs.html>
+    Explanation:
+    - AWS Budgets can be used to track the utilization and coverage of your Reserved Instances (RIs) or Savings Plans.
+    - You can define utilization budgets and configure them to send email or SNS alerts when your utilization drops below a specific threshold percentage, helping you optimize costs.
+
+    Reference: <https://docs.aws.amazon.com/cost-management/latest/userguide/budgets-managing-costs.html>
 
     </details>
 
@@ -657,12 +661,10 @@ layout: exam
     Correct Answer: C
 
     Explanation:
-    - An easy-to-use service for deploying and scaling web applications and web services developed in a number of programming languages.
-    - You can configure event notifications for your Elastic Beanstalk environment so that notable events can be automatically published to an SNS topic, then pushed to topic subscribers.
-    - As an example, you may use this event-driven architecture to coordinate your continuous integration pipeline (such as Jenkins CI).
-    - That way, whenever an environment is created, Elastic Beanstalk publishes this event to an SNS topic, which triggers a subscribing Lambda function, which then kicks off a CI job against your newly created Elastic Beanstalk environment.
+    - AWS Lambda is a serverless, event-driven compute service that lets you run code for virtually any type of application or backend service without provisioning or managing servers.
+    - You can trigger Lambda functions from over 200 AWS services and SaaS applications, paying only for the compute time you consume.
 
-    Reference: <https://aws.amazon.com/blogs/compute/event-driven-computing-with-amazon-sns-compute-storage-database-and-networking-services/>
+    Reference: <https://aws.amazon.com/lambda/>
 
     </details>
 
