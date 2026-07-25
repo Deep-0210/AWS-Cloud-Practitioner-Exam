@@ -360,19 +360,7 @@ layout: exam
 
     </details>
 
-26. Which AWS Cloud benefit eliminates the need for users to try estimating future infrastructure usage?
-    - A. Easy and fast deployment of applications in multiple Regions around the world
-    - B. Security of the AWS Cloud
-    - C. Elasticity of the AWS Cloud
-    - D. Lower variable costs due to massive economies of scale
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: C
-
-    </details>
-
-27. What credential components are required to gain programmatic access to an AWS account? (Choose two.)
+26. What credential components are required to gain programmatic access to an AWS account? (Choose two.)
     - A. An access key ID
     - B. A primary key
     - C. A secret access key
@@ -387,7 +375,7 @@ layout: exam
 
     </details>
 
-28. Which of the following are AWS compute services? (Select two.)
+27. Which of the following are AWS compute services? (Select two.)
     - A. Amazon Lightsail
     - B. AWS Systems Manager
     - C. AWS CloudFormation
@@ -402,7 +390,7 @@ layout: exam
 
     </details>
 
-29. How can a company separate costs for network traffic, Amazon EC2, Amazon S3, and other AWS services by department?
+28. How can a company separate costs for network traffic, Amazon EC2, Amazon S3, and other AWS services by department?
     - A. Add department-specific tags to each resource
     - B. Create a separate VPC for each department
     - C. Create a separate AWS account for each department
@@ -418,7 +406,7 @@ layout: exam
 
     </details>
 
-30. What is a benefit of consolidated billing for AWS accounts?
+29. What is a benefit of consolidated billing for AWS accounts?
     - A. Access to AWS Personal Health Dashboard
     - B. Combined usage volume discounts
     - C. Improved account security
@@ -432,7 +420,7 @@ layout: exam
 
     </details>
 
-31. Which AWS service will allow a user to set custom cost and usage limits, and will alert when the thresholds are exceeded?
+30. Which AWS service will allow a user to set custom cost and usage limits, and will alert when the thresholds are exceeded?
     - A. AWS Organizations
     - B. AWS Budgets
     - C. Cost Explorer
@@ -446,7 +434,7 @@ layout: exam
 
     </details>
 
-32. Which AWS service provides the ability to detect inadvertent data leaks of personally identifiable information (PII) and user credential data?
+31. Which AWS service provides the ability to detect inadvertent data leaks of personally identifiable information (PII) and user credential data?
     - A. Amazon GuardDuty
     - B. Amazon Inspector
     - C. Amazon Macie
@@ -460,7 +448,7 @@ layout: exam
 
     </details>
 
-33. Which tool can be used to monitor AWS service limits?
+32. Which tool can be used to monitor AWS service limits?
     - A. AWS Total Cost of Ownership (TCO) Calculator
     - B. AWS Trusted Advisor
     - C. AWS Personal Health Dashboard
@@ -474,7 +462,7 @@ layout: exam
 
     </details>
 
-34. A company has distributed its workload on both the AWS Cloud and some on-premises servers. <br/> What type of architecture is this?
+33. A company has distributed its workload on both the AWS Cloud and some on-premises servers. <br/> What type of architecture is this?
     - A. Virtual private network
     - B. Virtual private cloud
     - C. Hybrid cloud
@@ -488,7 +476,7 @@ layout: exam
 
     </details>
 
-35. Which of the following describes a security best practice that can be implemented using AWS IAM?
+34. Which of the following describes a security best practice that can be implemented using AWS IAM?
     - A. Disable AWS Management Console access for all users
     - B. Generate secret keys for every IAM user
     - C. Grant permissions to users who are required to perform a given task only
@@ -502,7 +490,7 @@ layout: exam
 
     </details>
 
-36. What can be used to automate and manage secure, well-architected, multi-account AWS environments?
+35. What can be used to automate and manage secure, well-architected, multi-account AWS environments?
     - A. AWS shared responsibility model
     - B. AWS Control Tower
     - C. AWS Security Hub
@@ -520,7 +508,7 @@ layout: exam
 
     </details>
 
-37. Which AWS service or feature allows a user to easily scale connectivity among thousands of VPCs?
+36. Which AWS service or feature allows a user to easily scale connectivity among thousands of VPCs?
     - A. VPC peering
     - B. AWS Transit Gateway
     - C. AWS Direct Connect
@@ -534,7 +522,7 @@ layout: exam
 
     </details>
 
-38. A company needs protection from expanded distributed denial of service (DDoS) attacks on its website and assistance from AWS experts during such events. <br/> Which AWS managed service will meet these requirements?
+37. A company needs protection from expanded distributed denial of service (DDoS) attacks on its website and assistance from AWS experts during such events. <br/> Which AWS managed service will meet these requirements?
     - A. AWS Shield Advanced
     - B. AWS Firewall Manager
     - C. AWS WAF
@@ -548,7 +536,7 @@ layout: exam
 
     </details>
 
-39. A company's application has flexible start and end times. <br/> Which Amazon EC2 pricing model will be the MOST cost-effective?
+38. A company's application has flexible start and end times. <br/> Which Amazon EC2 pricing model will be the MOST cost-effective?
     - A. On-Demand Instances
     - B. Spot Instances
     - C. Reserved Instances
@@ -562,7 +550,7 @@ layout: exam
 
     </details>
 
-40. Under the AWS shared responsibility model, what are the customer's responsibilities? (Choose two.)
+39. Under the AWS shared responsibility model, what are the customer's responsibilities? (Choose two.)
     - A. Physical and environmental security
     - B. Physical network devices including firewalls
     - C. Storage device decommissioning
@@ -575,7 +563,7 @@ layout: exam
 
     </details>
 
-41. A cloud practitioner has a data analysis workload that is infrequently executed and can be interrupted without harm. To optimize for cost, which Amazon EC2 purchasing option should be used?
+40. A cloud practitioner has a data analysis workload that is infrequently executed and can be interrupted without harm. To optimize for cost, which Amazon EC2 purchasing option should be used?
     - A. On-Demand Instances
     - B. Reserved Instances
     - C. Spot Instances
@@ -589,7 +577,7 @@ layout: exam
 
     </details>
 
-42. Which AWS container service will help a user install, operate, and scale the cluster management infrastructure?
+41. Which AWS container service will help a user install, operate, and scale the cluster management infrastructure?
     - A. Amazon Elastic Container Registry (Amazon ECR)
     - B. AWS Elastic Beanstalk
     - C. Amazon Elastic Container Service (Amazon ECS)
@@ -601,7 +589,7 @@ layout: exam
 
     </details>
 
-43. Which of the following allows an application running on an Amazon EC2 instance to securely write data to an Amazon S3 bucket without using long term credentials?
+42. Which of the following allows an application running on an Amazon EC2 instance to securely write data to an Amazon S3 bucket without using long term credentials?
     - A. Amazon Cognito
     - B. AWS Shield
     - C. AWS IAM role
@@ -613,7 +601,7 @@ layout: exam
 
     </details>
 
-44. A company with a Developer-level AWS Support plan provisioned an Amazon RDS database and cannot connect to it. <br/> Who should the developer contact for this level of support?
+43. A company with a Developer-level AWS Support plan provisioned an Amazon RDS database and cannot connect to it. <br/> Who should the developer contact for this level of support?
     - A. AWS Support using a support case
     - B. AWS Professional Services
     - C. AWS technical account manager
@@ -625,7 +613,7 @@ layout: exam
 
     </details>
 
-45. What is the purpose of having an internet gateway within a VPC?
+44. What is the purpose of having an internet gateway within a VPC?
     - A. To create a VPN connection to the VPC
     - B. To allow communication between the VPC and the Internet
     - C. To impose bandwidth constraints on internet traffic
@@ -637,7 +625,7 @@ layout: exam
 
     </details>
 
-46. A company must ensure that its endpoint for a database instance remains the same after a single Availability Zone service interruption. The application needs to resume database operations without the need for manual administrative intervention. <br/> How can these requirements be met?
+45. A company must ensure that its endpoint for a database instance remains the same after a single Availability Zone service interruption. The application needs to resume database operations without the need for manual administrative intervention. <br/> How can these requirements be met?
     - A. Use multiple Amazon Route 53 routes to the standby database instance endpoint hosted on AWS Storage Gateway.
     - B. Configure Amazon RDS Multi-Availability Zone deployments with automatic failover to the standby.
     - C. Add multiple Application Load Balancers and deploy the database instance with AWS Elastic Beanstalk.
@@ -649,7 +637,7 @@ layout: exam
 
     </details>
 
-47. Which AWS managed service can be used to distribute traffic between one or more Amazon EC2 instances?
+46. Which AWS managed service can be used to distribute traffic between one or more Amazon EC2 instances?
     - A. NAT gateway
     - B. Elastic Load Balancing
     - C. Amazon Athena
@@ -661,7 +649,7 @@ layout: exam
 
     </details>
 
-48. AWS Trusted Advisor provides recommendations on which of the following? (Choose two.)
+47. AWS Trusted Advisor provides recommendations on which of the following? (Choose two.)
     - A. Cost optimization
     - B. Auditing
     - C. Serverless architecture
@@ -674,7 +662,7 @@ layout: exam
 
     </details>
 
-49. Which of the following tasks can only be performed after signing in with AWS account root user credentials? (Choose two.)
+48. Which of the following tasks can only be performed after signing in with AWS account root user credentials? (Choose two.)
     - A. Closing an AWS account
     - B. Creating a new IAM policy
     - C. Changing AWS Support plans
@@ -687,7 +675,7 @@ layout: exam
 
     </details>
 
-50. Fault tolerance refers to:
+49. Fault tolerance refers to:
     - A. the ability of an application to accommodate growth without changing design
     - B. how well and how quickly an application's environment can have lost data restored
     - C. how secure your application is
@@ -698,4 +686,3 @@ layout: exam
     Correct Answer: D
 
     </details>
-

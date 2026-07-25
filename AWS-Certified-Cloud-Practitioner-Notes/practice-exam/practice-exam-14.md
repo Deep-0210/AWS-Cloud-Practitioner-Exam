@@ -32,31 +32,7 @@ layout: exam
 
     </details>
 
-3. What is the AWS customer responsible for according to the AWS shared responsibility model?
-    - A. Physical access controls
-    - B. Data encryption
-    - C. Secure disposal of storage devices
-    - D. Environmental risk management
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: B
-
-    </details>
-
-4. Which of the following AWS Cloud services can be used to run a customer-managed relational database?
-    - A. Amazon EC2
-    - B. Amazon Route 53
-    - C. Amazon ElastiCache
-    - D. Amazon DynamoDB
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: A
-
-    </details>
-
-5. A company is looking for a scalable data warehouse solution. <br/> Which of the following AWS solutions would meet the company's needs?
+3. A company is looking for a scalable data warehouse solution. <br/> Which of the following AWS solutions would meet the company's needs?
     - A. Amazon Simple Storage Service (Amazon S3)
     - B. Amazon DynamoDB
     - C. Amazon Kinesis
@@ -70,7 +46,7 @@ layout: exam
 
     </details>
 
-6. Which statement best describes Elastic Load Balancing?
+4. Which statement best describes Elastic Load Balancing?
     - A. It translates a domain name into an IP address using DNS.
     - B. It distributes incoming application traffic across one or more Amazon EC2 instances.
     - C. It collects metrics on connected Amazon EC2 instances.
@@ -84,32 +60,7 @@ layout: exam
 
     </details>
 
-7. Which of the following are valid ways for a customer to interact with AWS services? (Select TWO.)
-    - A. Command line interface
-    - B. On-premises
-    - C. Software Development Kits
-    - D. Software-as-a-service
-    - E. Hybrid
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: AC
-
-    </details>
-
-8. The AWS Cloud's multiple Regions are an example of:
-    - A. agility.
-    - B. global infrastructure.
-    - C. elasticity.
-    - D. pay-as-you-go pricing.
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: B
-
-    </details>
-
-9. Which of the following AWS services can be used to serve large amounts of online video content with the lowest possible latency? (Select TWO.)
+5. Which of the following AWS services can be used to serve large amounts of online video content with the lowest possible latency? (Select TWO.)
     - A. AWS Storage Gateway
     - B. Amazon S3
     - C. Amazon Elastic File System (EFS)
@@ -126,7 +77,7 @@ layout: exam
 
     </details>
 
-10. Web servers running on Amazon EC2 access a legacy application running in a corporate data center. <br/> What term would describe this model?
+6. Web servers running on Amazon EC2 access a legacy application running in a corporate data center. <br/> What term would describe this model?
     - A. Cloud-native
     - B. Partner network
     - C. Hybrid architecture
@@ -140,23 +91,7 @@ layout: exam
 
     </details>
 
-11. What is the benefit of using AWS managed services, such as Amazon ElastiCache and Amazon Relational Database Service (Amazon RDS)?
-    - A. They require the customer to monitor and replace failing instances.
-    - B. They have better performance than customer-managed services.
-    - C. They simplify patching and updating underlying OSs.
-    - D. They do not require the customer to optimize instance type or size selections.
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: C
-
-    Explanation:
-    - AWS Managed Services takes care of all of your patching and backup activities to help keep your resources current and secure. When updates or patches are released by OS vendors, AWS Managed Services applies them in a timely and consistent manner to minimize the impact on your business
-    - Critical security patches are applied immediately, while others are applied based on the patch schedule you request. Backups of Stacks are automated using Amazon Elastic Block Store (EBS) and RDS snapshots, and can be restored in the event of a failure or outage, ensuring business continuity
-
-    </details>
-
-12. Which service provides a virtually unlimited amount of online highly durable object storage?
+7. Which service provides a virtually unlimited amount of online highly durable object storage?
     - A. Amazon Redshift
     - B. Amazon Elastic File System (Amazon EFS)
     - C. Amazon Elastic Container Service (Amazon ECS)
@@ -170,7 +105,7 @@ layout: exam
 
     </details>
 
-13. Which of the following Identity and Access Management (IAM) entities is associated with an access key ID and secret access key when using AWS Command Line Interface (AWS CLI)?
+8. Which of the following Identity and Access Management (IAM) entities is associated with an access key ID and secret access key when using AWS Command Line Interface (AWS CLI)?
     - A. IAM group
     - B. IAM user
     - C. IAM role
@@ -187,7 +122,7 @@ layout: exam
 
     </details>
 
-14. Which of the following security-related services does AWS offer? (Select TWO.)
+9. Which of the following security-related services does AWS offer? (Select TWO.)
     - A. Multi-factor authentication physical tokens
     - B. AWS Trusted Advisor security checks
     - C. Data encryption
@@ -203,7 +138,7 @@ layout: exam
 
     </details>
 
-15. Which AWS managed service is used to host databases?
+10. Which AWS managed service is used to host databases?
     - A. AWS Batch
     - B. AWS Artifact
     - C. AWS Data Pipeline
@@ -222,7 +157,7 @@ layout: exam
 
     </details>
 
-16. Which AWS service provides a simple and scalable shared file storage solution for use with Linux-based AWS and on-premises servers?
+11. Which AWS service provides a simple and scalable shared file storage solution for use with Linux-based AWS and on-premises servers?
     - A. Amazon S3
     - B. Amazon Glacier
     - C. Amazon EBS
@@ -241,7 +176,7 @@ layout: exam
 
     </details>
 
-17. When architecting cloud applications, which of the following are a key design principle?
+12. When architecting cloud applications, which of the following are a key design principle?
     - A. Use the largest instance possible
     - B. Provision capacity for peak load
     - C. Use the Scrum development process
@@ -257,7 +192,7 @@ layout: exam
 
     </details>
 
-18. Which AWS service should be used for long-term, low-cost storage of data backups?
+13. Which AWS service should be used for long-term, low-cost storage of data backups?
     - A. Amazon RDS
     - B. Amazon Glacier
     - C. AWS Snowball
@@ -277,7 +212,7 @@ layout: exam
 
     </details>
 
-19. Which task is AWS responsible for in the shared responsibility model for security and compliance?
+14. Which task is AWS responsible for in the shared responsibility model for security and compliance?
     - A. Granting access to individuals and services
     - B. Encrypting data in transit
     - C. Updating Amazon EC2 host firmware
@@ -296,7 +231,7 @@ layout: exam
 
     </details>
 
-20. Where should a company go to search software listings from independent software vendors to find, test, buy and deploy software that runs on AWS?
+15. Where should a company go to search software listings from independent software vendors to find, test, buy and deploy software that runs on AWS?
     - A. AWS Marketplace
     - B. Amazon Lumberyard
     - C. AWS Artifact
@@ -313,7 +248,7 @@ layout: exam
 
     </details>
 
-21. Which of the following is a benefit of using the AWS Cloud?
+16. Which of the following is a benefit of using the AWS Cloud?
     - A. Permissive security removes the administrative burden.
     - B. Ability to focus on revenue-generating activities.
     - C. Control over cloud network hardware.
@@ -331,7 +266,7 @@ layout: exam
 
     </details>
 
-22. When performing a cost analysis that supports physical isolation of a customer workload, which compute hosting model should be accounted for in the Total Cost of Ownership (TCO)?
+17. When performing a cost analysis that supports physical isolation of a customer workload, which compute hosting model should be accounted for in the Total Cost of Ownership (TCO)?
     - A. Dedicated Hosts
     - B. Reserved Instances
     - C. On-Demand Instances
@@ -348,7 +283,7 @@ layout: exam
 
     </details>
 
-23. Which AWS service provides the ability to manage infrastructure as code?
+18. Which AWS service provides the ability to manage infrastructure as code?
     - A. AWS CodePipeline
     - B. AWS CodeDeploy
     - C. AWS Direct Connect
@@ -367,7 +302,7 @@ layout: exam
 
     </details>
 
-24. If a customer needs to audit the change management of AWS resources, which of the following AWS services should the customer use?
+19. If a customer needs to audit the change management of AWS resources, which of the following AWS services should the customer use?
     - A. AWS Config
     - B. AWS Trusted Advisor
     - C. Amazon CloudWatch
@@ -387,7 +322,7 @@ layout: exam
 
     </details>
 
-25. What is Amazon CloudWatch?
+20. What is Amazon CloudWatch?
     - A. A code repository with customizable build and team commit features.
     - B. A metrics repository with customizable notification thresholds and channels.
     - C. A security configuration repository with threat analytics.
@@ -406,7 +341,7 @@ layout: exam
 
     </details>
 
-26. Which service allows a company with multiple AWS accounts to combine its usage to obtain volume discounts?
+21. Which service allows a company with multiple AWS accounts to combine its usage to obtain volume discounts?
     - A. AWS Server Migration Service
     - B. AWS Organizations
     - C. AWS Budgets
@@ -427,7 +362,7 @@ layout: exam
 
     </details>
 
-27. Which of the following services could be used to deploy an application to servers running on-premises? (Select TWO.)
+22. Which of the following services could be used to deploy an application to servers running on-premises? (Select TWO.)
     - A. AWS Elastic Beanstalk
     - B. AWS OpsWorks
     - C. AWS CodeDeploy
@@ -444,7 +379,7 @@ layout: exam
 
     </details>
 
-28. Which Amazon EC2 pricing model adjusts based on supply and demand of EC2 instances?
+23. Which Amazon EC2 pricing model adjusts based on supply and demand of EC2 instances?
     - A. On-Demand Instances
     - B. Reserved Instances
     - C. Spot Instances
@@ -461,20 +396,7 @@ layout: exam
 
     </details>
 
-29. Which design principles for cloud architecture are recommended when re-architecting a large monolithic application? (Select TWO.)
-    - A. Use manual monitoring.
-    - B. Use fixed servers.
-    - C. Implement loose coupling.
-    - D. Rely on individual components.
-    - E. Design for scalability.
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: CE
-
-    </details>
-
-30. Which is the MINIMUM AWS Support plan that allows for one-hour target response time for support cases?
+24. Which is the MINIMUM AWS Support plan that allows for one-hour target response time for support cases?
     - A. Enterprise
     - B. Business
     - C. Developer
@@ -488,7 +410,7 @@ layout: exam
 
     </details>
 
-31. Where can AWS compliance and certification reports be downloaded?
+25. Where can AWS compliance and certification reports be downloaded?
     - A. AWS Artifact
     - B. AWS Concierge
     - C. AWS Certificate Manager
@@ -508,19 +430,7 @@ layout: exam
 
     </details>
 
-32. Which AWS service provides a customized view of the health of specific AWS services that power a customer's workloads running on AWS?
-    - A. AWS Service Health Dashboard
-    - B. AWS X-Ray
-    - C. AWS Personal Health Dashboard
-    - D. Amazon CloudWatch
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: C
-
-    </details>
-
-33. Which of the following is an advantage of consolidated billing on AWS?
+26. Which of the following is an advantage of consolidated billing on AWS?
     - A. Volume pricing qualification
     - B. Shared access permissions
     - C. Multiple bills per account
@@ -538,7 +448,7 @@ layout: exam
 
     </details>
 
-34. Which of the following steps should be taken by a customer when conducting penetration testing on AWS?
+27. Which of the following steps should be taken by a customer when conducting penetration testing on AWS?
     - A. Conduct penetration testing using Amazon Inspector, and then notify AWS support.
     - B. Request and wait for approval from the customer's internal security team, and then conduct testing.
     - C. Notify AWS support, and then conduct testing immediately.
@@ -556,7 +466,7 @@ layout: exam
 
     </details>
 
-35. Which of the following AWS features enables a user to launch a pre-configured Amazon Elastic Compute Cloud (Amazon EC2) instance?
+28. Which of the following AWS features enables a user to launch a pre-configured Amazon Elastic Compute Cloud (Amazon EC2) instance?
     - A. Amazon Elastic Block Store (Amazon EBS)
     - B. Amazon Machine Image
     - C. Amazon EC2 Systems Manager
@@ -578,7 +488,7 @@ layout: exam
 
     </details>
 
-36. How would an AWS customer easily apply common access controls to a large set of users?
+29. How would an AWS customer easily apply common access controls to a large set of users?
     - A. Apply an IAM policy to an IAM group.
     - B. Apply an IAM policy to an IAM role.
     - C. Apply the same IAM policy to all IAM users with access to the same workload.
@@ -598,7 +508,7 @@ layout: exam
 
     </details>
 
-37. Which AWS Cost Management tool allows you to view the most granular data about your AWS bill?
+30. Which AWS Cost Management tool allows you to view the most granular data about your AWS bill?
     - A. AWS Cost Explorer
     - B. AWS Budgets
     - C. AWS Cost and Usage report
@@ -616,20 +526,7 @@ layout: exam
 
     </details>
 
-38. Which of the following can an AWS customer use to launch a new Amazon Relational Database Service (Amazon RDS) cluster? (Select TWO.)
-    - A. AWS Concierge
-    - B. AWS CloudFormation
-    - C. Amazon Simple Storage Service (Amazon S3)
-    - D. Amazon EC2 Auto Scaling
-    - E. AWS Management Console
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: BE
-
-    </details>
-
-39. Which of the following is an AWS Cloud architecture design principle?
+31. Which of the following is an AWS Cloud architecture design principle?
     - A. Implement single points of failure.
     - B. Implement loose coupling.
     - C. Implement monolithic design.
@@ -649,7 +546,7 @@ layout: exam
 
     </details>
 
-40. Which of the following security measures protect access to an AWS account? (Select TWO.)
+32. Which of the following security measures protect access to an AWS account? (Select TWO.)
     - A. Enable AWS CloudTrail.
     - B. Grant least privilege access to IAM users.
     - C. Create one IAM user and share with many developers and users.
@@ -669,7 +566,7 @@ layout: exam
 
     </details>
 
-41. Which service provides a hybrid storage service that enables on-premises applications to seamlessly use cloud storage?
+33. Which service provides a hybrid storage service that enables on-premises applications to seamlessly use cloud storage?
     - A. Amazon Glacier
     - B. AWS Snowball
     - C. AWS Storage Gateway
@@ -688,7 +585,7 @@ layout: exam
 
     </details>
 
-42. Which of the following services falls under the responsibility of the customer to maintain operating system configuration, security patching, and networking?
+34. Which of the following services falls under the responsibility of the customer to maintain operating system configuration, security patching, and networking?
     - A. Amazon RDS
     - B. Amazon EC2
     - C. Amazon ElastiCache
@@ -705,7 +602,7 @@ layout: exam
 
     </details>
 
-43. Which of the following is an important architectural design principle when designing cloud applications?
+35. Which of the following is an important architectural design principle when designing cloud applications?
     - A. Use multiple Availability Zones.
     - B. Use tightly coupled components.
     - C. Use open source software.
@@ -723,7 +620,7 @@ layout: exam
 
     </details>
 
-44. Which AWS support plan includes a dedicated Technical Account Manager?
+36. Which AWS support plan includes a dedicated Technical Account Manager?
     - A. Developer
     - B. Enterprise
     - C. Business
@@ -740,7 +637,7 @@ layout: exam
 
     </details>
 
-45. Amazon Relational Database Service (Amazon RDS) offers which of the following benefits over traditional database management?
+37. Amazon Relational Database Service (Amazon RDS) offers which of the following benefits over traditional database management?
     - A. AWS manages the data stored in Amazon RDS tables.
     - B. AWS manages the maintenance of the operating system.
     - C. AWS automatically scales up instance types on demand.
@@ -751,7 +648,7 @@ layout: exam
 
     </details>
 
-46. Which service is best for storing common database query results, which helps to alleviate database access load?
+38. Which service is best for storing common database query results, which helps to alleviate database access load?
     - A. Amazon Machine Learning
     - B. Amazon SQS
     - C. Amazon ElastiCache
@@ -770,7 +667,7 @@ layout: exam
 
     </details>
 
-47. Which of the following is a component of the shared responsibility model managed entirely by AWS?
+39. Which of the following is a component of the shared responsibility model managed entirely by AWS?
     - A. Patching operating system software
     - B. Encrypting data
     - C. Enforcing multi-factor authentication
@@ -785,7 +682,7 @@ layout: exam
 
     </details>
 
-48. Which options does AWS make available for customers who want to learn about security in the cloud in an instructor-led setting? (Select TWO.)
+40. Which options does AWS make available for customers who want to learn about security in the cloud in an instructor-led setting? (Select TWO.)
     - A. AWS Trusted Advisor
     - B. AWS Online Tech Talks
     - C. AWS Blog
@@ -806,7 +703,7 @@ layout: exam
 
     </details>
 
-49. Which of the following features can be configured through the Amazon Virtual Private Cloud (Amazon VPC) Dashboard? (Select TWO.)
+41. Which of the following features can be configured through the Amazon Virtual Private Cloud (Amazon VPC) Dashboard? (Select TWO.)
     - A. Amazon CloudFront distributions
     - B. Amazon Route 53
     - C. Security Groups
@@ -829,7 +726,7 @@ layout: exam
 
     </details>
 
-50. If each department within a company has its own AWS account, what is one way to enable consolidated billing?
+42. If each department within a company has its own AWS account, what is one way to enable consolidated billing?
       - A. Use AWS Budgets on each account to pay only to budget.
       - B. Contact AWS Support for a monthly bill.
       - C. Create an AWS Organization from the payer account and invite the other accounts to join.
@@ -842,4 +739,3 @@ layout: exam
     Explanation: <https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/consolidated-billing.html>
 
     </details>
-

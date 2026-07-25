@@ -387,20 +387,7 @@ layout: exam
 
     </details>
 
-27. How does AWS Trusted Advisor provide guidance to users of the AWS Cloud? (Choose two.)
-    - A. It identifies software vulnerabilities in applications running on AWS
-    - B. It provides a list of cost optimization recommendations based on current AWS usage
-    - C. It detects potential security vulnerabilities caused by permissions settings on account resources
-    - D. It automatically corrects potential security issues caused by permissions settings on account resources
-    - E. It provides proactive alerting whenever an Amazon EC2 instance has been compromised
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: BC
-
-    </details>
-
-28. Which of the following are advantages of the AWS Cloud? (Choose two.)
+27. Which of the following are advantages of the AWS Cloud? (Choose two.)
     - A. AWS manages the maintenance of the cloud infrastructure
     - B. AWS manages the security of applications built on AWS
     - C. AWS manages capacity planning for physical servers
@@ -415,7 +402,7 @@ layout: exam
 
     </details>
 
-29. A user deploys an Amazon RDS DB instance in multiple Availability Zones. <br/> This strategy involves which pillar of the AWS Well-Architected Framework?
+28. A user deploys an Amazon RDS DB instance in multiple Availability Zones. <br/> This strategy involves which pillar of the AWS Well-Architected Framework?
     - A. Performance efficiency
     - B. Reliability
     - C. Cost optimization
@@ -430,7 +417,7 @@ layout: exam
 
     </details>
 
-30. Which AWS services provide a user with connectivity between the AWS Cloud and on-premises resources? (Choose two.)
+29. Which AWS services provide a user with connectivity between the AWS Cloud and on-premises resources? (Choose two.)
     - A. AWS VPN
     - B. Amazon Connect
     - C. Amazon Cognito
@@ -447,7 +434,7 @@ layout: exam
 
     </details>
 
-31. Which AWS service is used to pay AWS bills, and monitor usage and budget costs?
+30. Which AWS service is used to pay AWS bills, and monitor usage and budget costs?
     - A. AWS Billing and Cost Management
     - B. Consolidated billing
     - C. Amazon CloudWatch
@@ -461,7 +448,7 @@ layout: exam
 
     </details>
 
-32. Which element of the AWS global infrastructure consists of one or more discrete data centers, each with redundant power, networking, and connectivity, which are housed in separate facilities?
+31. Which element of the AWS global infrastructure consists of one or more discrete data centers, each with redundant power, networking, and connectivity, which are housed in separate facilities?
     - A. AWS Regions
     - B. Availability Zones
     - C. Edge locations
@@ -476,7 +463,7 @@ layout: exam
 
     </details>
 
-33. Which Amazon VPC feature enables users to capture information about the IP traffic that reaches Amazon EC2 instances?
+32. Which Amazon VPC feature enables users to capture information about the IP traffic that reaches Amazon EC2 instances?
     - A. Security groups
     - B. Elastic network interfaces
     - C. Network ACLs
@@ -494,7 +481,7 @@ layout: exam
 
     </details>
 
-34. Which AWS service can be used to automatically scale an application up and down without making capacity planning decisions?
+33. Which AWS service can be used to automatically scale an application up and down without making capacity planning decisions?
     - A. Amazon AutoScaling
     - B. Amazon Redshift
     - C. AWS CloudTrail
@@ -508,7 +495,7 @@ layout: exam
 
     </details>
 
-35. AWS Enterprise Support users have access to which service or feature that is not available to users with other AWS Support plans?
+34. AWS Enterprise Support users have access to which service or feature that is not available to users with other AWS Support plans?
     - A. AWS Trusted Advisor
     - B. AWS Support case
     - C. Concierge team
@@ -522,7 +509,7 @@ layout: exam
 
     </details>
 
-36. A company wants to migrate a MySQL database to AWS but does not have the budget for Database Administrators to handle routine tasks including provisioning, patching, and performing backups. <br/> Which AWS service will support this use case?
+35. A company wants to migrate a MySQL database to AWS but does not have the budget for Database Administrators to handle routine tasks including provisioning, patching, and performing backups. <br/> Which AWS service will support this use case?
     - A. Amazon RDS
     - B. Amazon DynamoDB
     - C. Amazon DocumentDB
@@ -541,7 +528,7 @@ layout: exam
 
     </details>
 
-37. A company wants to expand from one AWS Region into a second AWS Region. <br/> What does the company need to do to start supporting the new Region?
+36. A company wants to expand from one AWS Region into a second AWS Region. <br/> What does the company need to do to start supporting the new Region?
     - A. Contact an AWS Account Manager to sign a new contract
     - B. Move an Availability Zone to the new Region
     - C. Begin deploying resources in the second Region
@@ -556,7 +543,7 @@ layout: exam
 
     </details>
 
-38. A user must meet compliance and software licensing requirements that state a workload must be hosted on a physical server. <br/> Which Amazon EC2 instance pricing option will meet these requirements?
+37. A user must meet compliance and software licensing requirements that state a workload must be hosted on a physical server. <br/> Which Amazon EC2 instance pricing option will meet these requirements?
     - A. Dedicated Hosts
     - B. Dedicated Instances
     - C. Spot Instances
@@ -570,7 +557,7 @@ layout: exam
 
     </details>
 
-39. Which AWS service will provide a way to generate encryption keys that can be used to encrypt data? (Choose two.)
+38. Which AWS service will provide a way to generate encryption keys that can be used to encrypt data? (Choose two.)
     - A. Amazon Macie
     - B. AWS Certificate Manager
     - C. AWS Key Management Service (AWS KMS)
@@ -587,7 +574,7 @@ layout: exam
 
     </details>
 
-40. A company is planning to migrate from on-premises to the AWS Cloud. <br/> Which AWS tool or service provides detailed reports on estimated cost savings after migration?
+39. A company is planning to migrate from on-premises to the AWS Cloud. <br/> Which AWS tool or service provides detailed reports on estimated cost savings after migration?
     - A. AWS Total Cost of Ownership (TCO) Calculator
     - B. Cost Explorer
     - C. AWS Budgets
@@ -602,20 +589,7 @@ layout: exam
 
     </details>
 
-41. What can assist in evaluating an application for migration to the cloud? (Choose two.)
-    - A. AWS Trusted Advisor
-    - B. AWS Professional Services
-    - C. AWS Systems Manager
-    - D. AWS Partner Network (APN)
-    - E. AWS Secrets Manager
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: BD
-
-    </details>
-
-42. Which AWS service helps users meet contractual and regulatory compliance requirements for data security by using dedicated hardware appliances within the AWS Cloud?
+40. Which AWS service helps users meet contractual and regulatory compliance requirements for data security by using dedicated hardware appliances within the AWS Cloud?
     - A. AWS Secrets Manager
     - B. AWS CloudHSM
     - C. AWS Key Management Service (AWS KMS)
@@ -635,7 +609,7 @@ layout: exam
 
     </details>
 
-43. Under the AWS shared responsibility model, the customer manages which of the following? (Choose two.)
+41. Under the AWS shared responsibility model, the customer manages which of the following? (Choose two.)
     - A. Decommissioning of physical storage devices
     - B. Security group and ACL configuration
     - C. Patch management of an Amazon RDS instance operating system
@@ -650,7 +624,7 @@ layout: exam
 
     </details>
 
-44. Which AWS service is suitable for an event-driven workload?
+42. Which AWS service is suitable for an event-driven workload?
     - A. Amazon EC2
     - B. AWS Elastic Beanstalk
     - C. AWS Lambda
@@ -668,7 +642,7 @@ layout: exam
 
     </details>
 
-45. What is a value proposition of the AWS Cloud?
+43. What is a value proposition of the AWS Cloud?
     - A. AWS is responsible for security in the AWS Cloud
     - B. No long-term contract is required
     - C. Provision new servers in days
@@ -682,7 +656,7 @@ layout: exam
 
     </details>
 
-46. What is a characteristic of Amazon S3 cross-region replication?
+44. What is a characteristic of Amazon S3 cross-region replication?
     - A. Both source and destination S3 buckets must have versioning disabled
     - B. The source and destination S3 buckets cannot be in different AWS Regions
     - C. S3 buckets configured for cross-region replication can be owned by a single AWS account or by different accounts
@@ -696,7 +670,7 @@ layout: exam
 
     </details>
 
-47. What is a user responsible for when running an application in the AWS Cloud?   - A. Managing physical hardware
+45. What is a user responsible for when running an application in the AWS Cloud?   - A. Managing physical hardware
     - B. Updating the underlying hypervisor
     - C. Providing a list of users approved for data center access
     - D. Managing application software updates
@@ -709,7 +683,7 @@ layout: exam
 
     </details>
 
-48. A company that does business online needs to quickly deliver new functionality in an iterative manner, minimizing the time to market. <br/> Which AWS Cloud feature can provide this?
+46. A company that does business online needs to quickly deliver new functionality in an iterative manner, minimizing the time to market. <br/> Which AWS Cloud feature can provide this?
     - A. Elasticity
     - B. High availability
     - C. Agility
@@ -723,7 +697,7 @@ layout: exam
 
     </details>
 
-49. Which features or services can be used to monitor costs and expenses for an AWS account? (Choose two.)
+47. Which features or services can be used to monitor costs and expenses for an AWS account? (Choose two.)
     - A. AWS Cost and Usage report
     - B. AWS product pages
     - C. AWS Simple Monthly Calculator
@@ -738,7 +712,7 @@ layout: exam
 
     </details>
 
-50. Amazon Route 53 enables users to:
+48. Amazon Route 53 enables users to:
     - A. encrypt data in transit
     - B. register DNS domain names
     - C. generate and manage SSL certificates
@@ -751,4 +725,3 @@ layout: exam
     Explanation: <https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/Welcome.html>
 
     </details>
-

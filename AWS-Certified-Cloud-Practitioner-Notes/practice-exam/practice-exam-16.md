@@ -882,4 +882,3 @@ layout: exam
     <https://aws.amazon.com/blogs/aws/the-new-aws-tco-calculator/>
 
     </details>
-

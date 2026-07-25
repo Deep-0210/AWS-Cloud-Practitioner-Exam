@@ -20,7 +20,6 @@ function parseMarkdown(content: string, examId: number): Exam {
     const qMatch = block.match(/^(\d+)\.\s+([\s\S]*?)(?=\n\s+-\s+[A-E]\.)/);
     if (!qMatch) continue;
 
-    const qId = parseInt(qMatch[1]);
     const qText = qMatch[2].trim().replace(/<br\s*\/?>/g, " ").replace(/\s+/g, " ");
 
     const options: { label: string; text: string }[] = [];
@@ -45,7 +44,7 @@ function parseMarkdown(content: string, examId: number): Exam {
     if (options.length > 0 && correctAnswers.length > 0) {
       const optionsText = options.map((o) => o.text).join(" ");
       questions.push({
-        id: qId,
+        id: questions.length + 1,
         text: qText,
         options,
         correctAnswers,

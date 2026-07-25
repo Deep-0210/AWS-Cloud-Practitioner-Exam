@@ -89,19 +89,7 @@ layout: exam
 
     </details>
 
-8. A user is planning to launch two additional Amazon EC2 instances to increase availability. <br/> Which action should the user take?
-    - A. Launch the instances across multiple Availability Zones in a single AWS Region.
-    - B. Launch the instances as EC2 Reserved Instances in the same AWS Region and the same Availability Zone.
-    - C. Launch the instances in multiple AWS Regions, but in the same Availability Zone.
-    - D. Launch the instances as EC2 Spot Instances in the same AWS Region, but in different Availability Zones.
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: A
-
-    </details>
-
-9. A company must store critical business data in Amazon S3 with a backup to another AWS Region. <br/> How can this be achieved?
+8. A company must store critical business data in Amazon S3 with a backup to another AWS Region. <br/> How can this be achieved?
     - A. Use an Amazon CloudFront Content Delivery Network (CDN) to cache data globally
     - B. Set up Amazon S3 cross-region replication to another AWS Region
     - C. Configure the AWS Backup service to back up to the data to another AWS Region
@@ -113,7 +101,7 @@ layout: exam
 
     </details>
 
-10. Which AWS Cloud service can send alerts to customers if custom spending thresholds are exceeded?
+9. Which AWS Cloud service can send alerts to customers if custom spending thresholds are exceeded?
     - A. AWS Budgets
     - B. AWS Cost Explorer
     - C. AWS Cost Allocation Tags
@@ -125,7 +113,7 @@ layout: exam
 
     </details>
 
-11. What is the recommended method to request penetration testing on AWS resources?
+10. What is the recommended method to request penetration testing on AWS resources?
     - A. Open a support case
     - B. Fill out the Penetration Testing Request Form
     - C. Request a penetration test from your technical account manager
@@ -137,7 +125,7 @@ layout: exam
 
     </details>
 
-12. A user needs to automatically discover, classify, and protect sensitive data stored in Amazon S3. <br/> Which AWS service can meet these requirements?
+11. A user needs to automatically discover, classify, and protect sensitive data stored in Amazon S3. <br/> Which AWS service can meet these requirements?
     - A. Amazon Inspector
     - B. Amazon Macie
     - C. Amazon GuardDuty
@@ -149,7 +137,7 @@ layout: exam
 
     </details>
 
-13. Which components are required to build a successful site-to-site VPN connection on AWS? (Choose two.)
+12. Which components are required to build a successful site-to-site VPN connection on AWS? (Choose two.)
     - A. Internet gateway
     - B. NAT gateway
     - C. Customer gateway
@@ -162,7 +150,7 @@ layout: exam
 
     </details>
 
-14. Which Amazon EC2 pricing option is best suited for applications with short-term, spiky, or unpredictable workloads that cannot be interrupted?
+13. Which Amazon EC2 pricing option is best suited for applications with short-term, spiky, or unpredictable workloads that cannot be interrupted?
     - A. Spot Instances
     - B. Dedicated Hosts
     - C. On-Demand Instances
@@ -174,7 +162,7 @@ layout: exam
 
     </details>
 
-15. Which AWS cloud architecture principle states that systems should reduce interdependencies?
+14. Which AWS cloud architecture principle states that systems should reduce interdependencies?
     - A. Scalability
     - B. Services, not servers
     - C. Removing single points of failure
@@ -186,7 +174,7 @@ layout: exam
 
     </details>
 
-16. What is the MOST effective resource for staying up to date on AWS security announcements?
+15. What is the MOST effective resource for staying up to date on AWS security announcements?
     - A. AWS Personal Health Dashboard
     - B. AWS Secrets Manager
     - C. AWS Security Bulletins
@@ -198,7 +186,7 @@ layout: exam
 
     </details>
 
-17. Which AWS service offers persistent storage for a file system?
+16. Which AWS service offers persistent storage for a file system?
     - A. Amazon S3
     - B. Amazon EC2 instance store
     - C. Amazon Elastic Block Store (Amazon EBS)
@@ -210,7 +198,7 @@ layout: exam
 
     </details>
 
-18. Which of the following allows AWS users to manage cost allocations for billing?
+17. Which of the following allows AWS users to manage cost allocations for billing?
     - A. Tagging resources
     - B. Limiting who can create resources
     - C. Adding a secondary payment method
@@ -222,7 +210,7 @@ layout: exam
 
     </details>
 
-19. Which AWS service allows users to download security and compliance reports about the AWS infrastructure on demand?
+18. Which AWS service allows users to download security and compliance reports about the AWS infrastructure on demand?
     - A. Amazon GuardDuty
     - B. AWS Security Hub
     - C. AWS Artifact
@@ -234,7 +222,7 @@ layout: exam
 
     </details>
 
-20. Which of the following AWS services are serverless? (Choose two.)
+19. Which of the following AWS services are serverless? (Choose two.)
     - A. AWS Lambda
     - B. Amazon Elasticsearch Service
     - C. AWS Elastic Beanstalk
@@ -247,7 +235,7 @@ layout: exam
 
     </details>
 
-21. Which AWS managed services can be used to extend an on-premises data center to the AWS network? (Choose two.)
+20. Which AWS managed services can be used to extend an on-premises data center to the AWS network? (Choose two.)
     - A. AWS VPN
     - B. NAT gateway
     - C. AWS Direct Connect
@@ -260,7 +248,7 @@ layout: exam
 
     </details>
 
-22. Which requirement must be met for a member account to be unlinked from an AWS Organizations account?
+21. Which requirement must be met for a member account to be unlinked from an AWS Organizations account?
     - A. The linked account must be actively compliant with AWS System and Organization Controls (SOC).
     - B. The payer and the linked account must both create AWS Support cases to request that the member account be unlinked from the organization.
     - C. The member account must meet the requirements of a standalone account.
@@ -272,7 +260,7 @@ layout: exam
 
     </details>
 
-23. What AWS benefit refers to a customer's ability to deploy applications that scale up and down the meet variable demand?
+22. What AWS benefit refers to a customer's ability to deploy applications that scale up and down the meet variable demand?
     - A. Elasticity
     - B. Agility
     - C. Security
@@ -289,7 +277,7 @@ layout: exam
 
     </details>
 
-24. During a compliance review, one of the auditors requires a copy of the AWS SOC 2 report. <br/> Which service should be used to submit this request?
+23. During a compliance review, one of the auditors requires a copy of the AWS SOC 2 report. <br/> Which service should be used to submit this request?
     - A. AWS Personal Health Dashboard
     - B. AWS Trusted Advisor
     - C. AWS Artifact
@@ -301,7 +289,7 @@ layout: exam
 
     </details>
 
-25. A company wants to set up a highly available workload in AWS with a disaster recovery plan that will allow the company to recover in case of a regional service interruption. <br/> Which configuration will meet these requirements?
+24. A company wants to set up a highly available workload in AWS with a disaster recovery plan that will allow the company to recover in case of a regional service interruption. <br/> Which configuration will meet these requirements?
     - A. Run on two Availability Zones in one AWS Region, using the additional Availability Zones in the AWS Region for the disaster recovery site.
     - B. Run on two Availability Zones in one AWS Region, using another AWS Region for the disaster recovery site.
     - C. Run on two Availability Zones in one AWS Region, using a local AWS Region for the disaster recovery site.
@@ -319,7 +307,7 @@ layout: exam
 
     </details>
 
-26. A company has a 500 TB image repository that needs to be transported to AWS for processing. <br/> Which AWS service can import this data MOST cost-effectively?
+25. A company has a 500 TB image repository that needs to be transported to AWS for processing. <br/> Which AWS service can import this data MOST cost-effectively?
     - A. AWS Snowball
     - B. AWS Direct Connect
     - C. AWS VPN
@@ -333,7 +321,7 @@ layout: exam
 
     </details>
 
-27. Which AWS service can run a managed PostgreSQL database that provides online transaction processing (OLTP)?
+26. Which AWS service can run a managed PostgreSQL database that provides online transaction processing (OLTP)?
     - A. Amazon DynamoDB
     - B. Amazon Athena
     - C. Amazon RDS
@@ -347,7 +335,7 @@ layout: exam
 
     </details>
 
-28. Which of the following assist in identifying costs by department? (Choose two.)
+27. Which of the following assist in identifying costs by department? (Choose two.)
     - A. Using tags on resources
     - B. Using multiple AWS accounts
     - C. Using an account manager
@@ -360,7 +348,7 @@ layout: exam
 
     </details>
 
-29. A company wants to allow full access to an Amazon S3 bucket for a particular user. <br/> Which element in the S3 bucket policy holds the user details that describe who needs access to the S3 bucket?
+28. A company wants to allow full access to an Amazon S3 bucket for a particular user. <br/> Which element in the S3 bucket policy holds the user details that describe who needs access to the S3 bucket?
     - A. Principal
     - B. Action
     - C. Resource
@@ -374,7 +362,7 @@ layout: exam
 
     </details>
 
-30. Which AWS service allows for effective cost management of multiple AWS accounts?
+29. Which AWS service allows for effective cost management of multiple AWS accounts?
     - A. AWS Organizations
     - B. AWS Trusted Advisor
     - C. AWS Direct Connect
@@ -388,7 +376,7 @@ layout: exam
 
     </details>
 
-31. A company is piloting a new customer-facing application on Amazon Elastic Compute Cloud (Amazon EC2) for one month. <br/> What pricing model is appropriate?
+30. A company is piloting a new customer-facing application on Amazon Elastic Compute Cloud (Amazon EC2) for one month. <br/> What pricing model is appropriate?
     - A. Reserved Instances
     - B. Spot Instances
     - C. On-Demand Instances
@@ -402,7 +390,7 @@ layout: exam
 
     </details>
 
-32. Which AWS tools automatically forecast future AWS costs?
+31. Which AWS tools automatically forecast future AWS costs?
     - A. AWS Support Center
     - B. AWS Total Cost of Ownership (TCO) Calculator
     - C. AWS Simple Monthly Calculator
@@ -416,7 +404,7 @@ layout: exam
 
     </details>
 
-33. Under the AWS shared responsibility model, which of the following is a responsibility of AWS?
+32. Under the AWS shared responsibility model, which of the following is a responsibility of AWS?
     - A. Enabling server-side encryption for objects stored in S3
     - B. Applying AWS IAM security policies
     - C. Patching the operating system on an Amazon EC2 instance
@@ -430,7 +418,7 @@ layout: exam
 
     </details>
 
-34. A user is able to set up a master payer account to view consolidated billing reports through:
+33. A user is able to set up a master payer account to view consolidated billing reports through:
     - A. AWS Budgets.
     - B. Amazon Macie.
     - C. Amazon QuickSight.
@@ -444,7 +432,7 @@ layout: exam
 
     </details>
 
-35. Performing operations as code is a design principle that supports which pillar of the AWS Well-Architected Framework?
+34. Performing operations as code is a design principle that supports which pillar of the AWS Well-Architected Framework?
     - A. Performance efficiency
     - B. Operational excellence
     - C. Reliability
@@ -458,7 +446,7 @@ layout: exam
 
     </details>
 
-36. Which design principle is achieved by following the reliability pillar of the AWS Well-Architected Framework?
+35. Which design principle is achieved by following the reliability pillar of the AWS Well-Architected Framework?
     - A. Vertical scaling
     - B. Manual failure recovery
     - C. Testing recovery procedures
@@ -472,7 +460,7 @@ layout: exam
 
     </details>
 
-37. What is a characteristic of Convertible Reserved Instances (RIs)?
+36. What is a characteristic of Convertible Reserved Instances (RIs)?
     - A. Users can exchange Convertible RIs for other Convertible RIs from a different instance family with an equal or higher value than the Convertible Reserved Instances that you are exchanging.
     - B. Users can exchange Convertible RIs for other Convertible RIs in different AWS Regions.
     - C. Users can sell and buy Convertible RIs on the AWS Marketplace.
@@ -486,7 +474,7 @@ layout: exam
 
     </details>
 
-38. The user is fully responsible for which action when running workloads on AWS?
+37. The user is fully responsible for which action when running workloads on AWS?
     - A. Patching the infrastructure components
     - B. Implementing controls to route application traffic
     - C. Maintaining physical and environmental controls
@@ -498,7 +486,7 @@ layout: exam
 
     </details>
 
-39. An architecture design includes Amazon EC2, an Elastic Load Balancer, and Amazon RDS. <br/> What is the BEST way to get a monthly cost estimation for this architecture?
+38. An architecture design includes Amazon EC2, an Elastic Load Balancer, and Amazon RDS. <br/> What is the BEST way to get a monthly cost estimation for this architecture?
     - A. Open an AWS Support case, provide the architecture proposal, and ask for a monthly cost estimation.
     - B. Collect the published prices of the AWS services and calculate the monthly estimate.
     - C. Use the AWS Simple Monthly Calculator to estimate the monthly cost.
@@ -512,7 +500,7 @@ layout: exam
 
     </details>
 
-40. Which are benefits of using Amazon RDS over Amazon EC2 when running relational databases on AWS? (Choose two.)
+39. Which are benefits of using Amazon RDS over Amazon EC2 when running relational databases on AWS? (Choose two.)
     - A. Automated backups
     - B. Schema management
     - C. Indexing of tables
@@ -527,7 +515,7 @@ layout: exam
 
     </details>
 
-41. What does the Amazon S3 Intelligent-Tiering storage class offer?
+40. What does the Amazon S3 Intelligent-Tiering storage class offer?
     - A. Payment flexibility by reserving storage capacity
     - B. Long-term retention of data by copying the data to an encrypted Amazon Elastic Block Store (Amazon EBS) volume
     - C. Automatic cost savings by moving objects between tiers based on access pattern changes
@@ -541,7 +529,7 @@ layout: exam
 
     </details>
 
-42. A company has multiple data sources across the organization and wants to consolidate data into one data warehouse. <br/> Which AWS service can be used to meet this requirement?
+41. A company has multiple data sources across the organization and wants to consolidate data into one data warehouse. <br/> Which AWS service can be used to meet this requirement?
     - A. Amazon DynamoDB
     - B. Amazon Redshift
     - C. Amazon Athena
@@ -555,7 +543,7 @@ layout: exam
 
     </details>
 
-43. Which AWS service can be used to track resource changes and establish compliance?
+42. Which AWS service can be used to track resource changes and establish compliance?
     - A. Amazon CloudWatch
     - B. AWS Config
     - C. AWS CloudTrail
@@ -569,7 +557,7 @@ layout: exam
 
     </details>
 
-44. A user has underutilized on-premises resources. <br/> Which AWS Cloud concept can BEST address this issue?
+43. A user has underutilized on-premises resources. <br/> Which AWS Cloud concept can BEST address this issue?
     - A. High availability
     - B. Elasticity
     - C. Security
@@ -583,7 +571,7 @@ layout: exam
 
     </details>
 
-45. A user has a stateful workload that will run on Amazon EC2 for the next 3 years. <br/> What is the MOST cost-effective pricing model for this workload?
+44. A user has a stateful workload that will run on Amazon EC2 for the next 3 years. <br/> What is the MOST cost-effective pricing model for this workload?
     - A. On-Demand Instances
     - B. Reserved Instances
     - C. Dedicated Instances
@@ -595,7 +583,7 @@ layout: exam
 
     </details>
 
-46. A cloud practitioner needs an Amazon EC2 instance to launch and run for 7 hours without interruptions. <br/> What is the most suitable and cost-effective option for this task?
+45. A cloud practitioner needs an Amazon EC2 instance to launch and run for 7 hours without interruptions. <br/> What is the most suitable and cost-effective option for this task?
     - A. On-Demand Instance
     - B. Reserved Instance
     - C. Dedicated Host
@@ -607,7 +595,7 @@ layout: exam
 
     </details>
 
-47. Which of the following are benefits of using AWS Trusted Advisor? (Choose two.)
+46. Which of the following are benefits of using AWS Trusted Advisor? (Choose two.)
     - A. Providing high-performance container orchestration
     - B. Creating and rotating encryption keys
     - C. Detecting underutilized resources to save costs
@@ -622,7 +610,7 @@ layout: exam
 
     </details>
 
-48. A developer has been hired by a large company and needs AWS credentials. <br/> Which are security best practices that should be followed? (Choose two.)
+47. A developer has been hired by a large company and needs AWS credentials. <br/> Which are security best practices that should be followed? (Choose two.)
     - A. Grant the developer access to only the AWS resources needed to perform the job.
     - B. Share the AWS account root user credentials with the developer.
     - C. Add the developer to the administrator's group in AWS IAM.
@@ -635,7 +623,7 @@ layout: exam
 
     </details>
 
-49. Which AWS storage service is designed to transfer petabytes of data in and out of the cloud?
+48. Which AWS storage service is designed to transfer petabytes of data in and out of the cloud?
     - A. AWS Storage Gateway
     - B. Amazon S3 Glacier Deep Archive
     - C. Amazon Lightsail
@@ -649,7 +637,7 @@ layout: exam
 
     </details>
 
-50. Which service provides a user the ability to warehouse data in the AWS Cloud?
+49. Which service provides a user the ability to warehouse data in the AWS Cloud?
     - A. Amazon EFS
     - B. Amazon Redshift
     - C. Amazon RDS
@@ -662,4 +650,3 @@ layout: exam
     Explanation: <https://aws.amazon.com/redshift/>
 
     </details>
-

@@ -820,4 +820,3 @@ layout: exam
     Reference: <https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/consolidated-billing.html>
 
     </details>
-

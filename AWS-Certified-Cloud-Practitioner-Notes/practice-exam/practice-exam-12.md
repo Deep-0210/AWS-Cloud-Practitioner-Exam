@@ -291,17 +291,7 @@ layout: exam
       Correct answer: B
     </details>
 
-29. Which of the following can limit Amazon Simple Storage Service (Amazon S3) bucket access to specific users?
-    - A. A public and private key-pair.
-    - B. Amazon Inspector.
-    - C. AWS Identity and Access Management (IAM) policies.
-    - D. Security Groups.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: C
-    </details>
-
-30. How should a customer forecast the future costs for running a new web application?
+29. How should a customer forecast the future costs for running a new web application?
     - A. Amazon Aurora Backtrack.
     - B. Amazon CloudWatch Billing Alarms.
     - C. AWS Simple Monthly Calculator.
@@ -311,7 +301,7 @@ layout: exam
       Correct answer: C
     </details>
 
-31. Where are AWS compliance documents, such as an SOC 1 report, located?
+30. Where are AWS compliance documents, such as an SOC 1 report, located?
     - A. Amazon Inspector.
     - B. AWS CloudTrail.
     - C. AWS Artifact.
@@ -321,7 +311,7 @@ layout: exam
       Correct answer: C
     </details>
 
-32. Which of the following tasks is the responsibility of AWS?
+31. Which of the following tasks is the responsibility of AWS?
     - A. Encrypting client-side data.
     - B. Configuring AWS Identity and Access Management (IAM) roles.
     - C. Securing the Amazon EC2 hypervisor.
@@ -331,7 +321,7 @@ layout: exam
       Correct answer: C
     </details>
 
-33. Under the shared responsibility model which of the following areas are the customer’s responsibility? (Select TWO)
+32. Under the shared responsibility model which of the following areas are the customer’s responsibility? (Select TWO)
     - A. Firmware upgrades of network infrastructure.
     - B. Patching of operating systems.
     - C. Patching of the underlying hypervisor.
@@ -342,7 +332,7 @@ layout: exam
       Correct answer: B, E
     </details>
 
-34. A company is looking for a scalable data warehouse solution. Which of the following AWS solutions would meet the company’s needs?
+33. A company is looking for a scalable data warehouse solution. Which of the following AWS solutions would meet the company’s needs?
     - A. Amazon Simple Storage Service (Amazon S3).
     - B. Amazon DynamoDB.
     - C. Amazon Kinesis.
@@ -352,7 +342,7 @@ layout: exam
       Correct answer: D
     </details>
 
-35. Which AWS services provide a way to extend an on-premises architecture to the AWS Cloud? (Select TWO)
+34. Which AWS services provide a way to extend an on-premises architecture to the AWS Cloud? (Select TWO)
     - A. Amazon EBS.
     - B. AWS Direct Connect.
     - C. Amazon CloudFront.
@@ -363,7 +353,7 @@ layout: exam
       Correct answer: B, D
     </details>
 
-36. What are the advantages of the AWS Cloud (Select TWO)
+35. What are the advantages of the AWS Cloud (Select TWO)
     - A. Fixed rate monthly cost.
     - B. No need to guess capacity requirements.
     - C. Increased speed to market.
@@ -374,7 +364,7 @@ layout: exam
       Correct answer: B, C
     </details>
 
-37. How can the AWS Cloud increase user workforce productivity after migration from an on-premises data center?
+36. How can the AWS Cloud increase user workforce productivity after migration from an on-premises data center?
     - A. Users do not have to wait for infrastructure provisioning.
     - B. The AWS Cloud infrastructure is much faster than an on-premises data center infrastructure.
     - C. AWS takes over application configuration management on behalf of users.
@@ -384,7 +374,7 @@ layout: exam
       Correct answer: A
     </details>
 
-38. Which of the following services could be used to deploy an application to servers running on-premises? (Select TWO)
+37. Which of the following services could be used to deploy an application to servers running on-premises? (Select TWO)
     - A. AWS Elastic Beanstalk.
     - B. AWS OpsWorks.
     - C. AWS CodeDeploy.
@@ -395,7 +385,7 @@ layout: exam
       Correct answer: B, C
     </details>
 
-39. What is an example of agility in the AWS Cloud?
+38. What is an example of agility in the AWS Cloud?
     - A. Access to multiple instance types.
     - B. Access to managed services.
     - C. Using Consolidated Billing to produce one bill.
@@ -405,7 +395,7 @@ layout: exam
       Correct answer: D
     </details>
 
-40. Which AWS security service protects applications from distributed denial of service attacks with always-on detection and automatic inline mitigations?
+39. Which AWS security service protects applications from distributed denial of service attacks with always-on detection and automatic inline mitigations?
     - A. Amazon Inspector.
     - B. AWS Web Application Firewall (AWS WAF).
     - C. Elastic Load Balancing (ELB).
@@ -415,18 +405,7 @@ layout: exam
       Correct answer: D
     </details>
 
-41. Which of the following are advantages of AWS consolidated billing? (Choose two)
-    - A. The ability to receive one bill for multiple accounts.
-    - B. Service limits increasing by default in all accounts.
-    - C. A fixed discount on the monthly bill.
-    - D. Potential volume discounts, as usage in all accounts is combined.
-    - E. The automatic extension of the master account’s AWS support plan to all accounts.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: A, D
-    </details>
-
-42. A company is considering using AWS for a self-hosted database that requires a nightly shutdown for maintenance and cost-saving purposes. Which service should the company use?
+40. A company is considering using AWS for a self-hosted database that requires a nightly shutdown for maintenance and cost-saving purposes. Which service should the company use?
     - A. Amazon Redshift.
     - B. Amazon DynamoDB.
     - C. Amazon Elastic Compute Cloud (Amazon EC2) with Amazon EC2 instance store.
@@ -435,4 +414,3 @@ layout: exam
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: D
     </details>
-

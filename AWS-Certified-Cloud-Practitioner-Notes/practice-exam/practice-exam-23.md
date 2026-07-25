@@ -480,22 +480,7 @@ layout: exam
 
     </details>
 
-35. A company is planning to launch an ecommerce site in a single AWS Region to a worldwide user base. <br/> Which AWS services will allow the company to reach users and provide low latency and high transfer speeds? (Choose two.)
-    - A. Application Load Balancer
-    - B. AWS Global Accelerator
-    - C. AWS Direct Connect
-    - D. Amazon CloudFront
-    - E. AWS Lambda
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: BD
-
-    Explanation: <https://aws.amazon.com/cloudfront/faqs/>
-
-    </details>
-
-36. A company wants to connect to AWS over a private, low-latency connection from its remote office. <br/> What is the recommended method to meet these requirements?
+35. A company wants to connect to AWS over a private, low-latency connection from its remote office. <br/> What is the recommended method to meet these requirements?
     - A. Create a VPN tunnel
     - B. Connect across the public internet
     - C. Use VPC peering to create a connection.
@@ -509,7 +494,7 @@ layout: exam
 
     </details>
 
-37. Which AWS service can be used to retrieve compliance reports on demand?
+36. Which AWS service can be used to retrieve compliance reports on demand?
     - A. AWS Secrets Manager
     - B. AWS Artifact
     - C. AWS Security Hub
@@ -523,7 +508,7 @@ layout: exam
 
     </details>
 
-38. A company has an AWS-hosted website located behind an Application Load Balancer. The company wants to safeguard the website from SQL injection or cross-site scripting. <br/> Which AWS service should the company use?
+37. A company has an AWS-hosted website located behind an Application Load Balancer. The company wants to safeguard the website from SQL injection or cross-site scripting. <br/> Which AWS service should the company use?
     - A. Amazon GuardDuty
     - B. AWS WAF
     - C. AWS Trusted Advisor
@@ -537,7 +522,7 @@ layout: exam
 
     </details>
 
-39. How should a web application be deployed to ensure high availability in the AWS Cloud?
+38. How should a web application be deployed to ensure high availability in the AWS Cloud?
     - A. Deploy multiple instances of the application in multiple Availability Zones.
     - B. Deploy multiple instances of the application in a single Availability Zone.
     - C. Deploy the application to a compute-optimized Amazon EC2 instance in a single Availability Zone.
@@ -551,7 +536,7 @@ layout: exam
 
     </details>
 
-40. A company is running a self-managed Oracle database directly on Amazon EC2 for its steady-state database. The company wants to reduce compute costs. <br/> Which option should the company use to maximize savings over a 3-year term?
+39. A company is running a self-managed Oracle database directly on Amazon EC2 for its steady-state database. The company wants to reduce compute costs. <br/> Which option should the company use to maximize savings over a 3-year term?
     - A. EC2 Dedicated Instances
     - B. EC2 Spot Instances
     - C. EC2 Reserved Instances
@@ -565,7 +550,7 @@ layout: exam
 
     </details>
 
-41. An external auditor has requested that a company provide a list of all its IAM users, including the status of users' credentials and access keys. <br/> What it the SIMPLEST way to provide this information?
+40. An external auditor has requested that a company provide a list of all its IAM users, including the status of users' credentials and access keys. <br/> What it the SIMPLEST way to provide this information?
     - A. Create an IAM user account for the auditor, granting the auditor administrator permissions.
     - B. Take a screenshot of each user's page in the AWS Management Console, then provide the screenshots to the auditor.
     - C. Download the IAM credential report, then provide the report to the auditor.
@@ -579,7 +564,7 @@ layout: exam
 
     </details>
 
-42. What are the benefits of consolidated billing for AWS Cloud services? (Choose two.)
+41. What are the benefits of consolidated billing for AWS Cloud services? (Choose two.)
     - A. Volume discounts
     - B. A minimal additional fee for use
     - C. One bill for multiple accounts
@@ -594,7 +579,7 @@ layout: exam
 
     </details>
 
-43. A company is expecting a short-term spike in internet traffic for its application. During the traffic increase, the application cannot be interrupted. The company also needs to minimize cost and maximize flexibility. <br/> Which Amazon EC2 instance type should the company use to meet these requirements?
+42. A company is expecting a short-term spike in internet traffic for its application. During the traffic increase, the application cannot be interrupted. The company also needs to minimize cost and maximize flexibility. <br/> Which Amazon EC2 instance type should the company use to meet these requirements?
     - A. On-Demand Instances
     - B. Spot Instances
     - C. Reserved Instances
@@ -608,7 +593,7 @@ layout: exam
 
     </details>
 
-44. A company wants to track AWS resource configuration changes for compliance reasons. <br/> Which AWS feature can be used to meet this requirement?
+43. A company wants to track AWS resource configuration changes for compliance reasons. <br/> Which AWS feature can be used to meet this requirement?
     - A. AWS Cost and Usage Report
     - B. AWS Organizations service control policies (SCPs)
     - C. AWS Config rules
@@ -622,7 +607,7 @@ layout: exam
 
     </details>
 
-45. A company is building an application that needs to deliver images and videos globally with minimal latency. <br/> Which approach can the company use to accomplish this in a cost effective manner?
+44. A company is building an application that needs to deliver images and videos globally with minimal latency. <br/> Which approach can the company use to accomplish this in a cost effective manner?
     - A. Deliver the content through Amazon CloudFront.
     - B. Store the content on Amazon S3 and enable S3 cross-region replication.
     - C. Implement a VPN across multiple AWS Regions.
@@ -636,7 +621,7 @@ layout: exam
 
     </details>
 
-46. The AWS IAM best practice for granting least privilege is to:
+45. The AWS IAM best practice for granting least privilege is to:
     - A. apply an IAM policy to an IAM group and limit the size of the group.
     - B. require multi-factor authentication (MFA) for all IAM users.
     - C. require each IAM user who has different permissions to have multiple passwords.
@@ -650,7 +635,7 @@ layout: exam
 
     </details>
 
-47. Which cloud computing benefit does AWS demonstrate with its ability to offer lower variable costs as a result of high purchase volumes?
+46. Which cloud computing benefit does AWS demonstrate with its ability to offer lower variable costs as a result of high purchase volumes?
     - A. Pay-as-you-go pricing
     - B. High availability
     - C. Global reach
@@ -664,7 +649,7 @@ layout: exam
 
     </details>
 
-48. A pharmaceutical company operates its infrastructure in a single AWS Region. The company has thousands of VPCs in a various AWS accounts that it wants to interconnect. <br/> Which AWS service or feature should the company use to help simplify management and reduce operational costs?
+47. A pharmaceutical company operates its infrastructure in a single AWS Region. The company has thousands of VPCs in a various AWS accounts that it wants to interconnect. <br/> Which AWS service or feature should the company use to help simplify management and reduce operational costs?
     - A. VPC endpoint
     - B. AWS Direct Connect
     - C. AWS Transit Gateway
@@ -678,7 +663,7 @@ layout: exam
 
     </details>
 
-49. How can AWS enable a company to control expenses as an application's usage changes unpredictably?
+48. How can AWS enable a company to control expenses as an application's usage changes unpredictably?
     - A. AWS will refund the cost difference if a customer moves to larger servers.
     - B. The application can be built to scale up or down automatically as resources are needed
     - C. Spot instances will automatically be used if the price is lower than on-demand instances.
@@ -690,7 +675,7 @@ layout: exam
 
     </details>
 
-50. Which AWS service or feature can be used to prevent SQL injection attacks?
+49. Which AWS service or feature can be used to prevent SQL injection attacks?
     - A. Security groups
     - B. Network ACLs
     - C. AWS WAF
@@ -704,4 +689,3 @@ layout: exam
     <https://docs.aws.amazon.com/waf/latest/developerguide/classic-web-acl-sql-conditions.html>
 
     </details>
-
